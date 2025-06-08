@@ -1,4 +1,4 @@
-# Gaining Passwords from Projects Directly
+# Security essential while using GITHUB
 
 In the past, one common way of hacking into web applications was by finding admin passwords directly embedded in the source code. As a developer myself, I know that modern practices have evolved—developers now typically create `.env` files to store their passwords and fetch them when required. When uploading or pushing their code to Git or any platform, they exclude the `.env` file, making their programs safer, right?
 
