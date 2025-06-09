@@ -211,9 +211,9 @@ Leak #5:
   Secret: ABCD-1234-SECRET
 ```
 
-This is how summarized and clear it looks now. Isn't it also how cool it is? For someone not from cyber background they will be in shock with this project, don't you think?
+This is how summarized and clear it looks now. 
+Isn't it also how cool it is? For someone not from cyber background they will be in shock with this project, don't you think?
 
-## Final Thoughts
 
 This is all for the working of the project. If you want to see the code and script you can check out my repo. Leaving a link here:
 https://github.com/damnkrishna/RepoLeak-Scanner.git
