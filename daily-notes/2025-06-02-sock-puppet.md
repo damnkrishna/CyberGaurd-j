@@ -6,7 +6,7 @@ You want to have an account that doesn't connect back to you — that is complet
 
 Mainly for OSINT, you don't want to scan people with your main account or identity. If you want to keep an eye on someone, you might want to do it anonymously and safely. So yeah, the importance of a puppet for a hacker is real.
 
-## Safety First Before You Build
+## Safety First Before You Build!
 
 I think I’ll put this in at the end of this blog, because first someone should learn the setup and only later the safety to keep in mind.
 
