@@ -1,4 +1,4 @@
-# osint prac 3
+# OSINT PRACTISE 3
 
 so day three of practising my osint skill yesterday my target got way too bigger and realistic there is like whole wikipeadia regarding that guy 
 
