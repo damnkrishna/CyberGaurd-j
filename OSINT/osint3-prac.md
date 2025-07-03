@@ -45,8 +45,8 @@ found this info because he was is student welfare department and normally not fo
 linkedin basically provided me with all the info I needed to perform tools on Linux directly  
 dob: January 30  
 connected : oct 11,2023  
-email address: ishugupta302005@gmail.com  
-phone number: 8287305073
+email address: ishug*******5@gmail.com  
+phone number: 82******73
 
 studies at: Bits pilani, Hyderabad campus  
 joined in 2022  
