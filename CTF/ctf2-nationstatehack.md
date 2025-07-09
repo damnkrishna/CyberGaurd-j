@@ -98,3 +98,5 @@ Later I told u I was searching for a report posted on TechCrunch.com about a per
 He stated that the machine used for public address at that time was **Primex Event Scheduler Pro software** which have a default password.
 
 But it didn't even work and also that the machine have port 80 open without any authentication required - that was a great leak and can be used by anyone somehow.
+
+so the ctf ended with no solution and no one cleared it as well
