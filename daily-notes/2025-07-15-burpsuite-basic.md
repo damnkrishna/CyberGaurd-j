@@ -42,3 +42,9 @@ The Sequencer in Burp Suite is used to analyze the randomness and predictability
 
 ## Collaborator:
 Burp Collaborator is a feature available only in Burp Suite Professional, not in the Community Edition. It's used to detect out-of-band vulnerabilities like blind XSS, SSRF, and XXE by generating unique payloads that trigger external DNS, HTTP, or SMTP requests. These interactions are then logged by the Collaborator server to confirm vulnerabilities that don't show up in direct responses. While Burp Community Edition doesn't include this feature, users can use tools like Interactsh or external services like webhook.site as alternatives to perform similar tests.
+
+## Decoder:
+this is a very useful tab as is lets us decode and encode text from one format to another even gives us many option for the type of encoding or decoding u want to do 
+allows hash conversion but obviously decoding of hash is not possible we have to calculate it or compare it so solve that 
+
+useful tab very useful.
