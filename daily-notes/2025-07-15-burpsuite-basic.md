@@ -47,4 +47,3 @@ Burp Collaborator is a feature available only in Burp Suite Professional, not in
 this is a very useful tab as is lets us decode and encode text from one format to another even gives us many option for the type of encoding or decoding u want to do 
 allows hash conversion but obviously decoding of hash is not possible we have to calculate it or compare it so solve that 
 
-useful tab very useful.
