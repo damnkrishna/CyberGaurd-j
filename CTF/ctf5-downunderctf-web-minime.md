@@ -27,7 +27,7 @@ def flag():
 
 ## Finding the API Key
 
-So next i will try so next i found in the source code that there is a map of the file structure stored in code which have path `/static//js/main.min.js` which revealed a text file that have very important data stored that can be used if done properly so using chatgpt i found the api key.
+So next i will try so next i found in the source code that there is a map of the file structure stored in code which have path `/static/js/main.min.js` which revealed a text file that have very important data stored that can be used if done properly so using chatgpt i found the api key.
 
 That lmsvdt is the API key!
 key:lmsvdt
