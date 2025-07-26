@@ -40,6 +40,8 @@ After trying for the municipal corporations for all these places, I found one pl
 **Answer:** `shaktiCTF{jammu_jammuandkashmir}`
 
 *Note: This is still showing error which I will be seeing later.*
+
+
 <img width="296" height="257" alt="image" src="https://github.com/user-attachments/assets/24fbad0b-bf8a-494a-8b5d-e7fd00f3dcca" />
 ---
 
