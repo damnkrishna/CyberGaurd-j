@@ -61,7 +61,7 @@ So first I will be covering the algorithm behind all these encryption classics, 
 ## Substitution Encryption
 
 ### 1. Caesar Cipher
-The most common and easy to crack encryption and also most basic. This involves setting a shift value.
+The most common and easy to crack encryption and also most basic, This involves setting a shift value.
 
 **Example:**
 - Taking plain text as input like `A`
