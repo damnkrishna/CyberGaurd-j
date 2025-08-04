@@ -4,7 +4,7 @@ Critical defense mechanism for application security. Two types of access control
 
 **Vertical** => accessing higher level role/control like admin only stuff (prevents lower privileged users from accessing admin functions)
 
-**Horizontal** => ensures user only access their own resource and not others (prevents users from accessing other users' data at same privilege level)
+**Horizontal** => ensures user only access their own resource and not others (prevents users from accessing other users data at same privilege level)
 
 When a user can view or modify resources to which he is not entitled to, sometimes horizontal separation of privileges can lead directly to vertical escalation attacks
 
