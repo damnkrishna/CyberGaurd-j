@@ -14,6 +14,7 @@ Going from lower permission account to higher permission account by privilege es
 
 - **hostname**: Shows the system's hostname
 - **`uname -a`**: Info about kernel version used by system
+  (for finding linux version )
 - **`/proc/version`**: Info on kernel version and additional data
 - **`/etc/issue`**: Contains some information about the operating system
 
