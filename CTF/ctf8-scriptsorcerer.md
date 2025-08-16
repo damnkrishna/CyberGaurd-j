@@ -38,7 +38,7 @@ This way, as the `developer_secret_cookie` matched with `secret.txt`, and hence 
 
 
 <img width="1536" height="728" alt="image" src="https://github.com/user-attachments/assets/b7cb9dbd-a5c0-4d67-98f0-c081846c2ac9" />
----
+
 
 **Key Takeaways:**
 - Always check for hidden developer endpoints
