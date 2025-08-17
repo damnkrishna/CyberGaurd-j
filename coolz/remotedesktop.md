@@ -52,14 +52,14 @@ FreeRDP is an open-source command-line tool to connect to Windows machines via R
 for this u need freerdp version downloaded in kali and target’s ip address with his device id and pass
 
 ```
-xfreerdp /u: /p: /v:
+xfreerdp /u:<username> /p:<password> /v:<ip_address>
 ```
 
 this is the basic command to connect to rdp using kali directly  
 u can also use more syntax to improve the speed and view of screen  
 
 ```
-xfreerdp /u: /p: /v: /f /cert:ignore
+xfreerdp /u:<username> /p:<password> /v:<ip_address> /f /cert:ignore
 ```
 
 this will ignore all the certification required to enter the rdp and also allows u to view a fullscreen view on your terminal  
