@@ -47,6 +47,8 @@ sudo apt install freerdp2-x11 -y
 
 FreeRDP is an open-source command-line tool to connect to Windows machines via RDP. It’s used for remote desktop access, supports multiple auth methods, and is popular with sysadmins and pentesters for testing RDP security.
 
+<img width="1600" height="249" alt="image" src="https://github.com/user-attachments/assets/27c8d37a-c6f2-4dcb-81c2-086de4c307f4" />
+
 ## Step 4: Connect from Kali to Windows in Kali Terminal
 
 for this u need freerdp version downloaded in kali and target’s ip address with his device id and pass
@@ -61,6 +63,7 @@ u can also use more syntax to improve the speed and view of screen
 ```
 xfreerdp /u:<username> /p:<password> /v:<ip_address> /f /cert:ignore
 ```
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/41abffc8-c0e6-4dc2-9f86-b0be71f74cc9" />
 
 this will ignore all the certification required to enter the rdp and also allows u to view a fullscreen view on your terminal  
 note: while u are signed in as or enter this command the actual user will be kicked out or signed out and u will get complete access to his system until he signs back in  
