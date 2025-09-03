@@ -1,7 +1,7 @@
 # Using RDP to Gain Windows Access and FreeRDP Tool
 
 so i decided to cover some cool things before changing my other laptop from windows to linux only operating system so i decided to do certain task one of it is gaining access to desktop view like either gaining access to his screen or his whole device using certain steps to find a way to get screen access that we see in series  
-and actually its quite easy u can scan your nearby network or larger number of device if u just have proper high power device to brute force things  
+and actually its quite easy u can scan your nearby network or larger number of device if u just have proper high power device to brute force thing.
 
 - u can scan for open ports of a device with its ip  
 - u can brute force his username and password  
