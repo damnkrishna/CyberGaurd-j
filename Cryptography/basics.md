@@ -1,4 +1,4 @@
-# Cryptography Study Notes-basic
+# Cryptography Notes-basic
 
 ## What is Cryptography?
 
