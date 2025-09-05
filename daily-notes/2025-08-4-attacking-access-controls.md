@@ -9,7 +9,7 @@ When a user can view or modify resources to which they are not entitled to, this
 
 Sometimes horizontal separation of privileges can lead directly to vertical escalation attacks.
 
-## Identifier-Based Functions
+## Identifier-Based Function
 
 Some websites have URL links for admin only content or confidential documents that can be opened only through URL links shared to specific persons or higher officials. However, these URL links don't have any authentication or protection, so if guessed or leaked by some ex-employee, it can be a big problem for the security of the website.
 
