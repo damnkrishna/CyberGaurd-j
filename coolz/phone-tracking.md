@@ -1,10 +1,8 @@
 #  Phone Number Tracking & Device Tracing
 
-
-
 ### 1. Who Has Access
 
-* Only **two authorities** can directly use IMSI/IMEI to trace devices:
+* Only **two authorities** can directly use IMSI/IMEI to trace devices:(they have permission)
 
   * **Telecom Provider Companies**
   * **Law Enforcement**
