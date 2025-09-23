@@ -71,4 +71,4 @@ so its not like u just watching his screen or something its basically u have who
 
 next target: have to find a way to just view his screen while he is allowed to do whatever he do and this i have to setup as a backgate so anytime i want to see what that specific person is doing i can just enter his ip and stuff and boom i will be in...
 
-also will be doing some osint skill practise 
+
