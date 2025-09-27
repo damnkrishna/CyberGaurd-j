@@ -110,5 +110,5 @@ The most common types of SQL statements are:
   ```
 - When the attacker tries to change their password, the injected query will be executed → Revealing the admin password.  
 
-**Note:** Not every attack is about stealing information — some just want to destroy your system.
+**Note:** Not every attack is about stealing information — some just want to destroy your system/device.
 
