@@ -112,4 +112,4 @@ The most common types of SQL statements are:
 
 **Note:** Not every attack is about stealing information — some just want to destroy your system/device.
 
-remeber to go further today
+remeber to go further today]]
