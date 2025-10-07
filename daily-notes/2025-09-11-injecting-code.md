@@ -134,7 +134,66 @@ note: u can specify port 80 or any port of your wish
 
 ### Oracle 
 
-use UTL_HTTP package can be used to make arbitrary HTTP requests to other hosts.
+1.  UTL_HTTP package can be used to make arbitrary HTTP requests to other hosts.
+2. UTL_INADDR : is designed to resolve host names to ip address -> generate arbitary dns queries to controlled server
+3. UTL_SMTP: used to send email (outbound email)
+4. UTL_TCP: to open arbitary tcp sockets to send and recieve network data
 
+### MYSQL
+-> `select ...... into OUTFILE `=> command
+-> specidied filename may contain a unc path, to direct the output to a file on your computer
+-> to receive the file you will need to create a smb share on your own computer allows write access
+-> use sniffer to confirm whether the target server is initiating any inbound connection to your computer 
 
+**Reason of failure**: usually all database is location within a protected network whose perimeter firewall do not allow any inbound connection to internet or network 
+
+**NOTE**: when u are restricted to accessing database entirely via your injection point into the web application them u should try to perform conditional responses or conditional errors
+
+Tool :=> Absinthe
+        -> automated tool to perform conditional repsonse on web application 
+        -> can easily retrieve username,table, info ,table name, load filed info 
+        -> will return all data in table format. you can retrieve it using download records tab
+
+## Using Time Delays 
+
+certain time you will not get any response using any of the previous technique. Hence you gotta use time-delays 
+MS-SQL => `waitfor` command
+       => `power` command 
+Orcale => `UTL_HTTP` to connect to a non-existent server causing a timeout
+MYsql  => use benchmark function to time dealy 
+
+## Beyond SQL Injection => escalating the database attack
+
+-> MS-SQL : xp_cmdshell
+            xp_regread
+            cp_regwrite
+-> Oracle : by injecting the query `GRANT DBA TO PUBLIC` into the vulnerable field
+-> MYSQL : mysql enable users to create user-defined functions by calling out to a compiled library file that contains the functions implementation
+
+## Preventing SQL Injection 
+
+=> escaping any single qoutation marks within user input by doubling them up
+      -> using numerical sql queries
+      -> using second-order sql injection attacks
+=> use of stored procedure for all database access
+      -> flaw in stored procedure own code
+      -> using batch query 
+
+### Parameterized Queries 
+They split query structure from data. You declare the SQL with placeholders(?) then bind user data-so data can never change the SQL syntax
+* How they stop Injection -> the DB engine treats bound values strictly as data not executable sql, so injected payload cant alter query logic
+
+NOTE: 1. use them everywhere
+          -> treat every single query as potentially dangerous dont selectively apply them 
+      2. Parametrize every data item 
+      3. You cant parametrie table/column names
+          -> if u must let user choose table/column use a whitelist of allowed values (or strict validation)
+## Defense in Depth (Three Layers)
+=> application should use the lowest possible level of privileges when accessing database
+  -> only read and write its own data
+  -> if 90% of the database can be accessed using only read then no need of write
+  -> if some file like user data is to be protected then level of access can be used
+=> many enterprise database includes a huge amount default function that can be leveraged by attacker
+   -> Unnecessary functions should be removed or disabled
+=> all vendor-issued security patches should be evaluated,tested and applied in a timely way 
 
