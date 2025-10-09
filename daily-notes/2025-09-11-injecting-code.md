@@ -202,4 +202,4 @@ They split query structure from data. You declare the SQL with placeholders (?) 
   - If some file like user data is to be protected, then level of access can be used.
 - Many enterprise databases include a huge amount of default functions that can be leveraged by attackers
   - Unnecessary functions should be removed or disabled.
-- All vendor-issued security patches should be evaluated, tested and applied in a timely way.
+- All vendor-issued security patches should be evaluated, tested and applied in a timely way
