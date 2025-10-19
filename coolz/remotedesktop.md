@@ -45,7 +45,7 @@ sudo apt update
 sudo apt install freerdp2-x11 -y
 ```
 
-FreeRDP is an open-source command-line tool to connect to Windows machines via RDP. It’s used for remote desktop access, supports multiple auth methods, and is popular with sysadmins and pentesters for testing RDP security.
+FreeRDP is an open-source command-line tool to connect to Windows machines via RDP. It’s used for remote desktop access, supports multiple auth methods, and is popular with sysadmins and pentesters for testing RDP security
 
 <img width="1600" height="249" alt="image" src="https://github.com/user-attachments/assets/27c8d37a-c6f2-4dcb-81c2-086de4c307f4" />
 
