@@ -4,7 +4,7 @@
 Attackers' input gets passed directly to the interpreter and runs as if it's legit code.
 - Depends upon the language targeted.
 - Programming technique employed by the application developer.
-- Supplying unexpected syntax may cause read errors → check for indication of code injection vulnerability
+- Supplying unexpected syntax may cause read errors → check for indication of code injection vulnerability.
 
 ## Injecting Into SQL
 - Databases are used by almost all web applications to store data like user details, prices, account statements, etc.
