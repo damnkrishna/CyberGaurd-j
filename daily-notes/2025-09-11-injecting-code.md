@@ -8,7 +8,7 @@ Attackers' input gets passed directly to the interpreter and runs as if it's leg
 
 ## Injecting Into SQL
 - Databases are used by almost all web applications to store data like user details, prices, account statements, etc.
-- By editing certain commands or statements and using vulnerable web parts, we can read, update, add, and delete data in the database.
+- By editing certain commands or statements and using vulnerable web parts, we can read, update, add, and delete data in the database
 
 ## Retrieving Hidden Data
 Check if SQL injection is possible or not:
