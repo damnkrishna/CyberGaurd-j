@@ -185,7 +185,7 @@ Certain times you will not get any response using any of the previous techniques
 
 They split query structure from data. You declare the SQL with placeholders (?) then bind user data - so data can never change the SQL syntax.
 
-**How they stop Injection**: The DB engine treats bound values strictly as data not executable SQL, so injected payload can't alter query logic.
+**How they stop Injection**: The DB engine treats bound values strictly as data not executable SQL, so injected payload can't alter query logic
 
 **NOTE**: 
 1. Use them everywhere
