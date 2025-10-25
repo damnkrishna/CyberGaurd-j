@@ -203,3 +203,6 @@ They split query structure from data. You declare the SQL with placeholders (?) 
 - Many enterprise databases include a huge amount of default functions that can be leveraged by attackers
   - Unnecessary functions should be removed or disabled.
 - All vendor-issued security patches should be evaluated, tested and applied in a timely way.
+
+
+will be pausing this pentest for a while .
