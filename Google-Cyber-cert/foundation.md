@@ -23,3 +23,5 @@ Any information that can be used to identify a person's identity.
 ### SPII (Sensitive Personally Identifiable Information)
 
 A special type of PII that falls under stricter handling guidelines and requires enhanced protection measures.
+
+## Evolution of cybersecurity
