@@ -17,7 +17,7 @@ The process of adhering to internal standards and external regulations, enabling
 ## Data Classification
 
 ### PII (Personally Identifiable Information)
-
+it is something that identify the person
 Any information that can be used to identify a person's identity.
 
 ### SPII (Sensitive Personally Identifiable Information)
