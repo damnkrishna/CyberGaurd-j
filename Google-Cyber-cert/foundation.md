@@ -4,7 +4,7 @@
 
 - **Confidentiality**: Protecting information from unauthorized access
 - **Integrity**: Ensuring information remains accurate and unaltered
-- **Availability**: Ensuring information and systems are accessible when need
+- **Availability**: Ensuring information and systems are accessible when needed
 ## Compliance
 
 The process of adhering to internal standards and external regulations, enabling organizations to avoid fines and security breaches.
