@@ -206,4 +206,4 @@ They split query structure from data. You declare the SQL with placeholders (?) 
 
 sorry man i made a big mistake myself by letting myself down i am build for something big and if that means i got to kick some people out of my life i think i am able to do it now 
 
-will be pausing this pentest for a while 
+
