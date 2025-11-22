@@ -99,4 +99,4 @@ Access permissions are assigned to roles rather than individual users. Users are
 ### Declarative Control
 Access control rules are defined externally from the application code, typically in configuration files, databases, or policy engines. This separation allows for easier management and modification of access rules without changing the application code.
 
-By implementing multiple layers, you create a robust security posture where each layer provides additional protection and can compensate for weaknesses in other layers.
+By implementing multiple layers, you create a robust security posture where each layer provides additional protection and can compensate for weaknesses in other layers
