@@ -97,6 +97,6 @@ A model where access rights are granted at the discretion of the resource owner.
 Access permissions are assigned to roles rather than individual users. Users are then assigned to appropriate roles based on their job functions. This simplifies management as permissions are managed at the role level rather than for each individual user.
 
 ### Declarative Control
-Access control rules are defined externally from the application code, typically in configuration files, databases, or policy engines. This separation allows for easier management and modification of access rules without changing the application code.
+Access control rules are defined externally from the application code, typically in configuration files, databases, or policy engines. This separation allows for easier management and modification of access rules without changing the application code
 
 By implementing multiple layers, you create a robust security posture where each layer provides additional protection and can compensate for weaknesses in other layers
