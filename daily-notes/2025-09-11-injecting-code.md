@@ -204,6 +204,5 @@ They split query structure from data. You declare the SQL with placeholders (?) 
   - Unnecessary functions should be removed or disabled.
 - All vendor-issued security patches should be evaluated, tested and applied in a timely way.
 
-sorry man i made a big mistake myself by letting myself down i am build for something big and if that means i got to kick some people out of my life i think i am able to do 
 
 
