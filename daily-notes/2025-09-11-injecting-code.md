@@ -205,3 +205,4 @@ They split query structure from data. You declare the SQL with placeholders (?) 
 - All vendor-issued security patches should be evaluated, tested and applied in a timely way
 
 
+hi 
