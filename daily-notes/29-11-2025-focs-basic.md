@@ -1,4 +1,4 @@
-## ## **Module 1: Introduction to IDPS**
+ ## **Module 1: Introduction to IDPS**
 
 Intrusion Detection and Prevention Systems (IDPS) play a crucial role in modern cybersecurity. They help organizations detect malicious activities, identify security breaches, and add layers of protection.
 
@@ -14,7 +14,7 @@ To achieve this, IDPS generally uses two major approaches:
 
 ---
 
-### ### **Signature Based**
+ ### **Signature Based**
 
 Signature-based systems rely on known patterns of malicious activity.
 
@@ -27,14 +27,14 @@ These systems are highly reliable for known threats but fail against new, unknow
 
 ---
 
-### ### **State Table**
+ ### **State Table**
 
 *Used to track characteristics and status of active network connections or sessions.*
 This helps the system understand ongoing behavior and detect suspicious deviations.
 
 ---
 
-### ### **Components of IDPS**
+### **Components of IDPS**
 
 * *Network Sensors or host-based agents*
 * *Detection & Prevention capabilities*
@@ -44,8 +44,7 @@ This helps the system understand ongoing behavior and detect suspicious deviatio
 Each component works together to monitor network traffic, analyze activities, and respond to threats in real time.
 
 ---
-
-### ### **Options for IDPS**
+ ### **Options for IDPS**
 
 Organizations can deploy different types of IDPS depending on their needs:
 
@@ -55,7 +54,7 @@ Organizations can deploy different types of IDPS depending on their needs:
 
 ---
 
-## ## **Module 2: Firewall Basics**
+## **Module 2: Firewall Basics**
 
 Firewalls remain one of the most essential security tools for protecting networks from unauthorized access.
 
@@ -66,7 +65,7 @@ Firewalls form the first line of defense but cannot prevent trusted insiders fro
 
 ---
 
-### ### **DiD (Defense in Depth)**
+ ### **DiD (Defense in Depth)**
 
 *Layered defense strategy formation*, ensuring multiple protective layers rather than relying on one.
 
@@ -82,14 +81,14 @@ This multi-layered design ensures that even if one component fails, others conti
 
 ---
 
-### ### **Two Types of Firewalls**
+### **Two Types of Firewalls**
 
 * *Software-Based*
 * *Hardware-Based*
 
 ---
 
-### ### **Types of firewall include**
+ ### **Types of firewall include**
 
 * *Packet filtering gateways or screening routers*
 * *Stateful inspection firewall*
@@ -101,11 +100,11 @@ These types differ in how deeply they inspect traffic and how much control they 
 
 ---
 
-## ## **Module 3: Legal, Privacy and Ethical Issues in Computer Security**
+ ## **Module 3: Legal, Privacy and Ethical Issues in Computer Security**
 
 This module focuses on the laws, rights, and ethical considerations surrounding cybersecurity.
 
-### ### **Basic Legal Issues**
+ ### **Basic Legal Issues**
 
 * *Protecting Programs and data*
 * *Information and the Law*
@@ -113,7 +112,7 @@ This module focuses on the laws, rights, and ethical considerations surrounding 
 
 ---
 
-### ### **Copyright**
+ ### **Copyright**
 
 *Gives the creator exclusive right to make copies of the expression and sell them to public.*
 ↳ *protect intellectual property*
@@ -122,7 +121,7 @@ Copyright protects creative work from unauthorized copying or distribution.
 
 ---
 
-### ### **Patent**
+ ### **Patent**
 
 *Designed to protect inventions or ways to make them, not works of the mind.*
 
@@ -130,7 +129,7 @@ Patents reward innovation and prevent others from exploiting the invention witho
 
 ---
 
-### ### **Trade Secret**
+ ### **Trade Secret**
 
 *Information that provides competitive edge over others.*
 ↳ *Reverse engineering used to uncover Trade Secret is legal*
@@ -139,13 +138,13 @@ Trade secrets protect confidential business information, but reverse engineering
 
 ---
 
-### ### **Criminal vs Civil Law**
+ ### **Criminal vs Civil Law**
 
 A comparison of how different forms of law handle offenses in cybersecurity.
 
 ---
 
-### ### **Law vs Ethics**
+ ### **Law vs Ethics**
 
 * *Law alone can’t restrict human behaviour*
     ↳ Morals are sufficient
@@ -154,8 +153,7 @@ A comparison of how different forms of law handle offenses in cybersecurity.
 Ethics go beyond law; they guide responsible behavior even when no rule exists.
 
 ---
-
-### ### **Data Protection in India**
+ ### **Data Protection in India**
 
 * *IT Act*
 
