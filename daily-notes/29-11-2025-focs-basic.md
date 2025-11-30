@@ -20,7 +20,7 @@ Signature-based systems rely on known patterns of malicious activity.
 
 * *Accurate / Low false positive*
 * *Can’t detect Zero Day Attacks*
-* *Easier / Basic Pattern matching*
+* *Easier / Basic Pattern matching
 * *Have to programmed again for every new pattern*
 
 These systems are highly reliable for known threats but fail against new, unknown attack vectors.
