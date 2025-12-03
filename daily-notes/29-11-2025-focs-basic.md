@@ -4,7 +4,7 @@ Intrusion Detection and Prevention Systems (IDPS) play a crucial role in modern 
 
 **Intrusion** → *Action aimed to compromise security goals.*
   
- ↳ *Integrity, Confidentiality or Availability*
+ *Integrity, Confidentiality or Availability*
 
 IDPS → *Not only works for the detection of intrusion but also works for creating/generation techniques to prevent intrusion or build a protection layer.*
 
