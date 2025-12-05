@@ -29,4 +29,3 @@ A special type of PII that falls under stricter handling guidelines and requires
 cybersecurity was once something no one has any idea about but one by one the whole thing went worldwide people started protecting themselves as well as attacking others
 
 
-kg
