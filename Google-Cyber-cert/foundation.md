@@ -1,4 +1,4 @@
-# Cybersecurity Fundamentals
+# Cybersecurity Fundamental
 
 ## Core Principles (CIA Triad)
 
