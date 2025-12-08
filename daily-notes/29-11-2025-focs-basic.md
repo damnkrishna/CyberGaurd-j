@@ -158,4 +158,4 @@ Ethics go beyond law; they guide responsible behavior even when no rule exists.
 
 * *IT Act*
 
-The Information Technology Act provides the framework for cybersecurity, digital privacy, and data protection within India.
+The Information Technology Act provides the framework for cybersecurity, digital privacy, and data protection within India
