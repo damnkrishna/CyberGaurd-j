@@ -28,3 +28,4 @@ A special type of PII that falls under stricter handling guidelines and requires
 ## Evolution of cybersecurity
 cybersecurity was once something no one has any idea about but one by one the whole thing went worldwide people started protecting themselves as well as attacking others
 
+man just two more days as soon as my semester exam ends i will come back to u 
