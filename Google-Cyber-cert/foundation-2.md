@@ -1,71 +1,67 @@
-# Incident response and type of attacks
+# Incident Response and Types of Attacks
 
-helps to identify an attack stop them and do that all so quickly that minimum amount of data gets leak and minimum amount of harm is done to the company that is the work of a incident response team well now adays there are so many type of attack that doing that work alone might be not safe for the company so they use several layer of protection for securing them and their company like setting up firewall and antivirus and set up intrusion detection system and following certain if any such breach is taking place or is observed inside a company 
-computer security incident response teams=CSIRT
+Incident response helps to identify an attack, stop it, and do that all so quickly that minimum amount of data gets leaked and minimum amount of harm is done to the company. That is the work of an incident response team. Nowadays there are so many types of attacks that doing that work alone might not be safe for the company, so they use several layers of protection for securing themselves and their company like setting up firewalls and antivirus, setting up intrusion detection systems, and following certain protocols if any such breach is taking place or is observed inside a company.
 
-Eight domains for security are
-- security and risk management
-- asset security
-- security architecture and enginerring
-- communication network security
-- identity and access management 
-- security assessment and testing
-- security operations
-- software development security
+**Computer Security Incident Response Teams = CSIRT**
 
-Threat actor types
-- advanced persistent threats 
-- insider threats
-- hacktivists
+## Eight Domains for Security
+- Security and risk management
+- Asset security
+- Security architecture and engineering
+- Communication network security
+- Identity and access management
+- Security assessment and testing
+- Security operations
+- Software development security
 
-SIEM tool
-- security information and event management tool
-- automates or summarise log data to monitor critical activites in an organization
+## Threat Actor Types
+- Advanced persistent threats
+- Insider threats
+- Hacktivists
 
-type of siem tool
-- self hosted 
-- cloud hosted
-- hybrid 
+## SIEM Tool
+**Security Information and Event Management Tool**
+- Automates or summarizes log data to monitor critical activities in an organization
 
-type of security zones:
-- uncontrolled zone
-- controlled zone
-- demilitarized zone
-- restricted zone
+### Types of SIEM Tool
+- Self-hosted
+- Cloud-hosted
+- Hybrid
 
-Subnetting : dividing large network into smaller also enhances network efficiency and security 
+## Types of Security Zones
+- Uncontrolled zone
+- Controlled zone
+- Demilitarized zone
+- Restricted zone
 
-CIDR:classless inter-domain routing 
-- method for assigning subnet masks to Ip address
-- more flexible and efficient ip address allocation
+## Subnetting
+Dividing large network into smaller ones also enhances network efficiency and security.
 
-Proxy server
-- forward => regulated and restricts a person access to internet
-- Reverse => regulates the internets access to an internal server
+**CIDR: Classless Inter-Domain Routing**
+- Method for assigning subnet masks to IP addresses
+- More flexible and efficient IP address allocation
 
-Network Protocol
-- communication protocol : establish connection between servers
-- management protocol : troubleshoot network issues 
-- security protocol : provide encryption for data in transit 
+## Proxy Server
+- **Forward** => Regulates and restricts a person's access to internet
+- **Reverse** => Regulates the internet's access to an internal server
 
+## Network Protocol
+- **Communication protocol**: Establishes connection between servers
+- **Management protocol**: Troubleshoots network issues
+- **Security protocol**: Provides encryption for data in transit
 
-VPN : 
-- uses encapsulation a technique to encrypt the data before sending it to public network 
-- ex: wiregaurd vpn, IPsec vpn
+## VPN
+- Uses encapsulation, a technique to encrypt the data before sending it to public network
+- Ex: WireGuard VPN, IPsec VPN
 
-DMZ => network zone that acts as a perimeter to an internal network isolating exposed servers
+**DMZ** => Network zone that acts as a perimeter to an internal network, isolating exposed servers
 
+## DOS Attack (Denial of Service)
+- **SYN Flood Attack (Synchronize)**: Simulates a TCP connection and floods a server with SYN packets
+- **Internet Control Message Protocol (ICMP)**: Tells other devices about data transmission errors across network
+- **Ping of Death**: When a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB
 
-## DOS Attack(Denial of services)
-
-- SYN Flood Attack(synchronize): simulates a tcp connection and floods a server with SYN packets
-
-- Internet Control Message Protocol(ICMP) : tell other devices about data transmission errors across network 
-
-- Ping of Death : when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64KB
-
-
-## Ip spoofing 
-- tailgate attack
-- on-path attack
-- smurf attack 
+## IP Spoofing
+- Tailgate attack
+- On-path attack
+- Smurf attack
