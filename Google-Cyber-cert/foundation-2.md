@@ -65,3 +65,5 @@ Dividing large network into smaller ones also enhances network efficiency and se
 - Tailgate attack
 - On-path attack
 - Smurf attack
+
+all these type of attack are very common
