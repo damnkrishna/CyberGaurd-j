@@ -97,3 +97,4 @@ A standard that organizes data on a computer's file system.
 ### Change Permission of Files
 
 **chmod** = change mode of file
+**sudo** = help in providing privilege escalation for a user for some specific task
