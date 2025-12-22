@@ -98,3 +98,8 @@ A standard that organizes data on a computer's file system.
 
 - **chmod** = change mode of file
 - **sudo** = help in providing privilege escalation for a user for some specific task
+
+- useradd 
+- usermod
+- userdel
+- chown
