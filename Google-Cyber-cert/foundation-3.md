@@ -103,3 +103,4 @@ A standard that organizes data on a computer's file system.
 - usermod
 - userdel
 - chown
+above are used for file permission and user addition
