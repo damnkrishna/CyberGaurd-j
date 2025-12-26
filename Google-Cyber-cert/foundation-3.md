@@ -102,6 +102,6 @@ A standard that organizes data on a computer's file system.
 - useradd 
 - usermod
 - userdel
-- chown
+
 
 
