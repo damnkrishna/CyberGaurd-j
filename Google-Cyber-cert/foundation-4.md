@@ -187,14 +187,3 @@
 - **Much more secure** than just passwords
 - Example: Password + SMS code, Password + authenticator app
 
-**Best practice:** Use MFA whenever possible, especially for important accounts!
-
----
-
-## Key Takeaways
-- Security is layered (defense in depth)
-- Always follow least privilege
-- Encrypt sensitive data
-- Use MFA wherever you can
-- Know your regulations and stay compliant
-- Document everything (accounting/logging)
