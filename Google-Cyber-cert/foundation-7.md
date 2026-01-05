@@ -97,6 +97,5 @@ Open-source security projects, forums, and communities (like OWASP, GitHub Secur
 
 ### Challenges
 - Quality control and validation
-- Information overload
 - Coordinating responsible disclosure
 - Trust and verification issues
