@@ -115,3 +115,14 @@ When: When exactly did the suspicious activity start and ended
 Where: Which device, IP, or website was involved in the alert
 
 Why: The most important W, the reasoning for your final verdict
+
+
+## Automating task using python 
+
+* Python enables **automation of repetitive cybersecurity tasks**, saving time and reducing human error.
+* Used to automate **log collection, parsing, and alerting** from servers, firewalls, and applications.
+* Helps in **reconnaissance automation** using APIs and tools for subdomain discovery, OSINT, and scanning.
+* Useful for **vulnerability checks** by scripting nmap, HTTP requests, and response analysis.
+* Enables **incident response automation** like IOC matching, file hashing, and report generation.
+* Integrates easily with **SIEMs, APIs, and security tools** for workflow automation.
+* Strong libraries (requests, regex, scapy, pandas) make Python ideal for **security scripting and analysis**.
