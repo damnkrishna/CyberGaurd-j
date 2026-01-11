@@ -73,8 +73,6 @@ The behavioral patterns and methodologies attackers use. Most difficult to chang
 
 The higher you detect on the pyramid, the more "pain" you cause attackers by forcing them to invest more resources into changing their operations.
 
----
-
 ## Crowdsourcing in Cybersecurity
 
 Leveraging collective intelligence and community contributions to enhance security efforts:
