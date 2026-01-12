@@ -316,7 +316,7 @@ Type 1 hypervisors run directly on the physical hardware without requiring a hos
 - Microsoft Hyper-V (when installed on bare metal)
 - Citrix Hypervisor (XenServer)
 - KVM
-- Oracle VM Server
+
 
 **Use Cases:**
 - Enterprise data centers
