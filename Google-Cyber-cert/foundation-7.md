@@ -124,3 +124,4 @@ Why: The most important W, the reasoning for your final verdict
 * Enables **incident response automation** like IOC matching, file hashing, and report generation.
 * Integrates easily with **SIEMs, APIs, and security tools** for workflow automation.
 * Strong libraries (requests, regex, scapy, pandas) make Python ideal for **security scripting and analysis**.
+* almost done
