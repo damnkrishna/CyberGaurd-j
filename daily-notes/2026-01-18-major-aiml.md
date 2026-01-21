@@ -2,3 +2,6 @@ so now after gaining some basic knowledge regarding ai/ml and dataset i am think
 
 well last time i didnt have any idea what exactly is the use of these dataset can be but now atleast ik a little ik there is possibility of finding stuff using these dataset 
 
+welll its not much about the model thought we did choose 3 specific technique z-score, isolation forest and cross-dataset for grading or putting them in prioty based upon their value of total detection using weighted values 
+
+also based upn these risk-scoring analysis still instead of comparing all 900 of distrcit in top prioty we deicded to mark them or flag them high/medium/low and also based upon decided value we choosed top 5 district to anlyse a little deeper and anylse them based upon fax and our detection and also suggesting improvement in these distrcit for both security and data improvement we basically suggested ways and technique to secure data and flag them when risk is detected using ml model and different feature engineering technique
