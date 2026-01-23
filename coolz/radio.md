@@ -87,14 +87,7 @@ This experience cannot be replicated by transmission speed or signal processing 
 
 ---
 
-## Clarifying Common Misconceptions
 
-- FM radio does **not** use encryption or decryption.
-- Private radio does **not** use discrete packet-based transmission.
-- Nanosecond-level timing differences are not detectable by human hearing.
-- Better sound quality comes from **signal processing, hardware quality, and acoustics**, not transmission secrecy.
-
----
 
 ## Conclusion
 
