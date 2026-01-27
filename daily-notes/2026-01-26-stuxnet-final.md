@@ -469,13 +469,7 @@ Stuxnet opened Pandora's box. The genie couldn't be put back in the bottle. Nati
 
 What began as a covert operation to delay one country's nuclear program became the opening shot in a new era of digital warfare—one we're still living in today.
 
-### The Legacy: Malware Variants
 
-The code has been analyzed, and variants have been created, including:
-- **Duqu**: A reconnaissance malware discovered in 2011, sharing code similarities with Stuxnet
-- **Flame**: A massive cyber-espionage toolkit discovered in 2012, also linked to the same actors
-
----
 
 ## Conclusion
 
@@ -489,8 +483,3 @@ But it also demonstrated the risks: once deployed, cyber weapons can spread beyo
 
 The story of Stuxnet is ultimately a story about the evolution of warfare itself - from physical bombs to lines of code, from visible destruction to invisible manipulation, from declared wars to covert operations that blur the lines between peace and conflict.
 
-And perhaps most importantly, it's a reminder that in our interconnected world, even air-gapped systems are vulnerable, and the next battlefield might not be a physical place at all - it might be the invisible networks that control our critical infrastructure.
-
----
-
-**[Section on detailed vulnerability analysis to be added]**
