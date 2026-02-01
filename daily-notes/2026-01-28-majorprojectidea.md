@@ -51,11 +51,36 @@ for files like notepad.exe or explorer.exe before adding signature weightage thi
 
 hence the project is working till now i gave u the whole technique i used for phase 1 local model training 
 
-## Next Steps
+## Phase 1 Update: Technical Implementation & Optimization
 
-understand this completely and tell me the next step to do for starting phase 2 federated learning thing to add in this
+### 🛠️ Strategic Feature Engineering (V7)
+To address the limitations of standard behavioral analysis, I implemented a high-resolution feature extraction layer focusing on structural and statistical file nuances:
 
+* **Adaptive Entropy Mapping:** Instead of a single entropy value, the model now analyzes **Byte Entropy Distributions**. This allows the AI to distinguish between "Natural Complexity" (seen in files like `explorer.exe`) and "Artificial Randomness" (typical of encrypted malware payloads).
+* **API-Structural Correlation:** Introduced a relational feature that checks the ratio between **Import Address Table (IAT)** complexity and section entropy. This specifically targets "Packers" where malware hides its true API calls within compressed sections.
+* **Byte-Density Histograms:** Integrated a 256-bin histogram analysis to capture the raw "fingerprint" of the binary, providing a deeper layer of identification beyond just file headers.
 
+###  Weighted Reputation Logic
+I transitioned from a binary "Trust/No Trust" system to a **Probabilistic Signature Anchor**:
+* **Signature Weighting:** Verified digital certificates (Microsoft, Google, etc.) now provide a **70% safety influence**. 
+* **Behavioral Override:** The remaining **30% risk assessment** is strictly controlled by the AI ensemble. This ensures that even "signed" files (addressing the Stuxnet-style stolen certificate vulnerability) must undergo a rigorous behavioral check before being cleared.
+
+### 🚀 Performance & Accuracy Results
+The integration of these custom features and the transition to a **Tuned Ensemble (LightGBM + XGBoost)** yielded significant improvements:
+
+| Metric | Phase 1 Baseline | **Current Phase 1 (Tuned V7)** |
+| :--- | :--- | :--- |
+| **Model Accuracy** | 95.10% | **97.20%** |
+| **F1-Score (Malware)** | 0.94 | **0.97** |
+| **False Positive Rate** | High (System Files) | **Near Zero (System Files)** |
+
+###  Real-World Predict Results
+The model now demonstrates high stability on complex local binaries. 
+* **`explorer.exe` & `notepad.exe`:** Previously flagged as high-risk, these are now correctly identified as **SAFE** with significantly lower risk scores (averaging **17% to 29%** AI risk) due to the reputation anchoring and entropy refinement.
+* **Detection Confidence:** The AI "Confidence Distribution" shows a clearer separation between benign and malicious files, reducing the number of "Uncertain" cases.
+
+---
+**Next Step for Phase 2:** I will now initialize the Federated Learning environment by setting up the **Flower (flwr)** framework to enable decentralized training across multiple nodes.
 
 ## Future Scope
 
