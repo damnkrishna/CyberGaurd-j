@@ -225,18 +225,6 @@ Before Israel's modifications, Stuxnet had been operating with **surgical precis
 
 When Stuxnet was publicly discovered in June 2010, exposing the operation, some US officials blamed Israel's aggressive modifications for blowing the cover of what had been a perfectly covert operation.
 
-### The Irony of Success
-
-The aggressive spreading mechanism was both Stuxnet's greatest strength and its fatal flaw:
-
-**Strength:** It ensured deep penetration into Natanz, infecting multiple systems and causing significant damage—far exceeding the 30% disruption of the first variant.
-
-**Weakness:** It led to discovery. By mid-2010, Stuxnet was found on computers in India, Indonesia, and dozens of other countries. Security researchers reverse-engineered it, and the world learned about the operation.
-
-**Development accelerated through 2009.** By early 2010, the new variant was ready for deployment—more sophisticated, more destructive, and more capable than anything that had come before.
-
-But it was also more visible. And that visibility would change everything.
-
 ## The Stakes and the Aftermath
 
 By early 2010, the geopolitical calculus was clear:
