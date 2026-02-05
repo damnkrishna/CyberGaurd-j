@@ -8,7 +8,7 @@ This concept was first introduced in 2016 by a Google employee. Later, as it was
 
 I didn't know federated learning is itself a big field, not just an upgrade from centralized to federated. Inside federated learning too, there are several methods to improve the balance between privacy, communication efficiency, and computation cost.
 
-<img width="918" height="676" alt="Screenshot 2026-02-05 091319" src="https://github.com/user-attachments/assets/206048b4-5be2-4ef2-b9e1-865f076527aa" />
+<img width="641" height="259" alt="Screenshot 2026-02-05 091319" src="https://github.com/user-attachments/assets/206048b4-5be2-4ef2-b9e1-865f076527aa" />
 
 ## How It Works
 
@@ -31,7 +31,7 @@ So FL is a setup to train models locally, then use all the model feature data th
 5. **Model Update**: For the current round j, the cumulative update Uⱼ of k clients is compiled and distributed to the chosen clients in the subsequent round as the global model. Steps 3 to 5 are repeated until the loss function reaches convergence.
 
 ## Classification of FL
-<img width="1410" height="724" alt="Screenshot 2026-02-05 094409" src="https://github.com/user-attachments/assets/4c59d1bd-32c8-41f0-8ebd-66f4ee1876f8" />
+<img width="641" height="259" alt="Screenshot 2026-02-05 094409" src="https://github.com/user-attachments/assets/4c59d1bd-32c8-41f0-8ebd-66f4ee1876f8" />
 
 ### 1. Centralized
 
