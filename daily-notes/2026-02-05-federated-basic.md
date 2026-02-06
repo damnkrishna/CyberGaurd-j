@@ -75,5 +75,21 @@ Adding or updating how exactly these decentralized clients will be connected to 
 - momentum aggregation
 - bayesian aggregation
 - secure aggregation
+
+## Aggregation algorithum and strategies 
+
+- FedSGD
+- FedSVRG
+- FedAvg
+- FedPer
+- LG-FedAvg
+- FedAws
+- FedMA
+- FedProx
+- FedNova
+- FedDist
+- FedDyn
+
+have to learn about these more depely rn i just read new names read some description about 2-3 line understand nothing hence i have to learn or atleast understand them to explain to anyone what the difference between each of these
 - quantization aggregation
 - hierarchical aggregation
