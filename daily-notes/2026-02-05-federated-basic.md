@@ -94,3 +94,15 @@ Adding or updating how exactly these decentralized clients will be connected to 
 
 have to learn about these more depely rn i just read new names read some description about 2-3 line understand nothing hence i have to learn or atleast understand them to explain to anyone what the difference between each of these
 
+## Federated Learning Framework
+
+- TensorFlow
+- PySyft
+- Flower
+- OpenFl
+- PaddleFL
+- FedML
+- XayNet
+- IBM federated learning
+- Substra
+- Nvidia Clara
