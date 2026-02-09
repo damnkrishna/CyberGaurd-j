@@ -106,3 +106,85 @@ have to learn about these more depely rn i just read new names read some descrip
 - IBM federated learning
 - Substra
 - Nvidia Clara
+
+## Challenges in Federated Learning
+
+- **Privacy protection** - protecting sensitive user data from exposure
+- **Communication cost** - high network overhead from frequent model updates
+- **System heterogeneity** - diverse devices with varying computational capabilities
+- **Unreliable model upload** - inconsistent client participation and connectivity
+
+## Privacy-Preserving Federated Learning
+
+### Need for Privacy Preservation
+
+Federated learning, despite its decentralized training approach, faces several privacy vulnerabilities:
+
+- **Gradient information leakage** - model updates can leak information about training data
+- **Unreliable participants or clients** - malicious or compromised clients can poison the model
+- **Honest but curious server** - the central server may attempt to infer private information from aggregated updates
+- **Direct release of trained model** - the final model itself can memorize and expose training data
+
+### Privacy-Enhancing Technologies
+
+**1. Anonymization**
+
+The technique for safeguarding data privacy by eliminating any personal information that could be used to identify a particular user. This prevents direct attribution of data to individuals.
+
+**2. Differential Privacy (DP)**
+
+By injecting noise or using a sample dataset, DP maintains statistical features and safeguards the privacy of data by preventing an attacker from getting exact information even after several searches. By introducing controlled noise, DP protects against computationally dominant adversaries.
+
+DP is therefore not appropriate for small datasets and is best suited for large datasets. DP provides a notably higher level of protection with some degree of precision loss.
+
+**3. Homomorphic Encryption (HE)**
+
+A method that enables computation to be carried out on encrypted data without decrypting it. There are several techniques of encryption used for improving the model - as each type of encryption can allow specific types of operations on it to train models. Some have limitations like only a finite number of executions and finite number of operations can be performed.
+
+**4. Secure Multi-Party Computation (SMPC)**
+
+It permits several participants to collaboratively calculate a function on their confidential inputs without disclosing any details about their inputs to one another. Few techniques used are:
+
+- Oblivious transfer
+- Secret sharing
+- Garbled circuits
+
+### My Understanding: FL ≠ Automatic Privacy
+
+Well, I thought FL means privacy, FL means data protection, FL means decentralized—but I guess I was wrong. FL means federated learning. It is better than normal ML models for privacy, but it alone is nothing. It requires different techniques, and the one I am targeting for my project can't be scaled easily because decentralized FL is still yet under research and not yet deployed or considered for deployment because of its limitations:
+
+- **Scalability** - struggles to handle large numbers of participants efficiently
+- **Adaptability** - difficult to adjust to dynamic network conditions
+- **Heavy network burden** - decentralized coordination creates significant communication overhead
+
+### A Real-World Example: The MoltBot/OpenClaw Problem
+
+Well, I have got one doubt. A day before today I was reading about OpenClaw or MoltBot, and as I read, I understand it's still a project under development or progress. The builder made it open source and now anyone can help upgrade it and stuff. But in 2026, it is one of the biggest tech topics of discussion because of the problems it holds. Since the developer made anyone able to update the code and improve stuff, I think it is somewhat an example of centralized federated learning. Yes, the main power is still in the hands of the main developer, but anyone can contribute, download the model on their own laptop, improve it, make it learn stuff, and hence result in a better project at the end.
+
+Do you think the example of MoltBot or OpenClaw is an example of why decentralized models—or even centralized ones—are still not scalable because of the flaws that apps like MoltBot now expose people to? It was good in research, but making it public for all made it harmful:
+
+- **Not secure as needed to be** - open contribution without proper governance creates attack vectors
+- **Lack of trust guarantees** - no mechanism to verify contributor intentions
+- **Model poisoning risks** - malicious updates can compromise the entire system
+
+## The Reality: FL Needs More Than Just Decentralization
+
+Initially, federated learning was assumed to inherently provide strong privacy, security, and decentralization. However, deeper analysis shows that **FL is only a training paradigm and does not guarantee data protection on its own**. Fully decentralized FL systems are still largely research-oriented due to scalability, adaptability, network overhead, and security limitations. 
+
+Public and open collaborative ML projects (e.g., MoltBot/OpenClaw) further highlight that **openness and decentralization can amplify misuse if governance and threat models are weak**. Thus, practical FL systems require additional mechanisms such as secure aggregation, differential privacy, and centralized coordination to be deployable and safe.
+
+### Why Centralized FL?
+
+- **Easier coordination** - single server orchestrates training rounds efficiently
+- **Better quality control** - centralized entity can validate and filter model updates
+- **Simpler security model** - clearer trust boundaries and threat model
+- **Proven scalability** - existing infrastructure supports large-scale deployment
+- **Faster convergence** - direct aggregation without peer-to-peer overhead
+
+### Why Decentralized FL?
+
+- **True privacy** - no single point of trust or failure
+- **Resilience** - system continues even if some nodes fail
+- **User autonomy** - participants have complete control over their data and participation
+- **Censorship resistance** - no central authority can block participation
+- **Aligned with FL philosophy** - truly distributed learning without centralized control
