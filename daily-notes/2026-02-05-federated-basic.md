@@ -188,3 +188,25 @@ Public and open collaborative ML projects (e.g., MoltBot/OpenClaw) further highl
 - **User autonomy** - participants have complete control over their data and participation
 - **Censorship resistance** - no central authority can block participation
 - **Aligned with FL philosophy** - truly distributed learning without centralized control
+
+
+## Applications of Federated Learning
+
+### Healthcare
+- **Disease Prediction:** Enables hospitals to collaboratively train predictive models on patient data without sharing sensitive health records.
+- **Medical Imaging Analysis:** Allows medical institutions to improve diagnostic accuracy by learning from distributed imaging datasets while maintaining patient privacy.
+
+### Pharmaceutical Sector
+- Facilitates drug discovery and clinical trial analysis across multiple research centers without centralizing proprietary or patient data.
+
+### IoT
+- **Real-time Anomaly Detection:** Enables edge devices to detect unusual patterns locally while collectively improving detection models across the network.
+
+### Personalized Recommendation
+- Powers recommendation systems that learn user preferences on-device, ensuring personalized experiences without uploading personal data to central servers.
+
+### Autonomous Vehicles
+- Allows vehicles to share learning from road experiences and edge cases while keeping location and usage data private on individual vehicles.
+
+### NLP (Natural Language Processing)
+- Enables keyboards and voice assistants to improve language models through on-device learning without transmitting users' typed or spoken content.
