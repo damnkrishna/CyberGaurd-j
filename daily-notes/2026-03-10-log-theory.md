@@ -66,11 +66,11 @@ A log is only as good as its metadata. Use the **** to visualize how these piece
 ---
 ## Types of Logs:
 
--Application Logs: Messages from specific applications, providing insights into their status, errors, warnings, and other operational details.
--Audit Logs: Events, actions, and changes occurring within a system or application, providing a history of user activities and system behavior.
--Security Logs: Security-related events like logins, permission alterations, firewall activities, and other actions impacting system security.
--Server Logs: System logs, event logs, error logs, and access logs, each offering distinct information about server operations.
--System Logs: Kernel activities, system errors, boot sequences, and hardware status, aiding in diagnosing system issues.
--Network Logs: Communication and activity within a network, capturing information about events, connections, and data transfers.
--Database Logs: Activities within a database system, such as queries performed, actions, and updates.
--Web Server Logs: Requests processed by web servers, including URLs, source IP addresses, request types, response codes, and more.
+- Application Logs: Messages from specific applications, providing insights into their status, errors, warnings, and other operational details.
+- Audit Logs: Events, actions, and changes occurring within a system or application, providing a history of user activities and system behavior.
+- Security Logs: Security-related events like logins, permission alterations, firewall activities, and other actions impacting system security.
+- Server Logs: System logs, event logs, error logs, and access logs, each offering distinct information about server operations.
+- System Logs: Kernel activities, system errors, boot sequences, and hardware status, aiding in diagnosing system issues.
+- Network Logs: Communication and activity within a network, capturing information about events, connections, and data transfers.
+- Database Logs: Activities within a database system, such as queries performed, actions, and updates.
+- Web Server Logs: Requests processed by web servers, including URLs, source IP addresses, request types, response codes, and more.
