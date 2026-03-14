@@ -74,3 +74,13 @@ A log is only as good as its metadata. Use the **** to visualize how these piece
 - Network Logs: Communication and activity within a network, capturing information about events, connections, and data transfers.
 - Database Logs: Activities within a database system, such as queries performed, actions, and updates.
 - Web Server Logs: Requests processed by web servers, including URLs, source IP addresses, request types, response codes, and more.
+
+
+## Investigation steps
+
+- *Timeline* => reconstructing security incidents
+             => indentify initial point of compromise
+             => understand attackers tactics,technique and procedure (TTPs)
+- Timestamp
+- super timeline
+- external research and threat intel
