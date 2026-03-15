@@ -84,3 +84,67 @@ A log is only as good as its metadata. Use the **** to visualize how these piece
 - Timestamp
 - super timeline
 - external research and threat intel
+
+
+# Log File Locations
+
+## Web Servers
+
+### Nginx
+| Log Type | Path |
+|----------|------|
+| Access Logs | `/var/log/nginx/access.log` |
+| Error Logs | `/var/log/nginx/error.log` |
+
+### Apache
+| Log Type | Path |
+|----------|------|
+| Access Logs | `/var/log/apache2/access.log` |
+| Error Logs | `/var/log/apache2/error.log` |
+
+---
+
+## Databases
+
+### MySQL
+| Log Type | Path |
+|----------|------|
+| Error Logs | `/var/log/mysql/error.log` |
+
+### PostgreSQL
+| Log Type | Path |
+|----------|------|
+| Error and Activity Logs | `/var/log/postgresql/postgresql-{version}-main.log` |
+
+---
+
+## Web Applications
+
+### PHP
+| Log Type | Path |
+|----------|------|
+| Error Logs | `/var/log/php/error.log` |
+
+---
+
+## Operating Systems
+
+### Linux
+| Log Type | Path |
+|----------|------|
+| General System Logs | `/var/log/syslog` |
+| Authentication Logs | `/var/log/auth.log` |
+
+---
+
+## Firewalls and IDS/IPS
+
+### iptables
+| Log Type | Path |
+|----------|------|
+| Firewall Logs | `/var/log/iptables.log` |
+
+### Snort
+| Log Type | Path |
+|----------|------|
+| Snort Logs | `/var/log/snort/` |
