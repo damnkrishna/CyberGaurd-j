@@ -47,23 +47,7 @@ A log is only as good as its metadata. Use the **** to visualize how these piece
 
 
 
----
 
-## 5. Do's and Don'ts (The Golden Rules)
-
-### ✅ DO:
-
-* **Use Correlation IDs:** Pass a unique ID across different services to trace a single user request.
-* **Automate Rotation:** Ensure logs don't fill up your disk (Logrotate).
-* **Centralize:** Send logs to a central server so they aren't lost if a container/server dies.
-
-### ❌ DON'T:
-
-* **Log PII:** Never log passwords, credit card numbers, or Personal Identifying Information (Security risk!).
-* **Log too much:** Avoid "Log-orrhea"—if everything is "High Priority," nothing is.
-* **Local Time:** Never use local server time; always use **UTC** to sync across global regions.
-
----
 ## Types of Logs:
 
 - Application Logs: Messages from specific applications, providing insights into their status, errors, warnings, and other operational details.
