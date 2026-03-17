@@ -1,5 +1,4 @@
-
-# 📝 The Logging Cheat Sheet
+#  The Logs basics
 
 ## 1. The "Big Three" Purposes
 
@@ -35,17 +34,6 @@ A log is only as good as its metadata. Use the **** to visualize how these piece
 5. **FATAL/CRITICAL:** The entire system or service is crashing.
 
 ---
-
-## 4. Structured vs. Unstructured
-
-* **Unstructured (Bad):** `[10:30] User 5 failed to login.`
-* *Problem:* Requires complex Regex to parse; slow for big data.
-
-
-* **Structured (Good - JSON):** `{"time": "10:30", "user": 5, "status": "fail"}`
-* *Benefit:* Instantly searchable by tools like ELK (Elasticsearch) or Splunk.
-
-
 
 
 ## Types of Logs:
