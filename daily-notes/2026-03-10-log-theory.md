@@ -120,3 +120,14 @@ A log is only as good as its metadata. Use the **** to visualize how these piece
 | Log Type | Path |
 |----------|------|
 | Snort Logs | `/var/log/snort/` |
+
+
+## What log analysis really is (no textbook fluff)
+
+Log analysis = reading system activity records to understand what actually happened
+
+Every system, app, server, firewall, user action leaves behind logs.
+
+Your job is:
+
+Take raw logs → find patterns → detect abnormal behavior → explain the story
