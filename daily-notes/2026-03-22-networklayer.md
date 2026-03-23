@@ -272,3 +272,15 @@ Sender resends only 2
 | Go-Back-N        | 2ⁿ − 1        | 1               |
 | Selective Repeat | 2ⁿ⁻¹          | 2ⁿ⁻¹            |
 
+## The Network Layer 
+
+is the third layer of the OSI (Open Systems Interdisciplinary) model. Its primary responsibility is to manage the delivery of data packets from a source host to a destination host across multiple networks.
+
+Key Functions of the Network Layer:
+- Logical Addressing: It assigns a unique logical address (such as an IP address) to every device on a network, ensuring that data reaches the correct destination regardless of the physical hardware used.
+
+- Routing: It determines the most efficient physical path for data to travel from the sender to the receiver using specialized devices called routers and complex routing algorithms.
+
+- Packetization: It receives segments from the Transport Layer and encapsulates them into smaller units called packets (or datagrams) by adding a header containing the source and destination IP addresses.
+
+- Fragmentation and Reassembly: If a packet is too large for the physical medium it is traveling through, the Network Layer breaks it into smaller fragments and reassembles them at the destination.
