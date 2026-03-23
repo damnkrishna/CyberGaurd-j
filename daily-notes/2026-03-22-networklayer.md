@@ -272,15 +272,3 @@ Sender resends only 2
 | Go-Back-N        | 2ⁿ − 1        | 1               |
 | Selective Repeat | 2ⁿ⁻¹          | 2ⁿ⁻¹            |
 
----
-
-## Quick Summary
-
-* Error Control: Checksum, ACK, Timeout
-* Flow Control: Stop and Wait, Go-Back-N, Selective Repeat
-* Congestion Control: Uses cwnd and control algorithms
-* Actual Window Size: min(rwnd, cwnd)
-* TCP Tahoe: Basic model
-* TCP Reno: Adds Fast Recovery
-
----
