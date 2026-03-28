@@ -108,14 +108,27 @@ This is the core concept needed to understand Windows Event Logs at a practical 
 
 ---
 
-## Suggested Next Steps
 
-1. Open Event Viewer (`eventvwr`)  
-2. Navigate to:
-   - Windows Logs → Security  
-3. Observe:
-   - Provider column  
-   - Different channels  
+## EVENT-ID 
+- 1102 => Log clear
+- 4624 => LOG on
+- 4634 => LOG OFF
+- 4647 => initiated LOG OFF
+- 4688 => Process creation
+- 4798 => window checking your permission
+- 5379 => it may access stored credentials
 
-Hands-on exploration will reinforce these concepts more effectively than documentation alone.
-```
+
+
+## How a real attack would look (chain thinking)
+
+A more concerning sequence would be:
+
+5379 → Credentials accessed
+4624 → Suspicious login (new session)
+4672 → Special privileges assigned (admin rights)
+4688 → Suspicious process created
+
+👉 That’s when it becomes:
+
+Possible credential misuse / privilege escalation
