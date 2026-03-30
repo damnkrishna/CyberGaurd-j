@@ -227,20 +227,6 @@ Event Viewer → Applications and Services Logs → Microsoft → Windows → Sy
 
 ---
 
-## 11. Real mindset shift you need
-
-Stop thinking:
-
-> "What is this config doing?"
-
-Start thinking:
-
-> "What behavior is suspicious?"
-
-Because attackers don’t care about tools — they care about **execution paths and behavior**.
-
----
-
 ## 12. What you should focus on (no distractions)
 
 If you're serious about cybersecurity:
@@ -276,10 +262,4 @@ What makes you dangerous:
 
 ```
 User action → Process → Child Process → Network → Persistence
-```
-
-If you can trace this chain in logs,
-you’re already ahead of most beginners.
-
--
 ```
