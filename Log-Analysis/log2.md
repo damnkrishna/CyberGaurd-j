@@ -225,41 +225,5 @@ Event Viewer → Applications and Services Logs → Microsoft → Windows → Sy
   * SIEM (Splunk, ELK)
   * WEF (Windows Event Forwarding)
 
----
-
-## 12. What you should focus on (no distractions)
-
-If you're serious about cybersecurity:
-
-1. Master:
-
-   * Process trees
-   * Command-line analysis
-
-2. Practice:
-
-   * Detecting abnormal execution paths
-
-3. Ignore:
-
-   * Memorizing config lines blindly
-
----
-
-## 13. Brutal truth
-
-Just reading Sysmon config = useless
-
-What makes you dangerous:
-
-* Replaying attacks
-* Seeing logs
-* Connecting behavior → detection
-
----
-
-## 14. Simple mental model
-
-```
-User action → Process → Child Process → Network → Persistence
+---→ Persistence
 ```
