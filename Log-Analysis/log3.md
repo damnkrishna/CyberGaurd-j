@@ -1,8 +1,11 @@
 # SOC Analysis Report — Suspicious Outbound Connection via PowerShell
 
 **Analyst Role:** SOC Analyst
+
 **Log Source:** Sysmon
+
 **Investigation Trigger:** Unexpected outbound network connection from a user process
+
 You suspect that a process on your system is making unexpected outbound connections. Your task is to identify, investigate, and explain the behavior using Sysmon logs.
 ---
 
@@ -66,7 +69,7 @@ The parent process ID of these file creation events traces back to `powershell.e
 
 The file creation events in Sysmon confirmed the parent process was `powershell.exe`, which ties the network activity and the file drops together.
 
-<img width="1530" height="1435" alt="image" src="https://github.com/user-attachments/assets/a1d293c0-b056-48e9-a86f-7973c46da92d" />
+<img width="800" height="900" alt="image" src="https://github.com/user-attachments/assets/a1d293c0-b056-48e9-a86f-7973c46da92d" />
 
 # 📝 SOC ANALYSIS REPORT 
 
