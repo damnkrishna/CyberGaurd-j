@@ -4,12 +4,6 @@
 Today’s focus was on the backbone of network communication: the **OSI (Open Systems Interconnection) Model**. Understanding these seven layers is critical for security log analysis because it allows us to isolate where an issue or an attack is occurring.
 
 
-
-[Image of the OSI model 7 layers]
-
-
----
-
 ## 🏗️ The 7 Layers of the OSI Model
 The OSI model is a conceptual framework that standardizes how different computer systems talk to each other.
 
