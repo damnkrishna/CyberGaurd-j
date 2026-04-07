@@ -108,6 +108,19 @@ You mentioned moving away from "raw log noise" toward "tactic-level attribution"
 * [cite_start]**Documentation is Key:** Since you have a 250+ day GitHub streak[cite: 58], commit your `ossec.conf` files and screenshots of your dashboard alerts. This proves the project is real.
 * **Sensitivity vs. Specificity:** Remember your learning about "Alert Fatigue". If your dashboard is flooded with 1,000 alerts in an hour, your "rules" are too sensitive. Part of the project is tuning them down.
 
+
+
+# Project started
+
+so finally i started removeed the whole previous model whole previous works and manager and all
+now first i am downloading a compatable software for ubuntu vm that has less problem and more stable
+
+so here this tile i am using ubuntu 22.04.5 LTS 
+
+and will try to keep it compatable to this version and my windows laptop 11 home
+
+
+
 ---
 
 ## 5. Workflow Summary (The "Paper Trail")
