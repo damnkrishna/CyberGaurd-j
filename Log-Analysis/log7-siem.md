@@ -1,11 +1,5 @@
 # Baseline
-## Phase 1: Environment Sanitation
-Before building anything new, you must clear the "ghosts" of your previous failed attempts.
-* **Wipe the Slate:** Uninstall VirtualBox and delete the `VirtualBox VMs` folder entirely to reclaim disk space and remove corrupted configurations.
-* **Resource Audit:** Check your Task Manager (Ctrl+Shift+Esc). If your RAM is 8GB, you cannot run two heavy VMs simultaneously. If it's 16GB, you're safe. 
-* **The "Server-Only" Rule:** Never use a GUI (Desktop) version of Linux for the SIEM. It wastes 1-2GB of RAM just to show you a wallpaper you won't use.
 
----
 
 ## Phase 2: The Baseline Build (Step-by-Step)
 Don't try to build a "SOC" yet. Build a **connection**.
@@ -120,6 +114,7 @@ so here this tile i am using ubuntu 22.04.5 LTS
 and will try to keep it compatable to this version and my windows laptop 11 home
 
 
+well i think install will be done this time cause only wazuh-dashboard is giving error this time
 
 ---
 
