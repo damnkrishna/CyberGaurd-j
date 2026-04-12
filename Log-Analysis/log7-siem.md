@@ -91,17 +91,6 @@ You mentioned moving away from "raw log noise" toward "tactic-level attribution"
 * **The Practice:** Trigger a "Pass-the-Hash" or "Brute Force" attack from your Kali VM. Look at the alert in Wazuh and find the **Rule ID** and the **MITRE ID** (e.g., T1078 for Valid Accounts). 
 * **The Goal:** Be able to explain *why* an alert is T1543 (Persistence) during an interview.
 
-### C. Telemetry Analysis
-* **The Task:** Ensure the Windows Agent is sending more than just "Logins." 
-* **The Pro Move:** Install **Sysmon** on your Windows VM. Configure Wazuh to ingest Sysmon logs. This gives you deep visibility into process creations and network connections.
-
----
-
-## 4. Mental Notes for the "Fresh Start"
-* **Discard Kali for Hosting:** As you learned, Kali is for attacking. Use it only as the "External Attacker" sitting outside your SOC network.
-* [cite_start]**Documentation is Key:** Since you have a 250+ day GitHub streak[cite: 58], commit your `ossec.conf` files and screenshots of your dashboard alerts. This proves the project is real.
-* **Sensitivity vs. Specificity:** Remember your learning about "Alert Fatigue". If your dashboard is flooded with 1,000 alerts in an hour, your "rules" are too sensitive. Part of the project is tuning them down.
-
 
 
 # Project started
