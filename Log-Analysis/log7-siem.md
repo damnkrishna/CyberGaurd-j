@@ -55,43 +55,6 @@ Once you have **one** Windows machine talking to **one** Ubuntu server, you have
 
 
 
-# to do before ending the project 
-## 1. The Architectural Strategy (Manager-Agent)
-[cite_start]Your resume claims a "Manager-Agent topology"[cite: 35]. This is the most important technical detail to get right.
-
-* **The Manager (The Brain):** Use **Ubuntu Server** (not Desktop). The "Server" version has no GUI, which saves massive amounts of RAM and CPU—preventing the "hanging" you experienced before.
-* [cite_start]**The Agent (The Target):** This is your **Windows 11** VM[cite: 35]. This is where the telemetry (logs) comes from.
-* **The Network:** Set both VMs to a **"Host-Only"** or **"Internal Network"** in VirtualBox. This keeps the traffic isolated from your home Wi-Fi but allows the Agent to "talk" to the Manager.
-
-
----
-
-## 2. Pre-Flight Checklist (Hardware & BIOS)
-To avoid the "fuck ups" from your previous attempt, verify these before installing a single byte:
-* **Virtualization:** Ensure **VT-x/AMD-V** is enabled in your ThinkPad BIOS (which you've already done—keep it that way).
-* **Resource Allocation:**
-    * **Ubuntu Server (Manager):** 2 vCPUs, 4GB RAM (minimum), 20GB Disk.
-    * **Windows 11 (Agent):** 2 vCPUs, 4GB RAM, 40GB Disk.
-* **Cleanup:** Delete all old, failed VM instances and "vbox" folders to reclaim disk space.
-
----
-
-## 3. Implementation Checklist: The "Resume-Aligned" Features
-To back up the claims in your "Interview Prep" images and resume, you must configure these three specific areas:
-
-### A. File Integrity Monitoring (FIM)
-[cite_start]Your resume highlights real-time FIM[cite: 36].
-* **The Goal:** Detect when a "hacker" touches a sensitive file.
-* **The Task:** In the Wazuh Manager's `ossec.conf`, add the Windows `system32` and `Program Files` directories to the `<syscheck>` section.
-* **The Test:** Create or delete a `.txt` file in a monitored folder on Windows and ensure an alert pops up on the Wazuh Dashboard.
-
-### B. MITRE ATT&CK Mapping
-You mentioned moving away from "raw log noise" toward "tactic-level attribution".
-* **The Task:** Wazuh does much of this automatically, but you must **verify** it. 
-* **The Practice:** Trigger a "Pass-the-Hash" or "Brute Force" attack from your Kali VM. Look at the alert in Wazuh and find the **Rule ID** and the **MITRE ID** (e.g., T1078 for Valid Accounts). 
-* **The Goal:** Be able to explain *why* an alert is T1543 (Persistence) during an interview.
-
-
 
 # Project started
 
