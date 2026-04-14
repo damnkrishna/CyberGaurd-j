@@ -1,7 +1,7 @@
 # Baseline
 
 
-## Phase 2: The Baseline Build (Step-by-Step)
+## Phase 1: The Baseline Build (Step-by-Step)
 Don't try to build a "SOC" yet. Build a **connection**.
 
 ### 1. The Manager (The "Ear")
@@ -13,7 +13,7 @@ Don't try to build a "SOC" yet. Build a **connection**.
 
 
 ### 2. The Agent (The "Voice")
-* **Windows VM:** Start with a standard Windows 10/11 VM. 
+* **Windows VM:** Start with a standard Windows 10 VM. 
 * **The Handshake:** Download the Wazuh Agent on the Windows machine. When it asks for the "Manager IP," enter the static IP you set in Step 1.
 * **Verification:** Go to your Ubuntu Manager’s dashboard (via your laptop's browser). If you see "1 Active Agent," you have officially built a baseline.
 
@@ -46,13 +46,6 @@ Once you have **one** Windows machine talking to **one** Ubuntu server, you have
 **Your First Goal:** * [ ] Ubuntu Server running (No GUI)
 * [ ] Windows VM running 
 * [ ] Manager/Agent "Active" status in the dashboard.
-
-
-
-
-
-
-
 
 
 
@@ -95,9 +88,3 @@ i have stop ssl certificate verification i know it should not be done but i had 
 
 
 ---
-
-## 5. Workflow Summary (The "Paper Trail")
-1.  **Attack:** Use Kali to run a Nmap scan or a Hydra brute force against the Windows VM.
-2.  **Detect:** The Wazuh Agent picks up the telemetry and sends it to the Ubuntu Manager.
-3.  [cite_start]**Alert:** The Manager matches the log against a rule and flags a MITRE ATT&CK technique[cite: 37].
-4.  **Analyze:** You open the Wazuh Dashboard, filter by the Windows Agent, and explain what happened.
