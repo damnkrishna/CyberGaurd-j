@@ -36,16 +36,6 @@ While building, ask yourself these "Why" questions to actually learn the SOC wor
 * **Firewalls:** If the Agent can't talk to the Manager, check **Port 1514** and **1515**. 
 * **Lesson:** You'll learn that in a real company, you have to ask the Network Team to open these specific ports so the SOC can see the data.
 
----
-
-## Phase 4: The Pivot Point
-Once you have **one** Windows machine talking to **one** Ubuntu server, you have reached the "Baseline." 
-
-**Stop there.** Do not add FIM, do not add MITRE, do not add Kali yet. Just make sure that when you create a user on Windows, the Ubuntu server shows an alert within 30 seconds.
-
-**Your First Goal:** * [ ] Ubuntu Server running (No GUI)
-* [ ] Windows VM running 
-* [ ] Manager/Agent "Active" status in the dashboard.
 
 
 
