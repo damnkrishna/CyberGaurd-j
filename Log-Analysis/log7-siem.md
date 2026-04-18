@@ -1,44 +1,5 @@
 # Baseline
 
-
-## Phase 1: The Baseline Build (Step-by-Step)
-Don't try to build a "SOC" yet. Build a **connection**.
-
-### 1. The Manager (The "Ear")
-* **Install Ubuntu Server:** Choose the "Minimal" installation. 
-* **Static IP:** Research how to set a static IP in Ubuntu. If your Manager's IP changes every time you reboot, your Agents will "go deaf" and won't know where to send logs.
-* **Wazuh Installation:** Use the **Wazuh Installation Assistant** (the one-liner command). 
-    * **Learning Point:** Read the script output. Don't just wait for it to finish. Watch it install **Elasticsearch** (the database) and **Filebeat** (the log shipper).
-
-
-
-### 2. The Agent (The "Voice")
-* **Windows VM:** Start with a standard Windows 10 VM. 
-* **The Handshake:** Download the Wazuh Agent on the Windows machine. When it asks for the "Manager IP," enter the static IP you set in Step 1.
-* **Verification:** Go to your Ubuntu Manager’s dashboard (via your laptop's browser). If you see "1 Active Agent," you have officially built a baseline.
-
----
-
-## Phase 3: The "Understand Everything" Checklist
-While building, ask yourself these "Why" questions to actually learn the SOC workflow:
-
-### 1. How do logs move?
-* **Check the path:** On your Windows VM, find where the logs live (Event Viewer). 
-* **The Experiment:** Close the Wazuh Agent service on Windows. Try to generate an "attack" (like 10 failed logins). Does the Manager see them? (Answer: No). 
-* **Lesson:** You learn that visibility is dependent on the health of the **Agent Service**.
-
-### 2. What is a "Rule"?
-* **The Logic:** Go into the Wazuh Manager's ruleset (`/var/ossec/ruleset/rules/`). 
-* **The Task:** Find the rule for "Successful Windows Login." Look at the XML code. 
-* **Lesson:** You’ll see it’s just looking for a specific **Event ID** (like 4624). This is how "magic" detection actually works—it’s just `if/then` statements.
-
-### 3. Networking Basics
-* **Firewalls:** If the Agent can't talk to the Manager, check **Port 1514** and **1515**. 
-* **Lesson:** You'll learn that in a real company, you have to ask the Network Team to open these specific ports so the SOC can see the data.
-
-
-
-
 # Project started
 
 so finally i started removeed the whole previous model whole previous works and manager and all
