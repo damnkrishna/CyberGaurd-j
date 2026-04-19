@@ -39,3 +39,9 @@ Integration of theoretical knowledge with the TryHackMe Wazuh room provides hand
 * **Alert Generation:** Triggering events (e.g., through SSH brute force) to observe how they appear in the SIEM interface.
 
 ---
+
+## personal thinking
+
+wazuh is not that complex of a tool in itself it just need some more time to understand 
+and after trying to set it up 3 time and failing three time till now i finally able to understand how it works 
+but still the inside how to use wazuh is still tough for me
