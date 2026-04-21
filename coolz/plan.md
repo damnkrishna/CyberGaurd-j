@@ -6,31 +6,31 @@ Since you're a visual learner, we will focus on flowcharts and packet/log walkth
 
 ## Week 1: The Windows & Linux Anatomy (The Source)
 
-### **Day 1: Windows Event Log Architecture**
+### **Day 1: Windows Event Log Architecture** = done
 
   * **Read:** [Microsoft's Windows Event Log Documentation](https://learn.microsoft.com/en-us/windows/win32/wes/windows-event-log) – Focus on the "Channel" and "Provider" concepts.
   * **Watch:** Search YouTube for *"Windows Event Logs for Cyber Security"* (specifically looking for the internal structure of XML logs).
   * **Practice:** Open `eventvwr.msc` on your laptop. Clear your "Security" log. Perform a "Run as Administrator" task. Find the exact Event ID generated (Hint: Look for **4624** or **4688**).
 
-### **Day 2: Sysmon – The SOC Analyst’s Best Friend**
+### **Day 2: Sysmon – The SOC Analyst’s Best Friend** = done
 
   * **Read:** [SwiftOnSecurity’s Sysmon Config](https://github.com/SwiftOnSecurity/sysmon-config). Read the comments in the XML—they explain *why* certain events are tracked.
   * **Watch:** *"How to Install and Use Sysmon"* by Black Hills Information Security.
   * **Practice:** Install Sysmon on your Windows machine (or a VM). Use the `sysmon -i` command. Open a browser and find the **Event ID 3 (Network Connection)** log it creates.
 
-### **Day 3: Linux Syslog & Journald**
+### **Day 3: Linux Syslog & Journald** = done
 
   * **Read:** [DigitalOcean’s Guide to Systemd Logs (journalctl)](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs).
   * **Watch:** Search for *"Linux Logging Explained: /var/log/messages vs Journald"*.
   * **Practice:** On a Linux VM, go to `/var/log/auth.log`. Try to SSH into your own machine with a wrong password 5 times. See how the "Failed password" log looks in raw text.
 
-### **Day 4: Network Protocols (The "Wire")**
+### **Day 4: Network Protocols (The "Wire")** =done
 
   * **Read:** [Cloudflare’s Learning Center on OSI Model](https://www.google.com/search?q=https://www.cloudflare.com/learning/ddos/glossary/osi-model/). Focus on Layer 3 (IP), 4 (TCP/UDP), and 7 (Application).
   * **Watch:** *"TCP Three-Way Handshake Explained"* (Visual animation).
   * **Practice:** Open Wireshark. Filter for `tcp.flags.syn==1`. Visit a website. Watch the SYN-ACK exchange happen in real-time.
 
-### **Day 5: HTTP & DNS Deep Dive**
+### **Day 5: HTTP & DNS Deep Dive** = done
 
   * **Read:** [MDN Web Docs on HTTP Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages).
   * **Watch:** *"How DNS Works"* by Computerphile.
@@ -40,13 +40,13 @@ Since you're a visual learner, we will focus on flowcharts and packet/log walkth
 
 ## Week 2: Aggregation & Querying (The Visibility)
 
-### **Day 6: Log Transport (The "Pipe")**
+### **Day 6: Log Transport (The "Pipe")** = done
 
   * **Read:** [Logstash vs. Beats vs. Fluentd](https://www.elastic.co/guide/en/beats/libbeat/current/beats-reference.html). Understand how a log gets from a PC to a Server.
   * **Watch:** *"ELK Stack Architecture for Beginners"*.
   * **Practice:** In your Wazuh lab, find the configuration file that tells the agent which logs to send to the manager (`ossec.conf`).
 
-### **Day 7: The SIEM Interface (Kibana/Wazuh Dashboard)**
+### **Day 7: The SIEM Interface (Kibana/Wazuh Dashboard)** = doing in progress
 
   * **Read:** [Wazuh Dashboard Documentation](https://documentation.wazuh.com/current/user-manual/wazuh-dashboard/index.html).
   * **Watch:** *"Getting started with Wazuh Dashboard"*.
