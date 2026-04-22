@@ -10,6 +10,45 @@ The Wazuh dashboard is a web-based user interface designed for the visualization
 * **Regulatory Compliance:** Dashboards mapped to frameworks like PCI DSS, NIST, and HIPAA.
 
 ---
+Here are **very short, clean notes** you can revise quickly:
+
+---
+
+### 🔐 SIEM – Key Benefits (SOC)
+
+**1. Centralisation**
+
+* Collects logs from multiple sources (IPS, EDR, cloud, etc.) into one place
+* Reduces time switching between tools
+* Faster and smoother investigations
+
+**Example:**
+
+* Ted (with SIEM) → investigates everything in one platform
+* Emily (no SIEM) → manually checks each system → slower
+
+---
+
+**2. Correlation**
+
+* Links multiple events to form a complete picture
+* Enriches raw alerts with context (user, device, activity)
+* Helps identify if activity is malicious or normal
+
+---
+
+**3. Historical Events**
+
+* Stores past logs for analysis
+* Helps detect patterns and unusual behavior
+* Useful for verifying alerts (e.g., unusual login location)
+
+---
+
+**⚡ Summary**
+
+* SIEM = Centralised + Correlated + Historical visibility
+* Leads to faster, smarter SOC investigations
 
 ## Technical Summary: Rule Levels and Filtering
 Wazuh categorizes alerts into levels ranging from **0 to 15**, based on the severity and potential impact of the event.
