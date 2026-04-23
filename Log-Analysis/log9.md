@@ -45,6 +45,20 @@ Here are **very short, clean notes** you can revise quickly:
 
 ---
 
+
+### The Big Three "Senses"
+* **Host-Based Logs:** These are like having a GoPro on every single laptop and server. If an attacker runs a shady script or tries to mess with a file, the host logs see it happening right there on the machine. This is where we catch the actual "crime" in progress.
+* **Network-Based Logs:** These are the security cameras in the hallways. Firewalls and routers tell us who is talking to whom. It’s how we see if a laptop is suddenly trying to send a massive file to a random IP address in another country.
+* **Web-Based Logs:** Since every company has a website, these are like the logs of people coming through the front door. We check these to make sure nobody is trying to "break the locks" (like using SQL injection) to get into the internal network.
+
+### The Annoying Parts (That actually matter)
+When you’re an analyst sitting in the SOC, two things will drive you crazy if you aren't careful:
+
+1.  **The Timezone Trap:** This is a classic. Imagine you’re looking for an alert that happened at 2:00 PM local time, but the server is sending logs in UTC. If you don't realize there's a shift, you’ll be looking at the wrong part of the timeline and think nothing happened. It’s like trying to meet a friend but you're both using different clocks.
+2.  **Normalization:** This is basically "The Great Translation." One device might call a user a `User_Name`, another calls it `uid`, and another calls it `source_user`. If the SIEM didn’t **normalize** all of that into one standard field (like just `user`), we’d have to write fifty different searches for the same thing. It turns a messy pile of different languages into one language we can actually read.
+
+Basically, our job is to make sure all these "senses" are talking to the "brain" clearly and at the right time so we can actually catch the bad guys before they do real damage.
+
 **⚡ Summary**
 
 * SIEM = Centralised + Correlated + Historical visibility
