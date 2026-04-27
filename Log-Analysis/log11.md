@@ -59,3 +59,6 @@ Most founders in this space are engineers who built a local AI tool and bolted s
 And the chills are back. That means something.
 
 ---
+
+well i have to give it a shot this feeling of thinking about solving problem in any situation is something i am really liking rn 
+it makes me think deeply about anything and try to find the problem the solution and the competitor and what they already have done what i can do more or better than them 
