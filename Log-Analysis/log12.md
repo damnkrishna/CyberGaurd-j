@@ -1,5 +1,4 @@
-well i just got a new idea yesterday night it was great idea 
-like we use rapido we like some driver more than normal then we can discuss the price with them directly no mediator or platform in between type stuff
+i am getting offtrack from log analysis will restart it very soon just trying new things for sometime a little
 
 
 well ideas are keep coming in my right now 
