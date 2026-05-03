@@ -51,7 +51,6 @@ Since you're a visual learner, we will focus on flowcharts and packet/log walkth
   * **Read:** [Wazuh Dashboard Documentation](https://documentation.wazuh.com/current/user-manual/wazuh-dashboard/index.html).
   * **Watch:** *"Getting started with Wazuh Dashboard"*.
   * **Practice:** Log into your Wazuh lab. Create a custom filter to only show "Level 10" alerts or higher.
-
   * created a level 5 and few level 3 and 4 alerts even tried brute forcee but not worked as i expected.
 
 ### **Day 8: KQL (Kibana Query Language) Basics** = doing in progress
