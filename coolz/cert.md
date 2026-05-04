@@ -1,10 +1,12 @@
 
 ## **Week 1: The Core Architecture & Data Engine**
 
-### **Day 1: The Splunk Ecosystem & Distributed Search**
+### **Day 1: The Splunk Ecosystem & Distributed Search** = done
 *   **Reading:** Splunk Docs: "Inherited Data" and "Distributed Search Overview."
 *   **Video:** Search for *"Splunk Architecture: Indexers, Search Heads, and Forwarders explained."*
 *   **Practice Question:** If a search is running slowly in a distributed environment, which component (Indexer or Search Head) is responsible for the final aggregation of results?
+*    well as for the slow process sometime the problem is in search head as sometime the search space is so big that finding that specific value is taking long time and long process 
+*   and as for the indexer sometime the data cant be received from the source 
 
 
 ### **Day 2: Data Life Cycle (The 20% Domain)**
