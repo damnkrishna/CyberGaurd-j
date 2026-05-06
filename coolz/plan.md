@@ -55,9 +55,9 @@ Since you're a visual learner, we will focus on flowcharts and packet/log walkth
 
 ### **Day 8: KQL (Kibana Query Language) Basics** = doing in progress
 
-  * **Read:** [Elastic’s KQL Guide](https://www.google.com/search?q=https://www.elastic.co/guide/en/kibana/current/kuery-query-buttons.html).
-  * **Watch:** *"Kibana Query Language (KQL) Tutorial"*.
-  * **Practice:** Use KQL to find all logs where `win.eventdata.targetUserName` is your username.
+  * **Read:** [Elastic’s KQL Guide](https://www.google.com/search?q=https://www.elastic.co/guide/en/kibana/current/kuery-query-buttons.html). = done
+  * **Watch:** *"Kibana Query Language (KQL) Tutorial"*.= to watch 
+  * **Practice:** Use KQL to find all logs where `win.eventdata.targetUserName` is your username.= to practise
 
 ### **Day 9: Regular Expressions (Regex) for Analysts**
 
