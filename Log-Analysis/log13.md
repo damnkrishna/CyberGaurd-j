@@ -1,8 +1,5 @@
-# My Learning Journal: Software Metrics and Testing 🚀
+# Software Metrics and Testing 
 
-I’ve been diving into how software is built and measured today. It’s a lot like building a massive LEGO world, and I’m figuring out how to tell if my "world" is actually good or just a big, complicated mess. Here’s how I’m seeing it all:
-
----
 
 ## 1. How Big is My Castle? (Software Metrics)
 
