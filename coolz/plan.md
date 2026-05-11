@@ -1,8 +1,4 @@
-To get you that deep, granular expertise, we’re going to treat **Phase 1** as the "Data Foundation" phase. If you don't understand how a log is generated, you'll never know if an attacker is tampering with it.
 
-Since you're a visual learner, we will focus on flowcharts and packet/log walkthroughs. Here is your **Day-by-Day "Deep Dive" Plan for Phase 1 (Weeks 1 & 2)**.
-
------
 
 ## Week 1: The Windows & Linux Anatomy (The Source)
 
@@ -55,7 +51,7 @@ Since you're a visual learner, we will focus on flowcharts and packet/log walkth
 
 ### **Day 8: KQL (Kibana Query Language) Basics** = doing in progress
 
-  * **Read:** [Elastic’s KQL Guide](https://www.google.com/search?q=https://www.elastic.co/guide/en/kibana/current/kuery-query-buttons.html). = done
+  * **Read:** [Elastic’s KQL Guide](https://www.google.com/search?q=https://www.elastic.co/guide/en/kibana/current/kuery-query-buttons.html). = completed
   * **Watch:** *"Kibana Query Language (KQL) Tutorial"*.= to watch 
   * **Practice:** Use KQL to find all logs where `win.eventdata.targetUserName` is your username.= to practise
 
