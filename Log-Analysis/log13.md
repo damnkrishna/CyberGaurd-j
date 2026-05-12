@@ -32,11 +32,3 @@ I've finally mapped out exactly how things go wrong. It’s a three-step trip:
 * **The Error:** I make a mistake in my head (a human "oopsie").
 * **The Fault:** That mistake turns into a physical "bug" hiding in my code.
 * **The Failure:** When I actually run the program, it trips over that bug and breaks.
-
-I’m also making sure I do both **Verification** (checking my plans to see if they make sense) and **Validation** (actually building the thing and seeing if it works the way I wanted).
-
----
-
-### My Final Realization
-
-I’ve learned that I can’t test every single possibility—that’s a myth because there are just too many paths to take. Instead, I have to be smart and test the "edges" (the **Boundaries**) and group similar inputs together so I don't waste time doing the same test twice. It’s all about working smarter, not just harder!
