@@ -1,4 +1,8 @@
 # have to start log analysis again 
 
-have to restart rework and everything 
-as rn my end sem exams is going on i cant waste my time anywhere or though studying for future is not time wasted but still 
+there are several layrs in osi model and several protection rule as for data layer 
+there is aloha => pure aloha
+               => slotted aloha
+then there is csma and csma/cd 
+
+both are used for data protection 
