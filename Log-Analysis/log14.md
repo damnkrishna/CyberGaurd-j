@@ -6,3 +6,9 @@ there is aloha => pure aloha
 then there is csma and csma/cd 
 
 both are used for data protection 
+
+
+two of the most important hashing technique used are 
+DES 
+RSA
+both are industry grade encryption alogrithums
