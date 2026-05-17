@@ -28,7 +28,7 @@ Occurs when an application includes untrusted data in a web page without proper 
 
 ---
 
-## 3. Cryptography & Mathematical Foundations (T3 Core)
+## 3. Cryptography & Mathematical Foundations
 
 ### Principles of Computer Security (CIA Triad & Beyond)
 *   **Confidentiality:** Ensuring data is accessible only to authorized entities (achieved via Encryption).
@@ -66,7 +66,7 @@ A cryptographic hash function maps input data of arbitrary size to a fixed-size 
 
 ---
 
-## 4. Modules 6 & 7 (System & Advanced Security Topics)
+## 4. System & Advanced Security Topics
 
 *Depending on the specific textbook alignment of your course, these modules typically drill into:*
 *   **Endpoint & OS Security:** Memory protection mechanisms like Address Space Layout Randomization (**ASLR**), Data Execution Prevention (**DEP** / NX bit), and protecting against buffer overflow attacks.
@@ -74,21 +74,4 @@ A cryptographic hash function maps input data of arbitrary size to a fixed-size 
 *   **Authentication & Access Control:** Implementing Role-Based Access Control (**RBAC**), Attribute-Based Access Control (**ABAC**), and secure protocols like OAuth 2.0, OIDC, and multi-factor authentication (MFA).
 
 ---
-
-## 5. Review Foundations (T1 & T2 Quick Reference)
-
-To ensure success on the cumulative portions, keep these foundational concepts fresh:
-
-### Network Layer Basics (T1 Focus)
-*   **The OSI Model & TCP/IP Stack:** Clear understanding of headers, encapsulation, and responsibilities at Layer 2 (Data Link - MAC), Layer 3 (Network - IP), Layer 4 (Transport - TCP/UDP), and Layer 7 (Application).
-*   **Packet Inspection & Filtering:** How stateless firewalls inspect static packet headers (Src/Dst IP, Port) versus how stateful firewalls track the active state of network connections using a state table.
-
-### Cryptographic Foundations (T2 Focus)
-*   **Symmetric Ciphers:** Stream Ciphers (encrypting bit-by-bit, e.g., RC4) vs. Block Ciphers (encrypting fixed chunks, e.g., AES, DES).
-*   **Block Cipher Modes of Operation:**
-    *   **ECB (Electronic Codebook):** Encrypts each block independently. Identical plaintext blocks produce identical ciphertext blocks, leaking structural patterns.
-    *   **CBC (Cipher Block Chaining):** XORs each plaintext block with the previous ciphertext block before encryption, using an Initialization Vector (IV) for the first block to ensure randomization.
-
----
-
-> 💡 **Study Strategy:** Prioritize mapping the mathematical steps of **RSA**, write out a mockup of a parameterized vs unparameterized SQL statement, and trace how a packet flows during a **DNS Amplification** attack to secure the highest-yielding points on the exam.
+ing the mathematical steps of **RSA**, write out a mockup of a parameterized vs unparameterized SQL statement, and trace how a packet flows during a **DNS Amplification** attack to secure the highest-yielding points on the exam.
