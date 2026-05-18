@@ -37,6 +37,7 @@ Occurs when an application includes untrusted data in a web page without proper 
 *   **Confidentiality:** Ensuring data is accessible only to authorized entities (achieved via Encryption).
 *   **Integrity:** Assuring the accuracy and trustworthiness of data over its lifecycle (achieved via Hashing/MACs).
 *   **Availability:** Ensuring reliable access to information by authorized users (defended via redundant systems, DDoS mitigation).
+*   **Authentication:** ensuring every things that is used is used by verified user not unitended people or user 
 *   **Non-Repudiation:** Preventing an entity from denying an action or transaction (achieved via Digital Signatures).
 
 ### Data Encryption Standard (DES)
@@ -57,14 +58,3 @@ $$d \equiv e^{-1} \pmod{\phi(n)} \quad \text{or} \quad (d \times e) \pmod{\phi(n
 6. **Keys:** Public Key = $(e, n)$, Private Key = $(d, n)$.
 7. **Encryption:** $C = M^e \pmod n$
 8. **Decryption:** $M = C^d \pmod n$
-
-### Hashing
-A cryptographic hash function maps input data of arbitrary size to a fixed-size bit string (a message digest) in a strictly one-way deterministic operation.
-
-#### Key Properties:
-*   **Pre-image Resistance (One-Way):** Given a hash $H$, it is computationally infeasible to find the original input $x$ such that $Hash(x) = H$.
-*   **Second Pre-image Resistance:** Given an input $x_1$, it is infeasible to find a different input $x_2$ such that $Hash(x_1) = Hash(x_2)$.
-*   **Collision Resistance:** It is computationally infeasible to find *any* two distinct inputs $x_1$ and $x_2$ such that $Hash(x_1) = Hash(x_2)$.
-*   **Avalanche Effect:** A tiny change in the input (e.g., changing one bit) drastically alters the resulting output hash.
-
----
