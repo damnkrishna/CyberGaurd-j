@@ -13,6 +13,9 @@ DES
 RSA
 both are industry grade encryption alogrithums
 
+
+### SQL injection 
+
 SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = '...';
     ```
     *(The `OR '1'='1'` condition evaluates to true, bypassing authentication entirely).*
@@ -65,13 +68,3 @@ A cryptographic hash function maps input data of arbitrary size to a fixed-size 
 *   **Avalanche Effect:** A tiny change in the input (e.g., changing one bit) drastically alters the resulting output hash.
 
 ---
-
-## 4. System & Advanced Security Topics
-
-*Depending on the specific textbook alignment of your course, these modules typically drill into:*
-*   **Endpoint & OS Security:** Memory protection mechanisms like Address Space Layout Randomization (**ASLR**), Data Execution Prevention (**DEP** / NX bit), and protecting against buffer overflow attacks.
-*   **Intrusion Detection/Prevention Systems (IDS/IPS):** **Signature-based detection** (matching known bad patterns/hashes) vs. **Anomaly-based detection** (building a baseline of normal network behavior and flagging deviations using heuristics or machine learning).
-*   **Authentication & Access Control:** Implementing Role-Based Access Control (**RBAC**), Attribute-Based Access Control (**ABAC**), and secure protocols like OAuth 2.0, OIDC, and multi-factor authentication (MFA).
-
----
-ing the mathematical steps of **RSA**, write out a mockup of a parameterized vs unparameterized SQL statement, and trace how a packet flows during a **DNS Amplification** attack to secure the highest-yielding points on the exam.
