@@ -1,7 +1,5 @@
-well have to study for splunk cyber cert for architecture advance exam
-and also prepare for infosys l2 interview 
-and have to work at iit hyyhhy
-
+well have to study for splunk cyber cert for architecture advance exam 
+also planning to secure Microsoft free cert like sc-200 and az-500
 
 
 Well so rn I have left for kathgodam and my next few 6 days are going to be outing only and I won't be studying 
