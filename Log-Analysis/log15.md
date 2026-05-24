@@ -8,3 +8,6 @@ I have left for nainital and other 5 taal
 after that I would leave on Sunday morning for rajasthan mehndipur 
 
 and after that the very next day I have to leave for kanpur iit for my summer internship 
+
+
+no amount of work is equal to the work is equal to the work we have to do rn 
