@@ -11,3 +11,5 @@ and after that the very next day I have to leave for kanpur iit for my summer in
 
 
 no amount of work is equal to the work is equal to the work we have to do rn 
+
+also pt1 tryhackme is for free now let's see this is a golden opportunity to clear 3-4 online certs
