@@ -15,3 +15,10 @@ and after that the very next day I have to leave for kanpur iit for my summer in
 
 lets go the trip begins tomorrow 
 rn my brother is leaving in a hour then i will leave
+
+
+
+
+lol I am inside my train now leaving for kanpur will be there by 11.30am and inside campus by 1 pm at max 
+
+and my coordinator himself is coming to receive me at the gate
