@@ -9,7 +9,14 @@ after that I would leave on Sunday morning for rajasthan mehndipur
 
 and after that the very next day I have to leave for kanpur iit for my summer internship 
 
+well i made 2 friends today 
+- aditya gururani my roommate
+- satyam birla my neighbour roommate
+- and his roomate i dont remeber his name yet 
 
+but will ask himm slowly slowly i will increase the group 
+atleast having 3-4 friend in hostel 
+is nice 
 
 
 
