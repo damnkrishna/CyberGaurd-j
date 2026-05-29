@@ -18,14 +18,16 @@ but will ask himm slowly slowly i will increase the group
 atleast having 3-4 friend in hostel 
 is nice 
 
+- well not everything is going as i planned it 
+the guys i approached didnt contacted me back and i did one wrong thing asking them again 
+for dinner 
+when i should have stopped but no worries i tried maybe i failed but i approached tried to be extrovert 
+Well i guess that didnt worked out that well
 
-
-lets go the trip begins tomorrow 
-rn my brother is leaving in a hour then i will leave
-
-
-
-
-lol I am inside my train now leaving for kanpur will be there by 11.30am and inside campus by 1 pm at max 
-
-and my coordinator himself is coming to receive me at the gate
+no worries today is my joining and finally i am feeling like i am settling in with the stuff 
+i am working focusing or keeping myself distracted by day to day task 
+and working when i can 
+eat mess food its nice 
+and also lets see the main focus is the hub 
+i want to go their and gain expertise in my field that is my goal traget and everything 
+so lets focus on that 
