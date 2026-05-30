@@ -13,6 +13,13 @@ well i made 2 friends today
 - aditya gururani my roommate
 - satyam birla my neighbour roommate
 - and his roomate i dont remeber his name yet 
+- b507 i dont know his name yet but he is pandit and he looks friendly too he is from jaipur 
+- samir shukla c3ihub intern he is a 4 month intern trying to be fulltime there a little less knowledgable but he got the grit to get a job that might get him the job he might not be too educated but knows when too talk to someone for future growth of himself
+- sarthak pandey c3ihub intern he is good he is devoted got time got background got friendly nature and connection he might be good in next 1 year and also he seems to be the guy that loves to share what he is doing 
+- akarsh c3ihub intern he is something different he is a new joiny joined one day ago me 
+so he was not yet introduced to the concept of loneliness i think hence he was little focused less experssing or sharing but he was good he knows stuff too and can do stuff if needs to be done he is from electrical but got interest in security field he is good too 
+
+
 
 but will ask himm slowly slowly i will increase the group 
 atleast having 3-4 friend in hostel 
