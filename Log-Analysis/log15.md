@@ -54,3 +54,10 @@ well my roommate is great he is the type of guy that everyone who is focused but
 and chill when he wants to type 
 that is actually great for me 
 but the thing is i have to choose my niche interest soon or i will again for 2 months will keep exploring stuff and not be able to decide upon anything 
+
+
+well i breakfasted with my roommate he tried to approach first 
+but as to expand one side we have to give up on other side though i tried but i guess he was not in his room satyam 
+so i have to leave satyam behind for going to lunch with my roomate
+also the guy living in front side of the house 
+also happens to be talkative and interested and approachable he himself approaced yesterday and today said hi when i get out he himself said hi and i asked him a question regarding the press for cloth 
