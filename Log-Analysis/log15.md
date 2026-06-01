@@ -50,6 +50,9 @@ i guess i was right people do are lonely here
 they just cant trust someone that easily 
 
 
+lets goo with the work 
+and i build the work and hence the work 
+
 well my roommate is great he is the type of guy that everyone who is focused but want a cooperative roommate and freinds in hostel to work when he wants to works 
 and chill when he wants to type 
 that is actually great for me 
