@@ -64,3 +64,20 @@ but as to expand one side we have to give up on other side though i tried but i 
 so i have to leave satyam behind for going to lunch with my roomate
 also the guy living in front side of the house 
 also happens to be talkative and interested and approachable he himself approaced yesterday and today said hi when i get out he himself said hi and i asked him a question regarding the press for cloth 
+
+
+well so today my work was nothing i am just preparing to meet mr.karthik pawar 
+and till then i am preapring for what to say to him what steps to take what question to ask 
+
+how tactically showcase my project that aligns with his interest and experience and try to ask him for making him join some good industry grade current project that is going on rn 
+
+cause i want experience in real world situation rather than just 
+a research project like being assigned to other intern 
+i myself have built enough research iot project i know it in and out but now i need security experience realworld
+
+
+also as for the day today rubrik company contacted me for internship role there at infosec and site relaibility engineering intern 
+
+but ik even my resume and work project are great but the cgpa criteria and onsite not possible thing is going to kill my chance here for sure
+
+still i have applied lets see what happens
