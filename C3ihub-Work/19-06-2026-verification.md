@@ -44,3 +44,15 @@ and then by the end of this week i will ask divyanshu if he can put a good word 
 
 then i can ask him for full time role 
 well hope so if everything went well then 
+
+
+well i guess they got no work for me yet 
+but i am going to play it slow until they call me cause i already have an exam this weekend so i am going to prepare for it 
+no matter what 
+i am going to focus on that only 
+and if they call me or anything then i will start thinking about talking about full time role 
+till then if they dont need me its no use for me 
+lets see 
+but today i will prep for my splunk certified defenese architecture exam only 
+And if it is in my cntrol to pass it then i will be able to clear it no matter what 
+lets goo
