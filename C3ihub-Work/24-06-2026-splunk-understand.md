@@ -95,3 +95,35 @@ Intrusion Detection	IDS alerts
 Change	System modifications
 
 These appear repeatedly in Enterprise Security.
+
+tstats is a high-performance search command that queries accelerated data model summaries instead of raw events. It is commonly used by Enterprise Security correlation searches to perform detections efficiently at scale.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indexes  = Where data lives
+CIM      = How data is named
+Data Model = How related data is organized
+Acceleration = How searches become fast
+tstats = How ES queries the accelerated summaries
