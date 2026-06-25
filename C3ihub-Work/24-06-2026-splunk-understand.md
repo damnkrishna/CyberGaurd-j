@@ -100,7 +100,11 @@ tstats is a high-performance search command that queries accelerated data model 
 
 
 
+as the boss have also asked me to read splunk and google chromium and find what their siem have better than the siem we are building here at c3ihub
+well i guess he kind of trust me and also he himself have done the research and after that he asked me to recheck or verify and put my own points 
+for making it better improved version of it 
 
+well what can i say this is great opportunity of both learning and showing that how we can improve it 
 
 
 
