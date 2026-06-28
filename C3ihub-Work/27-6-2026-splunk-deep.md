@@ -14,6 +14,10 @@ just have to focus upon studying as much as i can for the exam
 ### One Memory Trick
 
 
+
+
+
+
 SAST → Inspect the blueprint.
 SCA → Check whether the building materials are defective.
 Secret Scanning → Make sure you didn't leave the master key lying around.
@@ -21,3 +25,8 @@ Container Scanning → Inspect the delivery truck and everything inside it.
 IaC Validation → Verify the construction plan follows safety codes.
 Security Gate → Final building inspector decides whether construction can continue.
 Runtime Monitoring → Security cameras and alarms after people move in.
+
+
+
+exam got fucked up 
+they revoked my exam cayse
