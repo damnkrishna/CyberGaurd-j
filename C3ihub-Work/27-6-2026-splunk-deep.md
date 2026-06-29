@@ -30,3 +30,13 @@ Runtime Monitoring → Security cameras and alarms after people move in.
 
 exam got fucked up 
 they revoked my exam cayse
+
+
+so as i told u yesterday exam was cancelled of mine
+but i got to know that i can clear the exam the question were very easy and i could have easily cleared it with no problem
+
+
+so whats done is done
+now lets go all in as this is the final last month of my  internship 50% is done 
+now have to leave with a proper good ending 
+And proper work so that they offer me ppo and i leave from here with proper learning and confidence for my future roles and placement time 
