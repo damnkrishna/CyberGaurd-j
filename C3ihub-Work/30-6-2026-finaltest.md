@@ -10,51 +10,7 @@ an2069 = done
 
 a lot of them are done 
 but need more work to be done on these rules
-claude are making so good suggestion but there is a limit on it 
-i cant just use it for everything 
 
-
-so finally now work is going at good speed 
-
-Ran command: `python -c "
-import os
-WORKSPACE = r'c:\Users\Sunil\OneDrive\Desktop\coorelation-rules'
-
-txt_files = []
-for root, dirs, files in os.walk(WORKSPACE):
-    for f in files:
-        if f.endswith('.txt'):
-            txt_files.append(os.path.join(root, f))
-
-print('All text files in workspace:')
-for p in txt_files:
-    print(f'  {os.path.relpath(p, WORKSPACE)}  ({os.path.getsize(p):,} bytes)')
-"`
-Viewed prompt_to.txt:1-141
-Ran command: `python -c "
-with open(r'c:\Users\Sunil\OneDrive\Desktop\coorelation-rules\all_sigma_rules.txt','r',encoding='utf-8',errors='ignore') as f:
-    content = f.read()
-import re
-print('Recon rules in all_sigma_rules.txt:')
-for i in range(2067, 2076):
-    an = f'AN{i}'
-    print(f'  {an}: {an in content}')
-"`
-Ran command: `python -c "
-import os
-desktop = r'c:\Users\Sunil\OneDrive\Desktop'
-files = [f for f in os.listdir(desktop) if os.path.isfile(os.path.join(desktop, f))]
-print('Files on Desktop:')
-for f in files:
-    if 'rules' in f.lower() or 'extracted' in f.lower() or 'sigma' in f.lower() or 'message' in f.lower() or f.endswith('.txt'):
-        print(f'  {f}  ({os.path.getsize(os.path.join(desktop, f)):,} bytes)')
-"`
-
-Let's clear up the confusion. By checking the exact **AN codes (e.g. `AN2098`)** and **CR codes (e.g. `CR0100`)** inside `all_sigma_rules.txt` and `message (3).txt` (which contains the 86 shared rules), we found the exact count of rules that are **not yet in those files**.
-
-Here is the final breakdown of the rules you still need to share with your mentor:
-
----
 
 ### 1. Sigma Detection Rules (102 rules to share)
 These are rules present in your tactic folders whose code (like `AN0243`) is **not** in `all_sigma_rules.txt`:
