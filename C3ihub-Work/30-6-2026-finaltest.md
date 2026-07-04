@@ -32,20 +32,7 @@ These are rules present in the `new work/` folder that are **not** present in `m
 *   **Lateral Movement (`CR0087` to `CR0113`):** **14 rules**
 
 ---
-
-### 📋 Where are these compiled files?
-I have created consolidated files for exactly these rules in your `scratch/` folder:
-
-1.  **Today's Sprint Sigma Rules (32 rules):** 
-    [today_sprint_sigma_rules.txt](file:///c:/Users/Sunil/OneDrive/Desktop/coorelation-rules/scratch/today_sprint_sigma_rules.txt)
-2.  **All Unshared Sigma Rules (102 rules total):** 
-    [all_unshared_sigma_rules.txt](file:///c:/Users/Sunil/OneDrive/Desktop/coorelation-rules/scratch/all_unshared_sigma_rules.txt)
-3.  **Unshared Correlation Rules (27 rules):** 
-    [unshared_correlation_rules.txt](file:///c:/Users/Sunil/OneDrive/Desktop/coorelation-rules/scratch/unshared_correlation_rules.txt)
-
-If you only want to send him the brand new ones written today plus the new correlation rules, you need to share **32 Sigma rules** (File 1) and **27 Correlation rules** (File 3) — a total of **59 rules**.
-
-
+fine did the final submission
 
 
 
