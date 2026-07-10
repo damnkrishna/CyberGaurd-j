@@ -46,3 +46,12 @@ For our traditional endpoint and local AD footprint, we have the telemetry and c
 * **Credential Dumping (DCSync):** We can write a rule for Event ID 4662, filtering on replication GUIDs (`1131f6aa-9c07-11d1-f79f-00c04fc2dcd2`).
 * **Privilege Escalation:** We can write rules for `SeDebugPrivilege` assignment (Event 4703) and Linux `sudo` abuse (via `auditd`). *(Note: The 4703 rule will require careful tuning against specific processes to avoid noise).*
 * **Agent Tamper Protection:** We can incorporate deterministic service state changes (System Event 7036/7040) to detect security agent tampering.
+
+
+
+completed the coverage finally 
+
+now just sharing it to karthik for checking 
+even divyanshu verified it all 
+and gave feedback that it is fine and i should share it to karthik now 
+
