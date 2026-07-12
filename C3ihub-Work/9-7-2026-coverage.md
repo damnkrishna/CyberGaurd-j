@@ -58,3 +58,8 @@ and gave feedback that it is fine and i should share it to karthik now
 well karthik called me as he wanted a more deeper coverage and gap data 
 cause we lack that 
 also he wants me to put data in lack coverage rather than 
+gap or partial 
+
+as they want a full coverage of what is possible how it is possible and how to wirte rule for it and everything
+
+ik this work is crazy as ya i can document those things but can they replace me no they cant the depth i have right now of their undergoing project even they dont have that level of depth yup if i give them full github access they might be able to continue but i have everything kind of covered and understood starting from architecture to each rule wise coverage i got it all
