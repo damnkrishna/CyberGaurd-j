@@ -11,3 +11,13 @@ and the biggest problem is whenever i start doing it something happens
 either some is given to me by prof or some works comes so have to finish this today only 
 
 
+
+fine i am just wrapping up the full work now 
+
+as last one week is left i dont get any interest in doing any more work now 
+
+i am just chilling now 
+
+cause i am really not interested now 
+
+
