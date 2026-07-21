@@ -26,3 +26,21 @@ i am just chilling now
 cause i am really not interested now 
 
 
+today finally i reached my office 
+first thing first i will complete the manual review of the excel sheet as divyanshu asked me to verify fully every single thing and read it properly 
+no fuck ups this time
+so i guess this is no way 
+i will make a fuck up this time
+
+so first task of the day is manual review of whole file 
+
+and then go talk to divyanshu about u have done both the task assigned 
+and its fine 
+Will ask no further work 
+
+until they explicitly asked me to do something i will not take any other work 
+
+
+completed manual review of all 50 shared it 
+got new work almost finished it 
+got a oa today but wont be doing it 
