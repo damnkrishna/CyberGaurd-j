@@ -35,3 +35,16 @@ The internship report also turned out good — the final version. I'm going to s
 
 ## Reflection
 Everything's going well so far — I've got the mental clarity I needed. Opportunities are out there; the only thing we need is the right connections. In India, there's actually more opportunity than anywhere else. Obviously the pay is lower compared to abroad, but apart from that, the opportunities are very much present here.
+
+
+well regarding the interview thing 
+now i got the interview scheduled now i am trying to get it phyical mode
+Cause i really want to give a upfront interview rather than a online interview 
+i have asked karthik lets see if it can be scheduled in like 2 days
+or not 
+Cause i am leaving kanpur on tuesday 12pm afternoon 
+
+so almost 2 days left 
+i have very less time even they got very less time 
+so i have to be crytsal clear and target stuffs 
+one at a time now 
