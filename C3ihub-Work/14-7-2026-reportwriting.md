@@ -48,3 +48,10 @@ so almost 2 days left
 i have very less time even they got very less time 
 so i have to be crytsal clear and target stuffs 
 one at a time now 
+
+
+just gotta text the hr regarding the further interview date 
+as i am planning to give the interview on monday 
+i will text hr today 
+regarding the same 
+and will give interview on monday 
