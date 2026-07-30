@@ -55,3 +55,8 @@ as i am planning to give the interview on monday
 i will text hr today 
 regarding the same 
 and will give interview on monday 
+
+
+Well the interview went great and just waiting for the feedback on my interview lets see 
+
+my interview went too well and great not gonna lie it was great
