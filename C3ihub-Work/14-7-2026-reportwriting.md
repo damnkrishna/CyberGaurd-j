@@ -60,3 +60,23 @@ and will give interview on monday
 Well the interview went great and just waiting for the feedback on my interview lets see 
 
 my interview went too well and great not gonna lie it was great
+
+
+so a little things got fucked up 
+as the hr called last night and she was not aware that i have still not completed my degree 
+and this is such a unique case as i was referal type my interview went great 
+i am in perfect position as a join
+the only the thing that is fucking all this up 
+is the policy now which she said she will get back to me 
+by today 
+
+
+i dont think they will change the rule and policy for me and its crazy how they are ready to change rule for nisarg adhikari but not for a general student 
+i am quite in a position i dont know what to do 
+but i am not expecting anything from anyone rn 
+
+
+i will start my next run will start working on developing more skills in cyber security 
+but now i understand this is the field i can keep working in for years and have fun in it 
+
+definitely the pay will be less but its fun to explain to others and to spend time on
