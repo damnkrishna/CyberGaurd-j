@@ -96,3 +96,9 @@ Quick reference of what's covered today, so it's easy to jump back to at a glanc
 | cgroups | Controls what a container can *use* (memory, CPU) — this is how you'll trigger your OOM chaos scenarios |
 
 Suggested next checkpoint once you're into Docker basics: try triggering an actual OOM kill with a `--memory` limit on a container, then watch it with Falco to see what the syscall trail looks like right before the kill. That'll directly connect today's two halves (syscalls/Falco and namespaces/cgroups) into one working example.
+
+
+
+so i think for our project we will be using docker-build cloud 
+
+As we want to host the whole server online no local device or anything so that we can scale and use it from any location and anywhere that is what is the idea of the projject we are building 
