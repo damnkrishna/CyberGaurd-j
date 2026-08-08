@@ -34,3 +34,31 @@ and using fuzzing and online automated  tools
 
 and stuff cause my next goal is to start as a pentester and become so good that it become my side earning as a bug bounty hunter and i will make it possible now 
 
+
+its crazy i started with docker 
+then kubernetes 
+then trying to understand how a single machine can be simulated and runned on several platform 
+at the same with minimal resource and the smallest amount of stuff that we actually control a pod which self heals after some time 
+keep repairing itself as soon as one pod dies it gets changed by other
+
+who thought of all those things 
+but well we are in the age of ai 
+where anything is possible 
+and guess what this was not enough 
+a k8 kuberenetes that used normal reosurce scholars found a way that uses even lesser resource and that is k3 
+
+what the helll is happening thats so great just to be trutful this constant improvement and using new technology just inspires me so much i cant even think about anything else 
+lately 
+
+and then here i am going to build a kuberenetes slef heal engine from scratch trying to build a better more relaiable engine 
+that will not just replace pod when it dies but identifies the real issue of its dying will try to fix it before it dies and tries to fnd the reason behind it 
+and itself will run the command that will fix the issue 
+
+its so great i cant even stop writing about it 
+
+so k3s are so light they dont even need 1gb ram to run just 500mb storage and 500mb ram is enough to run this 
+and even it uses lightweight stuff to run 
+
+and use sqlite and use kine which directly contact and transalte with these tools itself and doesnt requries some heavy connection between stuffs it can work without heavy connection or load on servers
+
+
