@@ -34,49 +34,23 @@ So yeah, if they offer anything above 12 LPA, I'll be happy to join.
 The internship report also turned out good — the final version. I'm going to send it soon, right after I meet Karthik and get his sign on my report notebook.
 
 ## Reflection
-Everything's going well so far — I've got the mental clarity I needed. Opportunities are out there; the only thing we need is the right connections. In India, there's actually more opportunity than anywhere else. Obviously the pay is lower compared to abroad, but apart from that, the opportunities are very much present here.
+Everything's going well so far — I've got the mental clarity I needed. Opportunities are out there; the only thing we need is the right connections. In India, there's actually more opportunity than anywhere here. Obviously the pay is lower compared to abroad, but apart from that, the opportunities are very much present here.
 
+## The Interview Push
+Well, regarding the interview thing — now I've got the interview scheduled, and now I'm trying to get it in physical mode. 'Cause I really want to give an upfront interview rather than an online interview. I've asked Karthik — let's see if it can be scheduled in like 2 days or not. 'Cause I'm leaving Kanpur on Tuesday, 12pm afternoon.
 
-well regarding the interview thing 
-now i got the interview scheduled now i am trying to get it phyical mode
-Cause i really want to give a upfront interview rather than a online interview 
-i have asked karthik lets see if it can be scheduled in like 2 days
-or not 
-Cause i am leaving kanpur on tuesday 12pm afternoon 
+So, almost 2 days left. I have very little time, and even they have very little time. So I have to be crystal clear and target stuff one at a time now.
 
-so almost 2 days left 
-i have very less time even they got very less time 
-so i have to be crytsal clear and target stuffs 
-one at a time now 
+## Texting HR
+Just gotta text the HR regarding the further interview date, as I'm planning to give the interview on Monday. I'll text HR today regarding the same, and will give the interview on Monday.
 
+## Interview Day
+Well, the interview went great, and just waiting for the feedback on my interview — let's see. My interview went too well and great, not gonna lie, it was great.
 
-just gotta text the hr regarding the further interview date 
-as i am planning to give the interview on monday 
-i will text hr today 
-regarding the same 
-and will give interview on monday 
+## The Complication
+So a little thing got messed up — the HR called last night, and she was not aware that I still haven't completed my degree. This is such a unique case, since I was referral type, and my interview went great. I'm in a perfect position to join. The only thing that's messing all this up is the policy — which she said she'll get back to me about by today.
 
+I don't think they'll change the rule and policy for me, and it's crazy how they're ready to change the rule for Nisarg Adhikari but not for a general student. I'm in quite a position — I don't know what to do. But I'm not expecting anything from anyone right now.
 
-Well the interview went great and just waiting for the feedback on my interview lets see 
-
-my interview went too well and great not gonna lie it was great
-
-
-so a little things got fucked up 
-as the hr called last night and she was not aware that i have still not completed my degree 
-and this is such a unique case as i was referal type my interview went great 
-i am in perfect position as a join
-the only the thing that is fucking all this up 
-is the policy now which she said she will get back to me 
-by today 
-
-
-i dont think they will change the rule and policy for me and its crazy how they are ready to change rule for nisarg adhikari but not for a general student 
-i am quite in a position i dont know what to do 
-but i am not expecting anything from anyone rn 
-
-
-i will start my next run will start working on developing more skills in cyber security 
-but now i understand this is the field i can keep working in for years and have fun in it 
-
-definitely the pay will be less but its fun to explain to others and to spend time on
+## Moving Forward
+I'll start my next run — I'll start working on developing more skills in cybersecurity. But now I understand this is the field I can keep working in for years and have fun in it. Definitely the pay will be less, but it's fun to explain to others and to spend time on.
