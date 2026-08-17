@@ -1,64 +1,66 @@
-so today our goal will be to run docker run some specific commands of docker and try to build the pod 
-we are going to make in the main project that leaks and throws ram and stuff 
+# Journal Entry — August 17, 2026
 
+## Personal Reflections
 
-lets goo
+Yesterday wasn't exactly wasted — I spent it with mom, chilling and relaxing. We thought my cousins would be visiting today, but that plan fell through. They're not coming anymore, and honestly, I'm still a bit confused about what to do with myself now.
 
-i wasted my yesterday well it was not exactly waste
-but i kind of spend my time with mom and chilling an relaxing as we thought tomorrow my cousins will be coming 
-but no they are not coming not anymore 
-What should i do is still confusing for me 
+To add to that, this HR call has been messing with my head lately. I'm finding it hard to decide on things right now.
 
+## Today's Plan
 
-i dont know what i am doing this hr call is fucking with my mind lately 
-i am not able to decide
-well lets see i have to go to iit delhi today with my friend cause he has a meeting with professor 
-and so i am also free i want to go outside why not got to iit delhi so i decided to lets goo and check it out
+I'm heading to IIT Delhi today with a friend — he has a meeting with a professor there, and since I'm free, I figured why not tag along and check the place out.
 
-but i am literally of the study for now 7 days+ time i need to do something 
+That said, I've been off my studies for 7+ days now, and it's time to get back into it. I'm finally starting to plan things out again — looking into what I should actually be doing instead of wasting time chilling on the sofa or rotting in my room.
 
-yes lets go finally starting to plan some stuff and do some stuff lately 
-finally i am looking into stuff like i should be 
-and not just wasting time chilling on my sofa or rotting in my room
+## The Career Decision
 
-leaving a 27lpa package oa for what i actually like and want to chase have given me both a sense of direction 
-and the importance of proceeding towards what i really want cause for what i want i am literally leaving all the others things 
-That others are offering me and not even going for them
-Thats like leaving the biggest opprtunity on gate for the opprtunity i actually want 
-i know it is a dumb ass decision but i have made my choice and i can survive as a security engineer but not a software developer engineer for sure
+Leaving a 27 LPA offer for what I actually want to chase has given me a strong sense of direction. It's reinforced how important it is to keep moving toward what I really want — because for it, I'm walking away from everything else being offered to me.
 
-so lets keep pushing 
-and actually i am going to restart my journer as a pentester reading that hacker handbook book
-and practising on that port swigger labs 
-and using fuzzing and online automated  tools 
+I know it sounds like leaving the biggest opportunity at the gate for the one I actually want. It might seem like a dumb decision to some, but I've made my choice. I know I can survive as a security engineer — but not as a software development engineer, not for sure. So I'm going to keep pushing.
 
-and stuff cause my next goal is to start as a pentester and become so good that it become my side earning as a bug bounty hunter and i will make it possible now 
+## Restarting the Pentesting Journey
 
+I'm restarting my journey as a pentester:
 
-its crazy i started with docker 
-then kubernetes 
-then trying to understand how a single machine can be simulated and runned on several platform 
-at the same with minimal resource and the smallest amount of stuff that we actually control a pod which self heals after some time 
-keep repairing itself as soon as one pod dies it gets changed by other
+- Reading *The Web Application Hacker's Handbook*
+- Practicing on PortSwigger labs
+- Getting hands-on with fuzzing and automated online tools
 
-who thought of all those things 
-but well we are in the age of ai 
-where anything is possible 
-and guess what this was not enough 
-a k8 kuberenetes that used normal reosurce scholars found a way that uses even lesser resource and that is k3 
+My next goal is to become good enough at this to start earning on the side as a bug bounty hunter. I'm making it happen now.
 
-what the helll is happening thats so great just to be trutful this constant improvement and using new technology just inspires me so much i cant even think about anything else 
-lately 
+## The Technical Journey So Far
 
-and then here i am going to build a kuberenetes slef heal engine from scratch trying to build a better more relaiable engine 
-that will not just replace pod when it dies but identifies the real issue of its dying will try to fix it before it dies and tries to fnd the reason behind it 
-and itself will run the command that will fix the issue 
+It's been a wild path:
 
-its so great i cant even stop writing about it 
+1. Started with **Docker**
+2. Moved to **Kubernetes**
+3. Got fascinated by how a single machine can be simulated and run across multiple platforms simultaneously, with minimal resources — controlling a pod that self-heals, repairing itself the moment it dies by spinning up a replacement
 
-so k3s are so light they dont even need 1gb ram to run just 500mb storage and 500mb ram is enough to run this 
-and even it uses lightweight stuff to run 
+Who even thought of building something like that? But we're in the age of AI now, where anything feels possible.
 
-and use sqlite and use kine which directly contact and transalte with these tools itself and doesnt requries some heavy connection between stuffs it can work without heavy connection or load on servers
+And it didn't stop there — K8s, which already used relatively modest resources, got an even lighter alternative: **K3s**. This constant push toward improvement and new technology is genuinely what's inspiring me right now — I can't stop thinking about it.
 
+### Why K3s Stands Out
 
+- Doesn't need close to 1GB of RAM to run
+- Around 500MB storage and 500MB RAM is enough
+- Uses lightweight components throughout
+- Uses **SQLite** by default
+- Uses **Kine**, which translates directly between these tools without requiring a heavy connection layer — it can run without a heavy load on servers
+
+## Project Vision: A Better Self-Healing Kubernetes Engine
+
+This is what I'm building next — a Kubernetes self-healing engine from scratch, designed to be more reliable than the standard approach.
+
+Instead of just replacing a pod after it dies, the engine will:
+
+- Identify the *real* root cause behind the failure
+- Attempt to fix the issue **before** the pod actually dies
+- Diagnose the underlying reason for the failure
+- Run the necessary commands itself to resolve the issue
+
+---
+
+### Today's Docker Goal
+
+Run specific Docker commands and build out the pod for the main project — the one that's currently leaking memory and throwing RAM-related issues — as a step toward this larger self-healing system.
