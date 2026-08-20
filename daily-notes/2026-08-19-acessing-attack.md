@@ -20,3 +20,17 @@ and also
 i have also photocopied 
 the attacker handbook book next 100 pages so first i will complete it side by side then will think further 
 so lets go 
+
+
+while i have got some doubts 
+well why the fuck should i waste my whole day 
+for others i spent my whole day yesterday 
+Figuring out colleges for my cousin
+visiting several colleges and at last i liked none of them
+and ended up with headache body pain and lack of sleep but not today 
+i wont be doing these things
+today 
+i just want to study a little and work a little i know this will go on for next 2-3 days 
+but still i cant spend my whole day for someone else
+thats what i am saying 
+
