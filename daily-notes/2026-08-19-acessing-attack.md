@@ -29,3 +29,20 @@ On your actual question — other ways to spot SQL injection besides the classic
 - **Out-of-band (OAST)**: For cases where there's no visible or timing feedback at all, trigger a DNS/HTTP callback (Burp Collaborator is built for exactly this).
 
 Since you're already on PortSwigger, their SQL injection topic page walks through all five of these with labs for each — worth doing in order since blind/OOB techniques build on the error-based intuition you already have.
+
+
+
+
+well the thing is quite different as from last 2 days i have been solely been spending my two whole days for my cousins admission and everything 
+cause i really dont know what to do now 
+i finally got their admission but this bad feeling of what i will be doing when i get the job and if i didnt get the job then what will i do 
+Cause i really want job security though my dad is there to provide me for job security but i have to be sure that i get the job i dont give a shit what the work is about i have to be expert in the field 
+i have to get back on track well it is not that tough though but like i got to start my work again and not stop until it is completely done so
+
+for task i am going to do today is 
+-> read book ethical hacking book atleast 10 pages
+-> try one port swigger room 
+-> watch one tcm video for 30 min minimum
+
+and before i do all this first i have to submit all college assignment for mooc 
+first i will do that 
