@@ -46,3 +46,16 @@ for task i am going to do today is
 
 and before i do all this first i have to submit all college assignment for mooc 
 first i will do that 
+
+well yesterday went great  i was able to sit from morning 8 am to evening 5 pm 
+and completed almost all the work i had to do 
+and it was good 
+also we finished what we had to and what i wanted to do except reading the book
+and that too i tried but sometime is happen i am unable to understand a thing and that happened 
+i tried read one reaserch paper understood that
+next tried to read the book 
+but was unable to read it so what can i do its fine
+so for my goal of today i am gonna do pentest today read 20 pages of the book
+then try port swigger room of the topic i am going to try port swigger room then try to clear that room on my own 
+and then watch tcm video for basic of pentest for 30 min
+thats what i will do today 
