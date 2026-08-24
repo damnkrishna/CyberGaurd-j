@@ -91,6 +91,78 @@ import DOMPurify from 'dompurify';
 el.innerHTML = DOMPurify.sanitize(userInput);
 ```
 
+### DOM-Based XSS — Quick Reference
+
+Purely client-side vulnerability. The payload **never touches the server** — the server sends legit JS, and that script mishandles user input at runtime in the browser.
+
+---
+
+#### 1. Core Concept: Source → Sink
+
+- **Source**: attacker-controlled JS property, e.g. `location.search`, `location.hash`, `document.referrer`, `window.name`
+- **Sink**: dangerous JS/DOM function that executes or renders raw input, e.g. `eval()`, `document.write()`, `innerHTML`
+
+```
+Source (attacker controls URL) → JS (unsafe processing) → Sink (executes payload)
+```
+
+---
+
+#### 2. Classic Payload (old-school)
+
+**Vulnerable code:**
+```js
+let searchParams = new URLSearchParams(window.location.search);
+let query = searchParams.get('search');
+document.getElementById('result').innerHTML = "You searched for: " + query;
+```
+
+**Malicious link:**
+```
+https://vulnerable-site.com/page.html?search=<img src=x onerror=alert(document.domain)>
+```
+Server sends clean HTML → client JS reads `search` param → writes it raw into `innerHTML` → `onerror` fires → executes, entirely client-side.
+
+#### 3. Modern Risk (frameworks/evasion)
+
+Frameworks (React/Vue/Angular) auto-encode text bindings by default, but risk returns when devs:
+- Use raw sinks for rich text/markdown rendering
+- Read from `location.hash` (never sent to server, so **no server log trace**) into `eval()` or jQuery selector sink `$()`
+
+---
+
+#### 4. Detection Workflow
+
+1. **Source mapping** — grep client JS for `location.search`, `location.hash`, `document.referrer`, `window.name`
+2. **Sink tracking** — grep for `innerHTML`, `outerHTML`, `document.write`, `eval`
+3. **Canary injection** — put `DOMCANARY99` in a URL param
+4. **DOM inspection** — check the **Elements panel** (live DOM), not "View Source" (only shows raw server response), to see if the canary lands unencoded in an executable context
+
+---
+
+#### 5. Prevention
+
+**Avoid dangerous sinks:**
+```js
+// Bad
+el.innerHTML = userInput;
+eval(userInput);
+document.write(userInput);
+
+// Good
+el.textContent = userInput;
+```
+
+**Sanitize if HTML is required:**
+```js
+import DOMPurify from 'dompurify';
+el.innerHTML = DOMPurify.sanitize(userInput);
+```
+
+**Frameworks:** let React/Vue render natively — avoid `dangerouslySetInnerHTML` / `v-html` unless input is sanitized first.
+
+
+
 ## To check if xss is possible
 
 -> use alert() => will pop up and show /verify that xss is possible
