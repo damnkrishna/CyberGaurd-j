@@ -21,6 +21,11 @@ an attacker tricks a useer into clicking a bad link to run malicious script
 eg: <script> alert("hello") </script> => into input box
     <script> window.location.href="hacker.login.php"</script>
 
+### Stored xss
+well i am not sure what we do in this specific but i have an idea that here the script is already stored inside the link and when people just click the link it automatically run or soemthng like that 
+lets see when we read it what that is about
+
+
 ## To check if xss is possible
 
 -> use alert() => will pop up and show /verify that xss is possible
