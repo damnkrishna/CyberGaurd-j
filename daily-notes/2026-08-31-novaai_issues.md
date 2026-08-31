@@ -77,3 +77,15 @@ the people working upon all this are way ahead of me
 atleast what i saw was a fast working recon that too was actually giiving me dark web data and not just blurring it out like virustotal and other open soruce website its good but dangerous as well
 
 <img width="603" height="326" alt="image" src="https://github.com/user-attachments/assets/4d8cc962-3c36-42ac-8337-8c6dca2684df" />
+
+
+
+## That's the real finding here, and it's a bigger deal than the zoom bug.
+
+Think about what actually happened: you signed up with a personal college email address, and the platform inferred your institution's domain and then ran active scanning and dark web correlation against that institution's entire infrastructure — including pulling exposed credentials belonging to your professors, who never signed up for anything and never consented to any of this. There was no step where anyone checked "does this person have authorization to test this organization," no domain-ownership verification (like a DNS TXT record challenge or an email-to-a-registered-admin-address flow), nothing. Your college email just being @college.edu was treated as sufficient proof you're allowed to pentest the whole college.
+
+That's a genuine authorization/access-control flaw in the platform itself, and it's arguably worse than most bugs you'd find in a VAPT engagement, because:
+
+- It's giving away other people's PII by default. Your professors' exposed dark-web credentials are personal data about third parties who have no relationship with this platform. Handing that to any random student who signs up is a real privacy failure, not just a "cool but risky" feature.
+- It puts users in legal jeopardy without them realizing it. In a real engagement, the client has to sign a scope/authorization document before anyone touches their infrastructure — precisely because running scans against a domain you don't own or have written permission to test can fall under unauthorized access provisions (IT Act in India, similar laws elsewhere). By letting you trigger this with zero verification, the platform effectively let you do something that could be legally questionable, without ever telling you that.
+- It undercuts their whole pitch. A platform selling itself as replacing professional security services just skipped the single most basic thing every real security firm does first — confirming engagement scope and authorization — before firing off scans.
