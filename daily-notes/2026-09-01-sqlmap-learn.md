@@ -62,3 +62,39 @@ just to remeber the command i runned
 └─$ sqlmap -r newinjection.txt --force-ssl -p TrackingId --level=2 --technique=B --prefix="'" -T users -C username,password --dump --batch
 
 
+# How to Use SQLMAP tool
+
+For a PortSwigger lab (or any environment you're authorized to test), here's a solid "throw everything at it" command that maximizes detection depth in one go:
+
+```bash
+sqlmap -r newinjection.txt --force-ssl -p TrackingId \
+  --level=5 --risk=3 \
+  --dbms=SQLite \
+  --batch \
+  --random-agent \
+  --tamper=space2comment \
+  -T users -C username,password --dump
+```
+
+**What each flag actually buys you:**
+
+| Flag | Why |
+|---|---|
+| `--level=5` | Max level — tests every injection point sqlmap knows (headers, cookies, referer, etc.) and every payload variant. Level 2 (your earlier runs) skips a lot of these. |
+| `--risk=3` | Max risk — includes OR-based and heavier payloads that could affect data, but on a throwaway lab DB that's fine. This is the flag that was silently skipping tons of tests in your `-v 3` output ("risk 3 higher than provided 1"). |
+| `--dbms=SQLite` | PortSwigger labs run SQLite. Telling sqlmap up front skips ~80% of irrelevant MySQL/Oracle/MSSQL/Postgres fingerprinting attempts and speeds things up massively. |
+| `--batch` | Auto-answers all prompts with defaults, no interaction needed. |
+| `--random-agent` | Rotates a real browser UA per request — helps if a WAF/filter is UA-sensitive. |
+| `--tamper=space2comment` | Rewrites spaces as SQL comments to dodge basic input filtering — cheap to include, no downside. |
+| Drop `--technique=B` | Letting sqlmap try all techniques (not just boolean-blind) means if you guessed wrong about the injection type, it still finds it. Only restrict to `-technique=B` once you've confirmed it's boolean-blind specifically. |
+| Drop `--prefix="'"` | Let sqlmap discover the correct prefix/suffix itself first via its automated tests — only pin it manually once you know for certain (e.g. after manually confirming in Burp that `'` breaks the query). |
+
+**My actual recommendation for how to work through this lab specifically:**
+
+1. First run *without* `--technique` and `--prefix`, just to detect injectability cleanly:
+```bash
+sqlmap -r newinjection.txt --force-ssl -p TrackingId --level=5 --risk=3 --dbms=SQLite --batch
+```
+2. Once sqlmap confirms `TrackingId` is injectable and tells you the technique + payload it used, *then* add `-T users -C username,password --dump` to actually pull data — no need to guess `--technique`/`--prefix` if sqlmap already found it.
+
+Since you're still hitting the exact same 400 at the very first connectivity check even in your last run, get that resolved first (try `--force-ssl` as I suggested) — no combination of level/risk/dbms flags will help if the baseline request itself is being rejected before any payload logic even runs. Once you get past that first 400, this level=5/risk=3/dbms=SQLite combo is genuinely your fastest path to a confirmed result.
