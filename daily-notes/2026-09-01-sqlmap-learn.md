@@ -17,3 +17,18 @@ i will really be able to secure a job
 
 just keep patience and keep applying 
 and everythign will be fine 
+
+
+
+well my cousin is coming one today and one tomorrow it seems that 
+i am the type of guy who actually performs more when people are around 
+maybe to show off or maybe cause i am restricted to my desk than if guest are at home whatever the thing is
+
+when relatives are at home 
+i seem to study for more hours and get more study hours out of my day to day schedule 
+i know it looks like i perform only when people are watching or making me a performative male 
+but whatever suits the purpose of me studying
+i dont care about the reason behind it as long as i am studying 
+
+
+i will clear that sql injection room for sure i can say that for sure 
