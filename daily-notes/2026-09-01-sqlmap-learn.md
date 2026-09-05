@@ -98,3 +98,18 @@ sqlmap -r newinjection.txt --force-ssl -p TrackingId --level=5 --risk=3 --dbms=S
 2. Once sqlmap confirms `TrackingId` is injectable and tells you the technique + payload it used, *then* add `-T users -C username,password --dump` to actually pull data — no need to guess `--technique`/`--prefix` if sqlmap already found it.
 
 Since you're still hitting the exact same 400 at the very first connectivity check even in your last run, get that resolved first (try `--force-ssl` as I suggested) — no combination of level/risk/dbms flags will help if the baseline request itself is being rejected before any payload logic even runs. Once you get past that first 400, this level=5/risk=3/dbms=SQLite combo is genuinely your fastest path to a confirmed result.
+
+
+
+
+
+## blind sql injection lab with condtional error 
+
+it seems that burpsuite doesnt return every single vulnerability as we all know it is vulnerable lab 
+and can use it but burp is showing no severe lets see what we can do from here
+
+
+<img width="959" height="431" alt="image" src="https://github.com/user-attachments/assets/0f010ccc-77c2-4e35-b1ce-f50b1b5777f8" />
+
+
+
