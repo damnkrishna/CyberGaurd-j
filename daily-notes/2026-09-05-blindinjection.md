@@ -53,6 +53,18 @@ i did that room yesterday finally
 <img width="959" height="431" alt="Screenshot 2026-09-05 104257" src="https://github.com/user-attachments/assets/092a0048-fda5-489a-a3a8-abad71bf5172" />
 
 
+
+
+
+doing a new room 
+blind sql injection with time delay
+ and it seems the category is priniting  input in output but i think might not be touching the database 
+ but lets see what we can do 
+ 
+<img width="809" height="382" alt="image" src="https://github.com/user-attachments/assets/ea693c9c-2f26-4aa3-abc8-56b2cf48c55c" />
+
+
+
 i didnt used sqlmap 
 cause sqlmap was not able to solve that room 
 so i have to manually and using burp intruder find the password for the administrator account it was tough 
