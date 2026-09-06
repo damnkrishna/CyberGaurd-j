@@ -43,70 +43,18 @@ ACCESS THE LAB
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Community solutions
-
-Find SQL injection vulnerabilities using Burp Suite
-TRY FOR FREE
-Burp Suite
-Web vulnerability scanner
-Burp Suite Editions
-Release Notes
- Vulnerabilities
-Cross-site scripting (XSS)
-SQL injection
-Cross-site request forgery
-XML external entity injection
-Directory traversal
-Server-side request forgery
- Customers
-Organizations
-Testers
-Developers
- Company
-About
-Careers
-Contact
-Legal
-Privacy Notice
-Modern Slavery Statement
- Insights
-Web Security Academy
-Blog
-Research
- 
-Follow us
-© 2026 PortSwigger Ltd.
-
-
-
 Cookie: TrackingId=bgL0TNQcHbUbpoEl; session=OJyMKFgDnQIjKNyiprdZYlrjn2d6I0es
 
 
 so if possible give me the manual how to see this myself before running the sql map and how i will test it myself
 
+i did that room yesterday finally
 
+<img width="959" height="431" alt="Screenshot 2026-09-05 104257" src="https://github.com/user-attachments/assets/092a0048-fda5-489a-a3a8-abad71bf5172" />
+
+
+i didnt used sqlmap 
+cause sqlmap was not able to solve that room 
+so i have to manually and using burp intruder find the password for the administrator account it was tough 
+As the commands i had to use to solve the room i was not aware about that 
+but it seems sql injection is not as tough as i used to think it was 
