@@ -1,68 +1,60 @@
-## my goal for tommorrow is solely to use and learn sql map to learn how to use burp request post or paramter and response and how to test it if it is a true vulneraibility or not 
-from sqlmap tool
+# Daily Log & SQLMap Notes
 
-and tomorrow the sole goal is this and this only
+## Goal for Tomorrow
 
+My goal for tomorrow is solely to use and learn the sqlmap tool — how to use a Burp request/parameter and response, and how to test whether it is a true vulnerability or not using the sqlmap tool.
 
-i am feeling way too low today i am feeling like a dead body how cant even move 
-i know i have a call and maybe today or tomrrow and cause of that i am not sure whether i am saving my energy or just lazy i am feeling like watching a good series not gonna lie
-i feel like just chilling watching a series and do nothing type feel this has been coming a lot lately maybe i am recovering and it is normal but i need to study as well so for today i am just gonna do a little of regular daily streak maintaince just that and no extra
+Tomorrow, the sole goal is this and this only.
 
+## How I'm Feeling Today
 
-have done no shit till now 
-yesterday too i just had a resume review and a bangalore based security expert told me that my resume can get me 10 lpa+ job as i wish 
-if i keep applying and stay consistent it wont be a issue
-i will really be able to secure a job 
+I am feeling way too low today. I am feeling like a dead body that can't even move. I know I have a call maybe today or tomorrow, and because of that I am not sure whether I am saving my energy or just being lazy. I feel like watching a good series, not gonna lie. I feel like just chilling, watching a series, and doing nothing — this feeling has been coming a lot lately. Maybe I am recovering and it is normal, but I need to study as well. So for today, I am just gonna do a little regular daily streak maintenance, just that, and no extra.
 
+Have done nothing so far today.
 
-just keep patience and keep applying 
-and everythign will be fine 
+Yesterday too, I just had a resume review, and a Bangalore-based security expert told me my resume can get me a 10 LPA+ job if I wish — if I keep applying and stay consistent, it won't be an issue. I will really be able to secure a job.
 
+Just keep patience and keep applying, and everything will be fine.
 
+## On Studying Better With People Around
 
-well my cousin is coming one today and one tomorrow it seems that 
-i am the type of guy who actually performs more when people are around 
-maybe to show off or maybe cause i am restricted to my desk than if guest are at home whatever the thing is
+Well, my cousins are coming — one today and one tomorrow, it seems. I am the type of guy who actually performs more when people are around. Maybe it's to show off, or maybe it's because I feel restricted to my desk otherwise — whatever the reason, when relatives are at home, I seem to study for more hours and get more study hours out of my day-to-day schedule.
 
-when relatives are at home 
-i seem to study for more hours and get more study hours out of my day to day schedule 
-i know it looks like i perform only when people are watching or making me a performative male 
-but whatever suits the purpose of me studying
-i dont care about the reason behind it as long as i am studying 
+I know it looks like I only perform when people are watching, like a "performative male," but whatever suits the purpose of me studying — I don't care about the reason behind it, as long as I am studying.
 
+I will clear that SQL injection room for sure — I can say that for sure.
 
-i will clear that sql injection room for sure i can say that for sure 
+---
 
+## Lab: Blind SQL Injection with Conditional Response
 
+Well, so let's go. I am going to start with the "Blind SQL Injection with Conditional Response" room.
 
-well so lets go 
-i am going to start with the blind sql injection with conditional response room
+### Approach
 
-as for the starting i will start with 
-opening burp and opening the room with connection to burp proxy 
+To start, I will:
 
-and next start active scan as i have already tried this room once so i know 
-after 
-burp suite actively scan this host it will give some sql injection relation response vulnerability when in the true condition it is giving different response while in false it is giving different type of response so we are going to test just that
-at first 
+1. Open Burp and open the room with connection to the Burp proxy.
+2. Start an active scan — since I've already tried this room once, I know that after Burp Suite actively scans this host, it will give some SQL-injection-related response vulnerability: when the condition is true, it gives a different response, and when false, it gives a different type of response. So I am going to test just that.
+3. First, manually confirm this vulnerability by trying a true and a false statement — test the result myself first, then start with tool usage.
 
-first i manually confirm this vulnerability by trying to put a true and a false statement i will first test the result myself then will start with tool usage 
-So lets go 
+So let's go.
 
+![Screenshot](https://github.com/user-attachments/assets/f7954ab4-10d4-4a04-9d93-4e3d0453d61d)
 
-<img width="959" height="430" alt="image" src="https://github.com/user-attachments/assets/f7954ab4-10d4-4a04-9d93-4e3d0453d61d" />
+**Solved my first room, let's go!**
 
+### Command Used
 
-solved my first room letsgo 
+Just to remember the command I ran:
 
+```bash
+sqlmap -r newinjection.txt --force-ssl -p TrackingId --level=2 --technique=B --prefix="'" -T users -C username,password --dump --batch
+```
 
+---
 
-just to remeber the command i runned
-
-└─$ sqlmap -r newinjection.txt --force-ssl -p TrackingId --level=2 --technique=B --prefix="'" -T users -C username,password --dump --batch
-
-
-# How to Use SQLMAP tool
+## How to Use the SQLMAP Tool
 
 For a PortSwigger lab (or any environment you're authorized to test), here's a solid "throw everything at it" command that maximizes detection depth in one go:
 
@@ -76,40 +68,33 @@ sqlmap -r newinjection.txt --force-ssl -p TrackingId \
   -T users -C username,password --dump
 ```
 
-**What each flag actually buys you:**
+### What Each Flag Actually Buys You
 
 | Flag | Why |
 |---|---|
-| `--level=5` | Max level — tests every injection point sqlmap knows (headers, cookies, referer, etc.) and every payload variant. Level 2 (your earlier runs) skips a lot of these. |
-| `--risk=3` | Max risk — includes OR-based and heavier payloads that could affect data, but on a throwaway lab DB that's fine. This is the flag that was silently skipping tons of tests in your `-v 3` output ("risk 3 higher than provided 1"). |
+| `--level=5` | Max level — tests every injection point sqlmap knows (headers, cookies, referer, etc.) and every payload variant. Level 2 (earlier runs) skips a lot of these. |
+| `--risk=3` | Max risk — includes OR-based and heavier payloads that could affect data, but on a throwaway lab DB that's fine. This is the flag that was silently skipping tons of tests in the `-v 3` output ("risk 3 higher than provided 1"). |
 | `--dbms=SQLite` | PortSwigger labs run SQLite. Telling sqlmap up front skips ~80% of irrelevant MySQL/Oracle/MSSQL/Postgres fingerprinting attempts and speeds things up massively. |
 | `--batch` | Auto-answers all prompts with defaults, no interaction needed. |
 | `--random-agent` | Rotates a real browser UA per request — helps if a WAF/filter is UA-sensitive. |
 | `--tamper=space2comment` | Rewrites spaces as SQL comments to dodge basic input filtering — cheap to include, no downside. |
-| Drop `--technique=B` | Letting sqlmap try all techniques (not just boolean-blind) means if you guessed wrong about the injection type, it still finds it. Only restrict to `-technique=B` once you've confirmed it's boolean-blind specifically. |
+| Drop `--technique=B` | Letting sqlmap try all techniques (not just boolean-blind) means that if you guessed wrong about the injection type, it still finds it. Only restrict to `--technique=B` once you've confirmed it's boolean-blind specifically. |
 | Drop `--prefix="'"` | Let sqlmap discover the correct prefix/suffix itself first via its automated tests — only pin it manually once you know for certain (e.g. after manually confirming in Burp that `'` breaks the query). |
 
-**My actual recommendation for how to work through this lab specifically:**
+### Recommended Workflow for This Lab
 
-1. First run *without* `--technique` and `--prefix`, just to detect injectability cleanly:
+1. First, run *without* `--technique` and `--prefix`, just to detect injectability cleanly:
 ```bash
 sqlmap -r newinjection.txt --force-ssl -p TrackingId --level=5 --risk=3 --dbms=SQLite --batch
 ```
-2. Once sqlmap confirms `TrackingId` is injectable and tells you the technique + payload it used, *then* add `-T users -C username,password --dump` to actually pull data — no need to guess `--technique`/`--prefix` if sqlmap already found it.
+2. Once sqlmap confirms `TrackingId` is injectable and tells you the technique and payload it used, *then* add `-T users -C username,password --dump` to actually pull data — no need to guess `--technique`/`--prefix` if sqlmap already found it.
 
-Since you're still hitting the exact same 400 at the very first connectivity check even in your last run, get that resolved first (try `--force-ssl` as I suggested) — no combination of level/risk/dbms flags will help if the baseline request itself is being rejected before any payload logic even runs. Once you get past that first 400, this level=5/risk=3/dbms=SQLite combo is genuinely your fastest path to a confirmed result.
+Since the same 400 error is hit at the very first connectivity check even in the last run, get that resolved first (try `--force-ssl` as suggested) — no combination of level/risk/dbms flags will help if the baseline request itself is being rejected before any payload logic even runs. Once past that first 400, this level=5/risk=3/dbms=SQLite combo is genuinely the fastest path to a confirmed result.
 
+---
 
+## Blind SQL Injection Lab with Conditional Error
 
+It seems that Burp Suite doesn't return every single vulnerability, as we all know it is a vulnerable lab and can be used — but Burp is showing nothing severe. Let's see what we can do from here.
 
-
-## blind sql injection lab with condtional error 
-
-it seems that burpsuite doesnt return every single vulnerability as we all know it is vulnerable lab 
-and can use it but burp is showing no severe lets see what we can do from here
-
-
-<img width="959" height="431" alt="image" src="https://github.com/user-attachments/assets/0f010ccc-77c2-4e35-b1ce-f50b1b5777f8" />
-
-
-
+![Screenshot](https://github.com/user-attachments/assets/0f010ccc-77c2-4e35-b1ce-f50b1b5777f8)
