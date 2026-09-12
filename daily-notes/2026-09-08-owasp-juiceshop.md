@@ -48,3 +48,15 @@ than have to talk with dad about any idea
 
 
 welll i have to do all these things than i can think about ideas
+
+
+
+fuck no i think my laptop is being hacked or some virus has entered my laptop i need to fix the issue but i cant remeber the security key or backup key for it 
+
+myy keyboard is working odly slow 
+and some black screen pop up randomly for seconds when i open my laptop i think something is fishy rn 
+so need to fix it 
+
+
+while also doing my daily stuff as well u know 
+got to do what i have to do 
