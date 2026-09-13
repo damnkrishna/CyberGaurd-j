@@ -60,3 +60,12 @@ so need to fix it
 
 while also doing my daily stuff as well u know 
 got to do what i have to do 
+
+
+
+man i need to do something 
+i am just watching a fantasy series and it is crazy how good it is 
+and i dream of manal last night and even in the dream my attachment for her was gone it was just pure lust that will be even left their is no love not anymore there is 
+
+well thats the end of her and the beginning of me i need to find myself i am finding myself 
+and i will keep doing that until i become the person i want to be 
