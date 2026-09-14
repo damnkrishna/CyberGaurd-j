@@ -69,3 +69,9 @@ and i dream of manal last night and even in the dream my attachment for her was 
 
 well thats the end of her and the beginning of me i need to find myself i am finding myself 
 and i will keep doing that until i become the person i want to be 
+
+
+day we cut down hair a little or a notch so that it looks managable and maintainable 
+
+well my hair is in awkward phase now and i know that so i just have to get a maintaince cut thats all
+well the chances are a little high that i will fuck up my hair but lets take that chnaces 
