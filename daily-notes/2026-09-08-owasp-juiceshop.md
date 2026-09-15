@@ -1,77 +1,52 @@
-# OWASP JUICE SHOP
+# Daily Log — September 15, 2026
 
-well for todays room i have to solve owasp juice shop as after doing this many port swigger lab 
-it is what is left and some other tryhackme rooms
+## TryHackMe: OWASP Juice Shop
 
+For today's room, I have to solve OWASP Juice Shop, since after doing so many PortSwigger labs, it's the one thing left along with a few other TryHackMe rooms.
 
-it seems like there is some connection issue i cant even connect to owasp 
-Somehow it is not even opening the front page 
-So i have to wait
-and as a free user i get daily only 1 hr of box time 
-half of it is already gone
+There seems to be a connection issue — I can't even open the front page of the box. So I have to wait.
 
+As a free user, I only get 1 hour of attack box time per day, and half of it is already gone. To make things worse, it's so frustrating that I still can't open another room — the hour I used trying to start the Juice Shop room is the reason my daily limit hasn't reset yet.
 
-well its so fucked up i still cant open another attack box room
-Cause the 1 hr i used on starting the owasp room
-is still the reason my limit in not yet reactivated again
-what should i do 
+**Decision:** I'll come back to this room later and do other rooms first for now.
 
+## Mental State
 
-it seems like i will have to do this room later
-i am going to do other rooms first
+I think I'm fine mentally right now. I know next month is going to be hectic — I have to go out, submit my project report, and fill out my GATE exam form.
 
+## Today's Task List
 
-and as for the mentally i think i am fine now
-i know this next month is very hectic and not cause i have to go out and like submit my project report and 
-my gate exam i have to fill the form for it as well
+Other than my regular work, I also need to think of a good idea within a 24-hour window (self-imposed, part of a 48-hour deadline I set for myself). Right now I've got nothing, and I don't know why I'm blanking on this.
 
+Before I can sit down and actually think of an idea, I need to clear out what's already on my plate:
 
-man this is so fucked 
-so for today i have to create my summer training report 
-my major project synopsis
-and my even apply for gate exam
-fill the form
+1. Daily streak — LeetCode + OS topic
+2. Solve a PortSwigger lab
+3. Read a few pages of the ethical hacking book
+4. Fill out the GATE exam form
+5. Fix my laptop issue
+6. Clean up my room and study table
+7. Talk to Dad about ideas
+8. Create my summer training report
+9. Write my major project synopsis
 
-other than my regular work 
-i have to also today only think about this idea in 24hr 
-man when i specifically took my time out to think about some idea i cant think of anything rn 
-idk what is happening and why i have taken this 48hr window to bring a good idea cause i got none till now 
-i got to think of something 
-also i got some stuff to deal with first that are in my hand like rn
-like my daily streak daily leetcode and os thing after that i can think of other stuff 
-then i have to solve a port swigger lab 
-and then read ethical hacking book few pages
-then i have to fill gate form 
-then i have to fix my room 
-and my study table
-than have to talk with dad about any idea 
+Once all of that is done, I can actually sit and think about ideas.
 
+## Laptop Issue
 
-welll i have to do all these things than i can think about ideas
+I think my laptop might be compromised — possibly a virus. I can't remember the security key or backup key for it either. Some symptoms:
 
+- Keyboard responding oddly slow
+- Random black screen flashes for a few seconds on startup
 
+Something feels off. Need to look into this while still getting through my daily tasks.
 
-fuck no i think my laptop is being hacked or some virus has entered my laptop i need to fix the issue but i cant remeber the security key or backup key for it 
+## Random Thoughts
 
-myy keyboard is working odly slow 
-and some black screen pop up randomly for seconds when i open my laptop i think something is fishy rn 
-so need to fix it 
+Watching a fantasy series right now and it's genuinely great.
 
+Had a dream about Manal last night — even in the dream, the attachment was gone. What was left felt like pure lust, no love. That's the end of her and the beginning of me. I'm finding myself, and I'll keep doing that until I become the person I want to be.
 
-while also doing my daily stuff as well u know 
-got to do what i have to do 
+## Hair
 
-
-
-man i need to do something 
-i am just watching a fantasy series and it is crazy how good it is 
-and i dream of manal last night and even in the dream my attachment for her was gone it was just pure lust that will be even left their is no love not anymore there is 
-
-well thats the end of her and the beginning of me i need to find myself i am finding myself 
-and i will keep doing that until i become the person i want to be 
-
-
-day we cut down hair a little or a notch so that it looks managable and maintainable 
-
-well my hair is in awkward phase now and i know that so i just have to get a maintaince cut thats all
-well the chances are a little high that i will fuck up my hair but lets take that chnaces 
+My hair's in an awkward growing-out phase, so I just need a maintenance cut — trim it down a notch so it's manageable. Decent chance I mess it up, but I'll take the risk.
