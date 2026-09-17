@@ -19,3 +19,14 @@ Cause than maybe i get selected in gate and dont have to think about job and stu
 so that is kind of acting as his safety net and maybe stress decreaser so whatever it take to do that i will do 
 to keep options open 
 even i know that my future will be at c3ihub 
+
+
+
+
+well i still am jobless 
+and guess what my resume is currently being floated in uk cause of my foreign contact
+i am actively applying for all opening myself everysingle day 
+my brother is floating my resume in his bits connections
+my dad is flaoting my resume in his circle and in his office connection all for getting a job in cyber security 
+stilll no hapiness from anywhere 
+and its not i dont have good tech stack i have great intern and project and decent cgpa of 7 still no luck till now 
