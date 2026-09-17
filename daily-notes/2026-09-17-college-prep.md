@@ -30,3 +30,12 @@ my brother is floating my resume in his bits connections
 my dad is flaoting my resume in his circle and in his office connection all for getting a job in cyber security 
 stilll no hapiness from anywhere 
 and its not i dont have good tech stack i have great intern and project and decent cgpa of 7 still no luck till now 
+
+
+
+man i finally filled for gate exam 
+form filled fees submitted now i have to start prep for it 
+Reak good
+also i started hackthebox room
+man it is crazy we have to work on this tiny tiny window cant see anything 
+how am i suppose to do everything properly this thing is kinda giving me headache rn so i will probably do further work in the morning 
