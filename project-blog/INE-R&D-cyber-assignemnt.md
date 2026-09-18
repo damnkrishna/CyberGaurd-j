@@ -131,3 +131,52 @@ For my detection section, the natural angle given the root cause: a detection sc
 ## Closing
 
 Well, let's begin the beginning — this is everything about the info for the project. Now I've started building the lab from scratch.
+
+So there has been some issue while building the labs. Actually, AI agents can't help with the exploit and payload process — that part I have to do myself to get the detection or proof of compromise myself. And also, how to fix this.
+
+Other than that, I am right now working on bringing back the compromised version of the service, and automating the process of at least opening both the client and the attacker device and opening their secure shell, and first trying to do normal access. Then trying to do the compromise myself, and trying to automate the log-finding thing. And then working further, because I have to build this lab at any cost — even if it means I have to do the script writing and full configuration myself.
+
+## What you personally must build: one exploit/reproduction script
+
+**Functionally, here's what it needs to do:**
+
+1. **Open a raw TCP connection** to your target container on port 22.
+2. **Complete the SSH version-string exchange** — both sides announce their SSH protocol version (e.g. `SSH-2.0-...`) as plain text lines. This part is *not* the vulnerability, it's just normal protocol setup that has to happen before anything else can.
+3. **Complete SSH_MSG_KEXINIT and key exchange** — the client and server negotiate encryption/MAC algorithms and establish an encrypted, integrity-protected channel. Again, normal and required — the SSH connection has to be "up" (encrypted) before you get anywhere near the bug. This is the part where using a library like `paramiko` or `asyncssh` will save you from hand-rolling crypto — you generally want the library to handle the transport layer for you.
+4. **Stop before completing authentication** — this is the crux. Normally at this point you'd send `SSH_MSG_USERAUTH_REQUEST` and wait for `SSH_MSG_USERAUTH_SUCCESS`. Your script deliberately does **not** get that success response.
+5. **Send SSH_MSG_CHANNEL_OPEN anyway** (channel type `"session"`) — this message is only supposed to be legal post-auth. Your script sends it while the session is still unauthenticated, and observes whether the vulnerable server accepts it.
+6. **Send SSH_MSG_CHANNEL_REQUEST with type `"exec"`** carrying a command string, on that same channel — again, something that should require an authenticated session.
+7. **Read back the response** — on the vulnerable target, this should return command output through the channel, proving you ran something with zero credentials. On the patched target, the connection should be forcibly terminated at step 5 or 6.
+
+**Success criteria for your own testing:** on the vulnerable container, a benign command like `id` or `whoami` returns actual output over the unauthenticated channel. On the patched container, the same sequence gets a disconnect. That comparison *is* your evidence for the "Successful reproduction" and "Verify remediation" deliverables.
+
+## What to study before you write it (this is the "research" part of the assignment, and it's meant to be yours)
+
+- **RFC 4254** (SSH Connection Protocol) — defines exactly what CHANNEL_OPEN/CHANNEL_REQUEST look like on the wire and confirms they're meant to be post-auth only.
+- **The official advisory**: `github.com/erlang/otp/security/advisories/GHSA-37cp-fgq5-7wc2` — has the maintainers' own description of the flaw.
+- **Public PoC writeups to read (not copy) for technique**: there's a detailed one at `platformsecurity.com/blog/CVE-2025-32433-poc`, and a public repo at `github.com/ProDefense/CVE-2025-32433` — read how they structure the connection sequence, understand *why* each message is placed where it is, then write your own implementation with your own variable names, your own comments, your own error handling.
+- **Whichever SSH client library you pick** (`paramiko` and `asyncssh` are the two realistic choices in Python) — read its docs on the transport layer specifically, since you'll likely need to hook into it at a lower level than the "just log in normally" API, since the whole point is deliberately *not* completing the normal login flow.
+
+## What you do NOT have to build yourself
+
+The vulnerable server, the fix, Docker/compose, the detection script, README, blog, logging setup — all of that is legitimately automatable and I (or Antigravity) can help fully. The one deliverable that's yours alone is this single client-side script.
+
+---
+
+Well, I guess it's not that easy as it looks. It sure sounds easy in mind till now, but doing this — building a Docker with an old Erlang/OTP version, trying to figure out how to write the exploit for it, then seeing where the logs are being stored for the detection thing, then updating to the fixed version and showing whether this still works or not — well, I am still repeating the first thing till now: building the lab with the vulnerable version of Erlang/OTP.
+
+As for now — one of the videos said there are two ways possible for detection. One is network-based, as in you might not find something in the SSH log, but you can detect or check for any unusual network traffic, or access with/without authentication, or an exec command or something like that being run. Or you can have host-based detection by observing if a new file is created, or some file is modified, or other abnormalities like that.
+
+Also, you wrote a script to detect whether it is vulnerable or not. What exactly — how are you doing the detection? Are you just checking the code for the detection part, or what is happening here? Can you explain it to me?
+
+And also, as I just saw — when we even run the payload, it will create a file or run something, but it won't show us anything. We just know it wrote or ran something because we sent the payload — but until we have access to the device or SSH, how are we supposed to see if it worked or not? So we have to think of that aspect as well.
+
+So I have got the payload — just have to modify it for the specific needs of my lab. And then have to try this out for the system and the devices and labs, to see if it is working properly or not. And also I have to explain each and every thing, why this specific script will run — as we already know that this all happened because there was no authentication check on whether the user can send more than 80 requests, and the user can jump directly to the message that authentication is done when the authentication was still under process. And as there was no authentication or anything, the system just assumes it has access and runs the command and lets the user have access to it.
+
+This allowed a remote, unauthenticated attacker to:
+- Open a TCP connection to the SSH server.
+- Send a valid SSH_MSG_KEXINIT,
+- then: skip authentication completely,
+- and: send a channel_request with exec and payload.
+
+So the last thing left is to run the payload and get the access, then test whether the system is able to detect it or not, and see whether the lab is ready and built or not.
