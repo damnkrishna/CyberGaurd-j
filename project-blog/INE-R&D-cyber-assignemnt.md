@@ -392,9 +392,29 @@ Specifically what to look for when you open the ProDefense repo
 
 Go straight to the exploit Python file and find answers to these three questions:
 
+
+so the normal user work is working and it is not giving any error or something 
+and able to create a file named krishna.txt and write inside 
+it 
+so the container is working properly the error is surely in the payload now 
+either it is of the service now or soemthing lets try to fix it then 
+
+
+<img width="557" height="356" alt="image" src="https://github.com/user-attachments/assets/3f815e3d-e006-4cef-8318-2646d7157de9" />
+
 Question 1: After sending KEXINIT, how do they handle the server's KEXINIT response — do they parse it or just drain the socket?
 
 Question 2: How do they perform the ECDH step — do they implement it from scratch with raw bytes, or do they use a library like cryptography or paramiko to do the math?
 
 Question 3: After NEWKEYS is exchanged, how do they send CHANNEL_OPEN — do they use paramiko's channel API or do they send raw bytes directly on the transport socket?
 
+seems like docker is silently putting the patched version even after saying that the correct version is being downloaded it is somehow downloading pathced version so have to manually or someway put the vulernable version only and that only nothing else
+cause without that the payload wont work 
+
+
+finally it worked 
+it worked hell ya 
+
+
+
+<img width="551" height="334" alt="image" src="https://github.com/user-attachments/assets/93570704-8fb4-474c-8b15-75960522992f" />
