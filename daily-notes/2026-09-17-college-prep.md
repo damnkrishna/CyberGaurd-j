@@ -39,3 +39,8 @@ Reak good
 also i started hackthebox room
 man it is crazy we have to work on this tiny tiny window cant see anything 
 how am i suppose to do everything properly this thing is kinda giving me headache rn so i will probably do further work in the morning 
+
+
+fuck yaa i have to give the project intro and i dont know shit so its pretty much fucked up at the very stage rn 
+so lets see what we can do 
+as for the major project its working and eveythign its just that i have to present and i know nothing about what we are presenting actually
