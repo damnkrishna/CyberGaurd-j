@@ -1,5 +1,6 @@
 Our project is Aegis-SRE, an autonomous self-healing system for Kubernetes. think of it as an adaptive immune system for the cluster.
-
+mainly the problem we are trying to solve here is that company like amazon runs multiple microservese on cluster
+and these cluster
 Kubernetes already has basic self-healing: if a container fails a liveness probe, it gets restarted. But that treats every failure the same, and containers actually fail for two very different reasons.
 
 The first is operational: a memory leak, an OOM kill, CPU throttling. Restarting or scaling is the right fix there. The second is a security attack, for example an attacker getting a reverse shell inside a container. Restarting is the wrong response, because the attacker can simply get back into the fresh pod, and we've destroyed the RAM and socket state that forensics would need.
