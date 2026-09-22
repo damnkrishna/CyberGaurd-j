@@ -1,12 +1,9 @@
-Our project is Aegis-SRE, an autonomous self-healing system for Kubernetes. think of it as an adaptive immune system for the cluster.
-mainly the problem we are trying to solve here is that company like amazon runs multiple microservese on cluster
-and these cluster
-Kubernetes already has basic self-healing: if a container fails a liveness probe, it gets restarted. But that treats every failure the same, and containers actually fail for two very different reasons.
+Good morning ma'am. Our project, Aegis-SRE, is an autonomous self-healing site reliability system for Kubernetes environments.
 
-The first is operational: a memory leak, an OOM kill, CPU throttling. Restarting or scaling is the right fix there. The second is a security attack, for example an attacker getting a reverse shell inside a container. Restarting is the wrong response, because the attacker can simply get back into the fresh pod, and we've destroyed the RAM and socket state that forensics would need.
+The problem we're solving is this: many companies, like Spotify and Airbnb, run their platforms as multiple microservices and rely on Kubernetes' liveness probe to keep downtime to a minimum. But the liveness probe has just one response to any pod failure — restart it.
 
-So Aegis first asks one question: is this a bug or an attack?
+This works fine for a lot of operational bugs. But they forget that the reason behind a pod failure can also be a security intrusion or attack, and restarting the pod doesn't fix that. It just restarts the pod with the same flaw still there, and worse, it deletes the evidence of the attack.
 
-Here's how it works. Prometheus and Loki collect metrics and logs, and Falco watches the Linux kernel for suspicious activity. An AI model, backed by a knowledge base of SRE runbooks and security notes, diagnoses the incident and suggests an action. If it's a bug, our Go controller restarts or scales the service. If it's an attack, we don't restart. The controller applies a Cilium network policy that cuts the pod off from the network, and the container stays alive so investigators can study what happened.
+So Aegis-SRE brings a solution: instead of directly taking action, we first analyze the root cause behind the pod failure using our AI engine, and classify it as either an operational bug or a security attack.
 
-The next question is: what if the AI makes a mistake? That's why the AI only suggests, and fixed safety rules decide. Some actions, like deleting a namespace, are never allowed, no matter what the AI says. And if the AI isn't at least 70% sure, the case goes to a human engineer.
+If it's an operational bug, we simply restart or rescale the pod. But if it's a security attack, we isolate that pod, freeze its state, and stop all incoming and outgoing traffic — preserving the digital evidence, so a human or AI can fully analyze and fix the issue afterward.
