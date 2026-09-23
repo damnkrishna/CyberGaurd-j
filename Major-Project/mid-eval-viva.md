@@ -7,3 +7,7 @@ This works fine for a lot of operational bugs. But they forget that the reason b
 So Aegis-SRE brings a solution: instead of directly taking action, we first analyze the root cause behind the pod failure using our AI engine, and classify it as either an operational bug or a security attack.
 
 If it's an operational bug, we simply restart or rescale the pod. But if it's a security attack, we isolate that pod, freeze its state, and stop all incoming and outgoing traffic — preserving the digital evidence, so a human or AI can fully analyze and fix the issue afterward.
+
+
+
+this is the final viva intro i am going to give for this project
