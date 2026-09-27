@@ -23,3 +23,6 @@ so lets see how it goes i am feeling very tired so probably gonna sleep now
 or just read novel or somethhing 
 for now 
 will sit for nptel course prep after 5 now lets goo
+
+
+well not going as planned i am sick and confused but will finish this hackthebox room web proxies for sure today after that will see what i can do today 
