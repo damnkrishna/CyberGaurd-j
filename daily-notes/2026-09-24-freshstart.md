@@ -26,3 +26,20 @@ will sit for nptel course prep after 5 now lets goo
 
 
 well not going as planned i am sick and confused but will finish this hackthebox room web proxies for sure today after that will see what i can do today 
+
+
+## OS CS fundamenals 
+
+
+so the concept we are going to cover today is dns,http vs https
+
+so as for the starting dns is where to or the location of the target
+tcp is the medium used to transfer that data 
+tls is to verify that the data we are sending is protected or not
+and http is used to connect the sender and the receiver
+and when it is encyrpted and protected so that no one can eavsdrop the message than it is https
+https is more secure 
+
+now http runs on port 80
+whereas https run on port 443
+and https is very very secure
