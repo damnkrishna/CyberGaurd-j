@@ -1,4 +1,4 @@
-9
+
 welll last one full week i spent upon preparing for the major project viva and stuff 
 Well it didnt went as i planed it will go 
 it went fantastic its just that now i have to go to college one more day to submit the final report and stuff
@@ -43,3 +43,14 @@ https is more secure
 now http runs on port 80
 whereas https run on port 443
 and https is very very secure
+
+
+
+well have a interview scheduled tomorrow at 3-4 pm 
+what can i say it is more of a research plus building role rather than pure tech role protecting some company from attacking analysing the log sources and stuff
+but lets give it a try with what i have learned till now from every experience i have
+and if it for me the role the position 
+lets see how will i do 
+
+as for the prep i still have to see the whole lab if it is working from start to end properly or not 
+or is the project not working that well lets see 
