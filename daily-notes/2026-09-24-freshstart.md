@@ -56,4 +56,11 @@ as for the prep i still have to see the whole lab if it is working from start to
 
 
 
-aryan bht
+well the interview for ine as r&d and lab content intern went okayish but they havent responded anything yet 
+not so far 
+well they grind me for an hour but ending question i think fucked all it up 
+and as they have mentioned joining will be in first week of october and only 2 days left i am kind of worried what will happen 
+i want to know what will happen 
+i kind of started liking the specific company and am thinking about getting selected for it
+as this will be purely on my basis i am achiveing soemthing and without any connection or dad or brother help job 
+this will be a good thing for my self confidence if it landed intern 
