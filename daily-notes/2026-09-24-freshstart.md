@@ -64,3 +64,14 @@ i want to know what will happen
 i kind of started liking the specific company and am thinking about getting selected for it
 as this will be purely on my basis i am achiveing soemthing and without any connection or dad or brother help job 
 this will be a good thing for my self confidence if it landed intern 
+
+
+
+
+i am too fucked i think i slept for more than 20 hr todays 
+and waiting for this company is actually killing me inside out 
+they never respond i keep waiting for them 
+as long as i remeber i gave the interview 3 days back since then  i am not able to focus on anything actually
+i keep feeling restless bored and worried about anything and everything 
+pls the result should come out 
+atleast if i am not worthy tell me that so i can put more focus on it 
