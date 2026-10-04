@@ -75,3 +75,13 @@ as long as i remeber i gave the interview 3 days back since then  i am not able 
 i keep feeling restless bored and worried about anything and everything 
 pls the result should come out 
 atleast if i am not worthy tell me that so i can put more focus on it 
+
+
+well i have a feeling i am not going to be selected for this specific intern role at ine company 
+cause the situation doesnt seem to be in my favour however good the interview went they never called me back again for second round so i guess its over but maybe for security role they might be taking one round only so dont know what is going to happen here 
+but this is something i need for my self respect actually i cant just be living upon referall based connection based intern i have to secure one myself i need this intern but as i have no control over it lets see what will happen 
+hoping for the good !
+not cause i like this role or i want this role 
+but cause i need this for my self respect that i can secure a job myself also and not need hand holding at every stage 
+
+Cause for this specific company neither my dad or any relative helped me get it so lets see hope for the best for now 
