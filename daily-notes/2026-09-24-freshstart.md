@@ -85,3 +85,18 @@ not cause i like this role or i want this role
 but cause i need this for my self respect that i can secure a job myself also and not need hand holding at every stage 
 
 Cause for this specific company neither my dad or any relative helped me get it so lets see hope for the best for now 
+
+well dont know yesterday even the result didnt came 
+so now i think it will take long time 
+Cause when i submitted the assignment after it 
+they took 12 days to get back to us 
+so here atleast 6 day will be required for sure
+and today is the 5th day 
+and i am actually very happy that my bua and fufaji are here
+Cause without them 
+i might be again sucked in this anxious and restlessness 
+and might have felt down yesterday as well
+but i didnt feel like that yesterday all cause 
+i have some responsibility to keep bua and fufaji happy 
+as it was buas birthday 
+it worked well for me 
