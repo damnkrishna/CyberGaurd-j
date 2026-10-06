@@ -100,3 +100,6 @@ but i didnt feel like that yesterday all cause
 i have some responsibility to keep bua and fufaji happy 
 as it was buas birthday 
 it worked well for me 
+
+
+still no update and i am back to the situation of now status on the application and the company actually it is killing me rn not to be able to know what happened and what to do 
