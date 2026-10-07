@@ -1,105 +1,75 @@
+# Journal
 
-welll last one full week i spent upon preparing for the major project viva and stuff 
-Well it didnt went as i planed it will go 
-it went fantastic its just that now i have to go to college one more day to submit the final report and stuff
+Last week, I spent a full week preparing for the major project viva and stuff. Well, it didn't go as I planned it would go. It went fantastic. It's just that now I have to go to college one more day to submit the final report and stuff.
 
+But this kind of cost me a full week of my time and brain. Well, this week resulted in a lot of ups and downs, and not gonna lie, it gave me some clarity and reason about what I have to do further, some answers.
 
-but this kind of costed me a full week of my time and brain 
-well this week resulted in a lot of ups and down and not gonna lie it gave me some clearity and reason about what i have to do further some answers
-so here i go trying to again pick up the pace for the study and kind of assume it to be my break one week proper break 
-fuck it
+So here I go, trying to pick up the pace for study again, and kind of assuming this to be my break, one week of proper break.
 
+Fuck it.
 
-well things went a little out of hand yesterday prof want me to get signature anyway possible from my supervisor which i am trying to get i just mailed my prof as well as to my supervisor to please do e-sign or something on my paper 
-as it is important and i really need it 
-well lets see how it goes as for now 
-i have done everuthing i should have done 
-lets see how it works out as of now 
-so 
-and i also changed my room to the middle room now 
-well what could i have done better
-now its done and i cant do anything at this very stage 
-so lets see how it goes i am feeling very tired so probably gonna sleep now 
-or just read novel or somethhing 
-for now 
-will sit for nptel course prep after 5 now lets goo
+---
 
+Well, things went a little out of hand yesterday. My prof wants me to get a signature from my supervisor by any means possible, which I am trying to get. I just mailed my prof as well as my supervisor, asking them to please do an e-sign or something on my paper, as it is important and I really need it.
 
-well not going as planned i am sick and confused but will finish this hackthebox room web proxies for sure today after that will see what i can do today 
+Well, let's see how it goes. As of now, I have done everything I should have done. Let's see how it works out.
 
+I also changed my room to the middle room now.
 
-## OS CS fundamenals 
+Well, what could I have done better? Now it's done and I can't do anything at this stage, so let's see how it goes. I am feeling very tired, so I am probably gonna sleep now, or just read a novel or something.
 
+For now, I will sit for NPTEL course prep after 5. Now, let's goo.
 
-so the concept we are going to cover today is dns,http vs https
+---
 
-so as for the starting dns is where to or the location of the target
-tcp is the medium used to transfer that data 
-tls is to verify that the data we are sending is protected or not
-and http is used to connect the sender and the receiver
-and when it is encyrpted and protected so that no one can eavsdrop the message than it is https
-https is more secure 
+Well, it's not going as planned. I am sick and confused, but I will finish this HackTheBox room, Web Proxies, for sure today. After that, we will see what I can do today.
 
-now http runs on port 80
-whereas https run on port 443
-and https is very very secure
+---
 
+## OS / CS Fundamentals
 
+The concepts we are going to cover today are DNS, and HTTP vs HTTPS.
 
-well have a interview scheduled tomorrow at 3-4 pm 
-what can i say it is more of a research plus building role rather than pure tech role protecting some company from attacking analysing the log sources and stuff
-but lets give it a try with what i have learned till now from every experience i have
-and if it for me the role the position 
-lets see how will i do 
+To start with, DNS is the "where to", or the location of the target. TCP is the medium used to transfer that data. TLS is used to verify that the data we are sending is protected or not. And HTTP is used to connect the sender and the receiver. When it is encrypted and protected so that no one can eavesdrop on the message, then it is HTTPS. HTTPS is more secure.
 
-as for the prep i still have to see the whole lab if it is working from start to end properly or not 
+Now, HTTP runs on port 80, whereas HTTPS runs on port 443. And HTTPS is very, very secure.
 
+---
 
+Well, I have an interview scheduled tomorrow at 3-4 pm. What can I say, it is more of a research plus building role rather than a pure tech role: protecting some company from attacks, analysing log sources, and stuff. But let's give it a try with what I have learned till now from every experience I have. And if it's for me, the role, the position, let's see how I will do.
 
-well the interview for ine as r&d and lab content intern went okayish but they havent responded anything yet 
-not so far 
-well they grind me for an hour but ending question i think fucked all it up 
-and as they have mentioned joining will be in first week of october and only 2 days left i am kind of worried what will happen 
-i want to know what will happen 
-i kind of started liking the specific company and am thinking about getting selected for it
-as this will be purely on my basis i am achiveing soemthing and without any connection or dad or brother help job 
-this will be a good thing for my self confidence if it landed intern 
+As for the prep, I still have to check whether the whole lab is working properly from start to end.
 
+---
 
+Well, the interview for INE as R&D and Lab Content Intern went okayish, but they haven't responded with anything yet, not so far. They grilled me for an hour, but I think the ending question fucked it all up. As they mentioned, joining will be in the first week of October and only 2 days are left, so I am kind of worried about what will happen. I want to know what will happen.
 
+I kind of started liking this specific company and am thinking about getting selected for it, as this will be purely on my own basis. I'd be achieving something without any connection, or help from my dad or brother. It would be a good thing for my self-confidence if I landed this internship.
 
-i am too fucked i think i slept for more than 20 hr todays 
-and waiting for this company is actually killing me inside out 
-they never respond i keep waiting for them 
-as long as i remeber i gave the interview 3 days back since then  i am not able to focus on anything actually
-i keep feeling restless bored and worried about anything and everything 
-pls the result should come out 
-atleast if i am not worthy tell me that so i can put more focus on it 
+---
 
+I am too fucked, I think. I slept for more than 20 hours today. And waiting for this company is actually killing me inside out. They never respond, and I keep waiting for them.
 
-well i have a feeling i am not going to be selected for this specific intern role at ine company 
-cause the situation doesnt seem to be in my favour however good the interview went they never called me back again for second round so i guess its over but maybe for security role they might be taking one round only so dont know what is going to happen here 
-but this is something i need for my self respect actually i cant just be living upon referall based connection based intern i have to secure one myself i need this intern but as i have no control over it lets see what will happen 
-hoping for the good !
-not cause i like this role or i want this role 
-but cause i need this for my self respect that i can secure a job myself also and not need hand holding at every stage 
+As far as I remember, I gave the interview 3 days back, and since then I have not been able to focus on anything. I keep feeling restless, bored, and worried about anything and everything. Please, the result should come out. At least if I am not worthy, tell me, so I can put more focus on something else.
 
-Cause for this specific company neither my dad or any relative helped me get it so lets see hope for the best for now 
+---
 
-well dont know yesterday even the result didnt came 
-so now i think it will take long time 
-Cause when i submitted the assignment after it 
-they took 12 days to get back to us 
-so here atleast 6 day will be required for sure
-and today is the 5th day 
-and i am actually very happy that my bua and fufaji are here
-Cause without them 
-i might be again sucked in this anxious and restlessness 
-and might have felt down yesterday as well
-but i didnt feel like that yesterday all cause 
-i have some responsibility to keep bua and fufaji happy 
-as it was buas birthday 
-it worked well for me 
+Well, I have a feeling I am not going to be selected for this specific internship role at INE. The situation doesn't seem to be in my favour. However good the interview went, they never called me back for a second round, so I guess it's over. But maybe for the security role they might be taking only one round, so I don't know what is going to happen here.
 
+But this is something I need for my self-respect. I can't just keep living on referral-based, connection-based internships. I have to secure one myself. I need this internship, but as I have no control over it, let's see what happens. Hoping for the good!
 
-still no update and i am back to the situation of now status on the application and the company actually it is killing me rn not to be able to know what happened and what to do 
+Not because I like this role or I want this role, but because I need this to prove that I can secure a job myself and not need hand-holding at every stage. For this specific company, neither my dad nor any relative helped me get it, so let's hope for the best for now.
+
+---
+
+Well, I don't know, even yesterday the result didn't come, so I think it will take a long time. When I submitted the assignment for it, they took 12 days to get back to us, so here at least 6 days will be required for sure, and today is the 5th day.
+
+And I am actually very happy that my bua and fufaji are here, because without them I might have been sucked into this anxiety and restlessness again, and might have felt down yesterday as well. But I didn't feel like that yesterday, all because I had some responsibility to keep bua and fufaji happy, as it was bua's birthday. It worked well for me.
+
+---
+
+Still no update, and I am back to the same situation: no status on the application or the company. It is actually killing me right now not to know what happened and what to do.
+
+---
+
+Fuck yeah, finally got selected at INE as a Cybersecurity R&D and Lab Content Intern for a year at 25k. Then, probably, I will get a PPO of 12 LPA.
