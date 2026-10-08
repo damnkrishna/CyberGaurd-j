@@ -73,3 +73,14 @@ Still no update, and I am back to the same situation: no status on the applicati
 ---
 
 Fuck yeah, finally got selected at INE as a Cybersecurity R&D and Lab Content Intern for a year at 25k. Then, probably, I will get a PPO of 12 LPA.
+
+
+well my stiphend just got increased from 25 to 35k per month letss go 
+And packgae opporutniy too rised from 12-15 lpa 
+
+well the joining date got delayed that is a step down but its fine 
+i can wait and till then my college exam end sem will be finished as well so ya this totally works 
+and i can build my skills and improve myself my sitting hours and my morning schedule that i can follow for this 
+so lets see how it goes now 
+today was day 1 of the walk and it went fine lets just keep this up for next 3 days 
+than will start jogging as this can be the best time to upsacle looks and everything u know 
