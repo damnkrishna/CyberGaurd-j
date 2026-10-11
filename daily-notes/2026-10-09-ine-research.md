@@ -14,3 +14,8 @@ Welll so lets see how it goes there is whole 1 year of intern ahead of me first
 lets handle one day at a time 
 cause that is what matter rn 
 i will grow myself and not worry about my competition just to try to learn new things and grow myself better than i was yesterday 
+
+
+well well i was able to do the other part task of my dad but ended up not getting time for the research part 
+will do it today 
+After finishing the technical prep for the exam first after that i will do that 
