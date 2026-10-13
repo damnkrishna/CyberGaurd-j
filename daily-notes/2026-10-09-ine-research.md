@@ -170,3 +170,8 @@ I'd skip **eJPT**, **eSOC**, and **eEDA**. They're below my current level, so th
 | Full-time, year 1 | **eCPPT** | Active Directory is 30% of it and my biggest offensive gap. I already know how to detect AD attacks. |
 | Full-time, year 1 | **eCTHP** | A natural fit for my strengths, so a quick win. |
 | Full-time, year 2 | **eIAMA** or **eWPTX** | eIAMA if identity work comes my way, since the job lists identity and authentication and ISMG named identity as a push. eWPTX if web is my lane. |
+
+
+
+well gotta do a lot of work and learn in such a way to understand the stuff rather than just use ai to build it as my mentor has asked me to understand the whole process in to out rather than just understanding ai and building labs
+so will do that as he stated to me
