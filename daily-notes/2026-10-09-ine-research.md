@@ -175,3 +175,8 @@ I'd skip **eJPT**, **eSOC**, and **eEDA**. They're below my current level, so th
 
 well gotta do a lot of work and learn in such a way to understand the stuff rather than just use ai to build it as my mentor has asked me to understand the whole process in to out rather than just understanding ai and building labs
 so will do that as he stated to me
+
+so the offer letter finally landed with 35k stipend and remote.com access and verification from ine as well
+So it is done with the banking stuff for the money to deposit in stuff
+so that is good as for the joining date is 26/10/2026
+which is perfect cause my end sem exam is going to end on 24/10/2026 so giving me two days time to relax and recover for the intern and prep for it great timing
