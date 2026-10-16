@@ -84,3 +84,12 @@ and i can build my skills and improve myself my sitting hours and my morning sch
 so lets see how it goes now 
 today was day 1 of the walk and it went fine lets just keep this up for next 3 days 
 than will start jogging as this can be the best time to upsacle looks and everything u know 
+
+
+
+well so  i got my first end sem exam tomorrow not much to worry about it is the easy one exam so not that hectic or tough or anything it is the day after tomrorrow exam that gonna hurt a little
+but first the easy one so lets handle it first as for the 
+so starting with completing week 12  of leftover hr deep learning and fundamental stuff
+then creating a summary of hr analytics to revise before exam
+then attempt all question of hr for one time
+then attempt all question of hr all 12 week second time 
