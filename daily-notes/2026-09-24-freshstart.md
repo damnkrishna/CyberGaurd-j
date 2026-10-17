@@ -93,3 +93,10 @@ so starting with completing week 12  of leftover hr deep learning and fundamenta
 then creating a summary of hr analytics to revise before exam
 then attempt all question of hr for one time
 then attempt all question of hr all 12 week second time 
+
+
+well HR exam is done finally lets proceed with next for now 
+lets see what i can do 
+for deep learning and fundamentals of genertive ai exam 
+
+both are the toughest exam there is so lets try our best to clear them with good score 
