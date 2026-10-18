@@ -100,3 +100,9 @@ lets see what i can do
 for deep learning and fundamentals of genertive ai exam 
 
 both are the toughest exam there is so lets try our best to clear them with good score 
+
+
+big day finally the exam day goota give two of the biggest exam in one day 
+lets do this fuck ya 
+lets focus on first exam first then delete and reboot exam 2
+
