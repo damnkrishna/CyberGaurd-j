@@ -1,28 +1,14 @@
 # REA: Reverse Engineer Anything
 
-> **Note:** REA stands for **Reverse Engineer Anything** (not "Research Engineer Anything").
+> **Note:** REA stands for **Reverse Engineer Anything** 
 > Repo: `github.com/morluto/rea` · Site: `rea.tools` · npm package: `rea-agents` · License: MIT
 
 ---
 
-## Table of Contents
 
-1. [My Raw Thoughts](#1-my-raw-thoughts)
-2. [What REA Actually Does](#2-what-rea-actually-does)
-3. [The Five Stages](#3-the-five-stages)
-4. [Is It Only for Rich People?](#4-is-it-only-for-rich-people)
-5. [Legal and Safety](#5-legal-and-safety)
-6. [My Setup (Antigravity + Gemini Pro)](#6-my-setup-antigravity--gemini-pro)
-7. [Starter Project Ideas](#7-starter-project-ideas)
-8. [Prompts to Use](#8-prompts-to-use)
-9. [Tips](#9-tips)
-10. [Extra](#10-extra)
-
----
 
 ## 1. My Raw Thoughts
 
-*(Kept exactly as written, unedited.)*
 
 > well there has been recently a new repo that is havily being used and publically being in scope for some time now  
 > it is crazy how much they have gained recognition and it has actually opened another pandora box which is fucking crazy  
