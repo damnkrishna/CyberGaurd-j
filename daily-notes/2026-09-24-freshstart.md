@@ -106,3 +106,8 @@ big day finally the exam day goota give two of the biggest exam in one day
 lets do this fuck ya 
 lets focus on first exam first then delete and reboot exam 2
 
+fuck i need to focus on soemthing i need to work upon something and clear my mind out 
+she is rotating in my mind all the time 
+i need to get her out of my mind 
+as soon as possible i need to focus on something else
+so lets focus only and only on preparing for the upcoming exam 
