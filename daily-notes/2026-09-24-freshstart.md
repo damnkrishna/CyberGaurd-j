@@ -111,3 +111,9 @@ she is rotating in my mind all the time
 i need to get her out of my mind 
 as soon as possible i need to focus on something else
 so lets focus only and only on preparing for the upcoming exam 
+
+
+
+well fuck ya manal out i am deciding to go further with mahi she is a nice girl and she deserve to be treated correctly and i will do that
+manal she is confused she will leave me the moment she gets confused or pressure come
+whereas mahi she is a nice girl never dated never loved corrrectly i will treat her right and only her right 
