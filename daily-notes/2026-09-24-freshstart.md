@@ -117,3 +117,27 @@ so lets focus only and only on preparing for the upcoming exam
 well fuck ya manal out i am deciding to go further with mahi she is a nice girl and she deserve to be treated correctly and i will do that
 manal she is confused she will leave me the moment she gets confused or pressure come
 whereas mahi she is a nice girl never dated never loved corrrectly i will treat her right and only her right 
+
+
+
+idk what is wrong with me i told u i wont be interested in dating her actually i am not interested in dating her
+but the moment she said she doesnt want to date i fucked it all up 
+and started basically begging her to stay i though i was over this stuff
+but guess not i literally begged her to take me in her life
+and she keep on replying with a simple no 
+wtf is wrong with me 
+i dont even wanna date her but the mere thought of rejection and losing her fucked me up so bad i was begiing her to stay 
+
+And th ebiggest thing in between all this the girl mahi i was talking to the nice girl i totally forget her i know we are just talking but i dont want to treat her this way its fucking wrong 
+and i think i have not fully reovered from manal well i think it has ended now 
+the thought of getting rejected by the girl who look u like she is in love with u 
+is hurting me but not more than that i literally begged her to stay in my life when she clearly wants to stay just friend and said she dont wanna date 
+and more importantly i forget about mahi the nice girl 
+i think i am not yet mature enough to choice wisely whom to talk to whom to not 
+i gotta get a grip on my emotion 
+being emotionally i kind of begged for something i dont even want 
+i am fucked i goot focus 
+and i think till the time i am mature enough to handle such situation i should not waste some girl like mahi time 
+when i will be leaving her the moment my ex arrives i am too scared too controllable and too bitch 
+
+
