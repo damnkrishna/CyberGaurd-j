@@ -140,4 +140,13 @@ i am fucked i goot focus
 and i think till the time i am mature enough to handle such situation i should not waste some girl like mahi time 
 when i will be leaving her the moment my ex arrives i am too scared too controllable and too bitch 
 
+well fuck my life 
+i understand it now i am build for working and working only love has no place in my life i am not build for it 
+i cant handle one more rejection i actually cant 
+So no not anymore 
 
+tomorrow is my joining will just focus upon that and prep for it 
+and nothing else
+cause i dont deserve to be loved i thought i will just get my life settled then i can chase love but i think it is not possible not anymore 
+so just keep moving krishna cause that what u can do 
+keep yourself busy and keep studying cause that is what u are good at
