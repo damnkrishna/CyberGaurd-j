@@ -150,3 +150,12 @@ and nothing else
 cause i dont deserve to be loved i thought i will just get my life settled then i can chase love but i think it is not possible not anymore 
 so just keep moving krishna cause that what u can do 
 keep yourself busy and keep studying cause that is what u are good at
+
+
+well week 1 of intern passed and actualy i am not liking the work very much and the environment is degrading 
+working from home no need to go out type behaviour its actually killing me inside
+though the setup is comfortable team is real nice people die to have such type of team and work 
+and here i am considering this work as bad 
+but what i feel is different from what others feel
+
+so lets see how it goes though i am going to banglaore so for a chill break lets see how it goes for now atleast
