@@ -159,3 +159,7 @@ and here i am considering this work as bad
 but what i feel is different from what others feel
 
 so lets see how it goes though i am going to banglaore so for a chill break lets see how it goes for now atleast
+
+
+what the fuck am i doing today is my train and i am feeling so different than i normally do i feel back pain lack of sleep and stuffs
+i have to get a grip on myself and how i feel cause it is pretty fucked up at the moment 
